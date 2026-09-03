@@ -23,11 +23,11 @@ function ScrollToTop(){
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/promaxify-website">
       <ScrollToTop/>
       <Routes>
         <Route  element={<Layout />}>
-        <Route index path="/" element={<Home />} />
+        <Route index element={<Home />} />
         <Route path="/services" element={<Services />} />
         <Route path="/services/:slug" element={<ServiceDetails />} />
         <Route path= "/insights" element={<Insight />} />
