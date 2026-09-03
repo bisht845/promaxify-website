@@ -136,7 +136,7 @@ function Footer() {
             </Link>
           </li>
           <li>
-            <Link to="/" className="hover:text-[#ff7a00] transition-colors">
+            <Link to="/faq" className="hover:text-[#ff7a00] transition-colors">
               FAQ
             </Link>
           </li>

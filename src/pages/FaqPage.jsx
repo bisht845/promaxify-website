@@ -9,184 +9,184 @@ const FAQ = () => {
     {
       id: 1,
       category: "General",
-      question: "What does Promaxify do?",
+      question: "What is the minimum order quantity (MOQ) for corporate gifts and branded merchandise?",
       answer:
-        "Promaxify provides customized corporate solutions including apparel, corporate gifting, branding products, and other customized solutions for businesses and organizations.",
+        "MOQs vary by product — most corporate gifting and branded apparel items start at 50 units, while premium or highly customized pieces may have a higher threshold. Delegate kits and event merchandise for MICE programs are typically quoted per headcount, with no fixed minimum for a full kit order. Share your requirement through the enquiry form and we'll confirm the exact MOQ for your product mix.",
     },
     {
       id: 2,
       category: "General",
-      question: "Who can use Promaxify's services?",
+      question: "How long does it take to receive an order after confirmation?",
       answer:
-        "Our solutions are designed for businesses, startups, corporate teams, educational institutions, events, organizations, and anyone looking for professionally customized products.",
+        "Standard turnaround is 1–3 weeks from design approval, depending on product complexity and order volume. Simple branded items (notebooks, drinkware, apparel) are usually faster; multi-item kits or heavily customized pieces take longer. We flag realistic timelines at the quote stage so there are no surprises closer to your event or delivery date.",
     },
     {
       id: 3,
       category: "General",
-      question: "Do you provide customized solutions?",
+      question: "Can we see a sample before placing a bulk order?",
       answer:
-        "Yes. We create customized solutions based on your brand identity, requirements, quantity, budget, and delivery needs.",
+        "Yes. Physical or digital samples can be arranged for most product categories before a bulk order is confirmed, so you can check quality, branding placement, and finish. Sampling timelines are shared upfront and factored into the overall project schedule.",
     },
 
     {
       id: 4,
       category: "Apparel",
-      question: "What types of apparel can you customize?",
+      question: "Do you deliver across India, or only in specific cities?",
       answer:
-        "We offer customized T-shirts, polo shirts, jackets, hoodies, caps, uniforms, and other apparel options suitable for corporate teams and organizations.",
+        "We deliver pan-India, including to event venues, conference sites, and corporate offices outside major metros. For multi-city rollouts — such as a dealer incentive program or a multi-location employee welcome kit — deliveries can be coordinated and staggered by location on request.",
     },
     {
       id: 5,
       category: "Apparel",
-      question: "Can you add our company logo and branding?",
+      question: "What kind of companies and industries does Promaxify work with?",
       answer:
-        "Yes. We can customize apparel with your company logo, colors, designs, text, and other branding requirements.",
+        "Our client base spans event and MICE agencies, travel and hospitality brands, large corporates and manufacturing companies, and organizations across media, education, and other sectors. Whether it's a delegate kit for a conference or a dealer engagement kit for an industrial account, our team tailors the product mix to the industry and occasion..",
     },
     {
       id: 6,
       category: "Apparel",
-      question: "Can we choose different colors and sizes?",
+      question: "How does the branding and customization process work?",
       answer:
-        "Yes. Product colors, sizes, designs, and branding details can be discussed based on your specific project requirements.",
+        "Once a product and quantity are finalized, our design team shares a branding mock-up (logo placement, colors, print or embroidery method) for your approval before production begins. Common customization methods include screen printing, embroidery, engraving, and digital printing, chosen based on the product and finish you need.",
     },
     {
       id: 7,
       category: "Apparel",
-      question: "Can I request a sample before placing a bulk order?",
+      question: "How do we request a quote, and what information should we share?",
       answer:
-        "Sample availability depends on the product and project requirements. Our team can guide you through the sample and approval process.",
+        "Use the Quick Enquiry form for an initial conversation, or Request a Proposal for a detailed quote. Sharing your estimated quantity, budget range, project timeline, and the products or service you're interested in helps us return an accurate quote faster, usually within 3–7 business days.",
     },
 
     {
       id: 8,
       category: "Corporate Gifting",
-      question: "What types of corporate gifts do you provide?",
+      question: "What are the payment terms for corporate orders?",
       answer:
-        "We provide a range of customizable corporate gifting solutions that can be selected according to your brand, occasion, audience, and budget.",
+        "Payment terms are typically a percentage advance to confirm production, with the balance due before or on dispatch, though this can be discussed for larger or recurring corporate accounts. Exact terms are confirmed in the proposal stage before an order is finalized.",
     },
     {
       id: 9,
       category: "Corporate Gifting",
-      question: "Can corporate gifts be customized with our branding?",
+      question: "Can you handle urgent or last-minute event requirements?",
       answer:
-        "Yes. Corporate gifts can be customized with logos, brand colors, names, messages, packaging, and other branding elements depending on the product.",
+        "We can often accommodate rush timelines for event and MICE merchandise, subject to product availability and order size — reach out directly with your event date and requirement, and we'll confirm what's feasible rather than quote a generic turnaround.",
     },
     {
       id: 10,
       category: "Corporate Gifting",
-      question: "Do you handle bulk corporate gifting orders?",
+      question: "What happens if there's a defect or issue with the delivered products?",
       answer:
-        "Yes. We support bulk requirements for corporate events, employee gifting, client gifting, campaigns, and other organizational needs.",
+        "Every order goes through a quality check before dispatch. If an issue is found after delivery, reach out within 7 days with details and photos, and we'll arrange a replacement or resolution for the affected units. Our aim is to catch quality concerns before they reach you, not after.",
     },
 
-    {
-      id: 11,
-      category: "Orders & Pricing",
-      question: "Is there a minimum order quantity?",
-      answer:
-        "Minimum order quantities can vary depending on the product, customization method, and project requirements. Contact our team for specific details.",
-    },
-    {
-      id: 12,
-      category: "Orders & Pricing",
-      question: "How is the pricing calculated?",
-      answer:
-        "Pricing depends on the product, quantity, customization, material, packaging, delivery requirements, and other project specifications.",
-    },
-    {
-      id: 13,
-      category: "Orders & Pricing",
-      question: "How can I request a quotation?",
-      answer:
-        "You can submit your requirements through our Request a Proposal page. Our team can then review your requirements and provide the appropriate quotation.",
-    },
-    {
-      id: 14,
-      category: "Orders & Pricing",
-      question: "How long does production take?",
-      answer:
-        "Production time depends on the product, quantity, customization, and project complexity. Timelines are discussed during the quotation and order process.",
-    },
+    // {
+    //   id: 11,
+    //   category: "Orders & Pricing",
+    //   question: "Is there a minimum order quantity?",
+    //   answer:
+    //     "Minimum order quantities can vary depending on the product, customization method, and project requirements. Contact our team for specific details.",
+    // },
+    // {
+    //   id: 12,
+    //   category: "Orders & Pricing",
+    //   question: "How is the pricing calculated?",
+    //   answer:
+    //     "Pricing depends on the product, quantity, customization, material, packaging, delivery requirements, and other project specifications.",
+    // },
+    // {
+    //   id: 13,
+    //   category: "Orders & Pricing",
+    //   question: "How can I request a quotation?",
+    //   answer:
+    //     "You can submit your requirements through our Request a Proposal page. Our team can then review your requirements and provide the appropriate quotation.",
+    // },
+    // {
+    //   id: 14,
+    //   category: "Orders & Pricing",
+    //   question: "How long does production take?",
+    //   answer:
+    //     "Production time depends on the product, quantity, customization, and project complexity. Timelines are discussed during the quotation and order process.",
+    // },
 
-    {
-      id: 15,
-      category: "Delivery",
-      question: "Do you provide delivery across India?",
-      answer:
-        "Yes. We provide Pan-India delivery for eligible products and projects.",
-    },
-    {
-      id: 16,
-      category: "Delivery",
-      question: "Can you deliver orders to multiple locations?",
-      answer:
-        "Yes. Multiple-location delivery can be discussed for corporate and organizational orders based on the project requirements.",
-    },
-    {
-      id: 17,
-      category: "Delivery",
-      question: "How can I track my order?",
-      answer:
-        "Our team will provide the relevant delivery or shipment information based on your order and delivery arrangement.",
-    },
+    // {
+    //   id: 15,
+    //   category: "Delivery",
+    //   question: "Do you provide delivery across India?",
+    //   answer:
+    //     "Yes. We provide Pan-India delivery for eligible products and projects.",
+    // },
+    // {
+    //   id: 16,
+    //   category: "Delivery",
+    //   question: "Can you deliver orders to multiple locations?",
+    //   answer:
+    //     "Yes. Multiple-location delivery can be discussed for corporate and organizational orders based on the project requirements.",
+    // },
+    // {
+    //   id: 17,
+    //   category: "Delivery",
+    //   question: "How can I track my order?",
+    //   answer:
+    //     "Our team will provide the relevant delivery or shipment information based on your order and delivery arrangement.",
+    // },
 
-    {
-      id: 18,
-      category: "Partnership",
-      question: "How can I become a Promaxify partner?",
-      answer:
-        "You can visit our Become a Partner page and submit your business details and requirements. Our team will review your request and get in touch with you.",
-    },
-    {
-      id: 19,
-      category: "Partnership",
-      question: "How can I request a proposal?",
-      answer:
-        "You can use our Request a Proposal page to share your requirements, estimated quantity, customization needs, and other project details.",
-    },
-    {
-      id: 20,
-      category: "Partnership",
-      question: "How can I contact Promaxify?",
-      answer:
-        "You can contact us through our Contact page for general enquiries, project discussions, partnership opportunities, and customized requirements.",
-    },
+    // {
+    //   id: 18,
+    //   category: "Partnership",
+    //   question: "How can I become a Promaxify partner?",
+    //   answer:
+    //     "You can visit our Become a Partner page and submit your business details and requirements. Our team will review your request and get in touch with you.",
+    // },
+    // {
+    //   id: 19,
+    //   category: "Partnership",
+    //   question: "How can I request a proposal?",
+    //   answer:
+    //     "You can use our Request a Proposal page to share your requirements, estimated quantity, customization needs, and other project details.",
+    // },
+    // {
+    //   id: 20,
+    //   category: "Partnership",
+    //   question: "How can I contact Promaxify?",
+    //   answer:
+    //     "You can contact us through our Contact page for general enquiries, project discussions, partnership opportunities, and customized requirements.",
+    // },
   ];
 
-  const categories = [
-    "All",
-    "General",
-    "Apparel",
-    "Corporate Gifting",
-    "Orders & Pricing",
-    "Delivery",
-    "Partnership",
-  ];
+  // const categories = [
+  //   "All",
+  //   "General",
+  //   "Apparel",
+  //   "Corporate Gifting",
+  //   "Orders & Pricing",
+  //   "Delivery",
+  //   "Partnership",
+  // ];
 
-  const filteredFAQs = useMemo(() => {
-    return faqData.filter((faq) => {
-      const matchesCategory =
-        activeCategory === "All" || faq.category === activeCategory;
+    const filteredFAQs = useMemo(() => {
+      return faqData.filter((faq) => {
+        const matchesCategory =
+          activeCategory === "All" || faq.category === activeCategory;
 
-      const searchText = search.toLowerCase();
+        const searchText = search.toLowerCase();
 
-      const matchesSearch =
-        faq.question.toLowerCase().includes(searchText) ||
-        faq.answer.toLowerCase().includes(searchText);
+        const matchesSearch =
+          faq.question.toLowerCase().includes(searchText) ||
+          faq.answer.toLowerCase().includes(searchText);
 
-      return matchesCategory && matchesSearch;
-    });
-  }, [activeCategory, search]);
+        return matchesCategory && matchesSearch;
+      });
+    }, [activeCategory, search]);
 
-  const toggleFAQ = (id) => {
-    setOpenIndex(openIndex === id ? null : id);
-  };
+    const toggleFAQ = (id) => {
+      setOpenIndex(openIndex === id ? null : id);
+    };
 
   return (
-    <main className="bg-white text-[#111111]">
+    <main className="bg-[#1B1B1B] text-[#111111]">
 
       {/* ================= HERO ================= */}
-      <section className="bg-[#111111] text-white px-6 md:px-12 lg:px-16 py-24 md:py-32">
+      <section className="bg-[#151515] text-white px-6 md:px-12 lg:px-16 py-24 md:py-32">
         <div className="max-w-[1440px] mx-auto">
 
           <div className="max-w-4xl">
@@ -195,10 +195,10 @@ const FAQ = () => {
               FAQs
             </p>
 
-            <h1 className="text-5xl md:text-6xl lg:text-8xl font-black tracking-tight leading-[0.95]">
+            <h1 className="text-4xl md:text-3xl lg:text-4xl font-black tracking-tight leading-[0.95]">
               Frequently
-              <span className="block text-[#ff7a00]">
-                Asked Questions
+              <span className=" text-[#ff7a00]">
+              {" "}  Asked Questions
               </span>
             </h1>
 
@@ -213,14 +213,13 @@ const FAQ = () => {
         </div>
       </section>
 
-
       {/* ================= FAQ SECTION ================= */}
       <section className="py-20 md:py-28 px-6 md:px-12 lg:px-16">
 
         <div className="max-w-[1100px] mx-auto">
 
           {/* Search */}
-          <div className="mb-10">
+          {/* <div className="mb-10">
 
             <div className="relative">
 
@@ -251,11 +250,11 @@ const FAQ = () => {
 
             </div>
 
-          </div>
+          </div> */}
 
 
           {/* ================= CATEGORIES ================= */}
-          <div className="flex gap-3 overflow-x-auto pb-4 mb-12 scrollbar-hide">
+          {/* <div className="flex gap-3 overflow-x-auto pb-4 mb-12 scrollbar-hide">
 
             {categories.map((category) => (
 
@@ -276,7 +275,7 @@ const FAQ = () => {
 
             ))}
 
-          </div>
+          </div> */}
 
 
           {/* ================= RESULTS ================= */}
@@ -319,10 +318,10 @@ const FAQ = () => {
                         <div>
 
                           <span className="text-[10px] uppercase tracking-[0.18em] font-bold text-[#ff7a00]">
-                            {faq.category}
+                            {/* {faq.category} */}
                           </span>
 
-                          <h3 className="text-base md:text-lg font-bold text-[#111111] mt-1">
+                          <h3 className="text-base md:text-lg font-bold text-[#ffff] mt-1">
                             {faq.question}
                           </h3>
 
@@ -394,7 +393,7 @@ const FAQ = () => {
 
                           <div className="h-px bg-gray-100 mb-5" />
 
-                          <p className="text-gray-600 text-sm md:text-base leading-7 max-w-3xl">
+                          <p className="text-white text-sm md:text-base leading-7 max-w-3xl">
                             {faq.answer}
                           </p>
 
@@ -448,7 +447,6 @@ const FAQ = () => {
         </div>
 
       </section>
-
 
       {/* ================= CTA ================= */}
       <section className="bg-[#ff7a00] px-6 md:px-12 lg:px-16 py-20 md:py-24">
