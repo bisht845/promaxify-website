@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { Helmet } from "react-helmet-async";
 const Partner = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -39,6 +39,15 @@ const Partner = () => {
   };
 
   return (
+    <>
+      <Helmet>
+    <title>Become a Partner | Promaxify</title>
+
+    <meta
+      name="description"
+      content="Partner with Promaxify to build long-term business opportunities through our corporate marketing, branding, promotional and customized solution network."
+    />
+  </Helmet>
     <section className="bg-[#111111] min-h-screen py-24 px-6 md:px-16">
       <div className="max-w-[1200px] mx-auto">
 
@@ -226,6 +235,7 @@ const Partner = () => {
 
       </div>
     </section>
+    </>
   );
 };
 

@@ -6,7 +6,7 @@ import {
   FaXTwitter,
 } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-
+import logo from "../assets/Logo_footer.png"
 function Footer() {
   return (
     <>
@@ -20,15 +20,7 @@ function Footer() {
       {/* Column 1: Brand Info */}
       <div className="lg:col-span-4 pr-0 lg:pr-8">
         <div className="flex items-center mb-6">
-          <span className="text-2xl font-black tracking-tight text-[#ff7a00]">
-            PRO
-            <span className="text-white">
-              {" "}MAXIFY
-              <span className="text-2xl font-black tracking-tight text-[#ff7a00]">
-                .
-              </span>
-            </span>
-          </span>
+        <img src={logo} alt="Promaxify"  className="h-8 sm:h-9 md:h-10 lg:h-11 w-auto object-contain"/>
         </div>
 
         <p className="text-[15px] leading-relaxed mb-8">

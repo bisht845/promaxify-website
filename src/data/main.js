@@ -87,7 +87,7 @@ We also provide eco-friendly and customizable options, ensuring your brand stand
     shortDescription:
       "Brochures, Catalogs, ID Cards, Lanyards, Packaging and Brand Materials.",
     image:
-      "https://images.unsplash.com/photo-1562654501-a0ccc0ea0bc8?auto=format&fit=crop&w=1200&q=80",
+      "https://images.openai.com/static-rsc-4/3s6WvLNijeD_s_k3VIfmaWpAHENb5lHbddf7wFOushCMbyodG0V93FUCVkd4B54j_a6oqAeL8u0yDU_U2UZmg1fqy8sjZvpybl9G5Ss0RVsPYUTNj9gM7VjUw57ruvDWcJrlgh2gpnVxbeHRpd4cB15eT77wgEZVLIDIEkqOHyw?purpose=inline",
     content: {
       heading: "Professional Printing Solutions",
       description:
@@ -105,94 +105,93 @@ With a creative in-house design team, we ensure every layout, texture, and finis
       ],
     },
   },
+{
+  id: 5,
+  slug: "employee-engagement-programs",
+  category: "Corporate Solutions",
+  title: "Employee Engagement",
+  shortDescription:
+    "Solutions designed to improve workplace culture, strengthen employee engagement, and motivate teams through meaningful experiences.",
+  image:
+    "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
+  content: {
+    heading: "Employee Engagement Programs",
+    description:
+      "We help organizations create meaningful employee experiences through thoughtfully designed programs that recognize, motivate, and engage their teams.",
+    features: [
+      "Employee Welcome Kits",
+      "Employee Recognition Programs",
+      "Milestone Celebrations",
+      "Employee Engagement Initiatives",
+    ],
+  },
+},
 
-  // {
-  //   id: 5,
-  //   slug: "corporate-gifting",
-  //   category: "Corporate Solutions",
-  //   title: "Corporate Gifting",
-  //   shortDescription:
-  //     "Premium and personalized gifts designed to strengthen business relationships.",
-  //   image:
-  //     "https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&w=1200&q=80",
-  //   content: {
-  //     heading: "Corporate Gifting Solutions",
-  //     description:
-  //       "Thoughtfully selected corporate gifts for employees, clients, partners and special occasions.",
-  //     features: [
-  //       "Employee Gifts",
-  //       "Client Gifts",
-  //       "Festive Gift Boxes",
-  //       "Premium Gift Sets",
-  //     ],
-  //   },
-  // },
+{
+  id: 6,
+  slug: "corporate-events-experiences",
+  category: "Corporate Solutions",
+  title: "Events & Exhibition ",
+  shortDescription:
+    "Meaningful corporate events and experiences designed to strengthen brand presence and create memorable interactions.",
+  image:
+    "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1200&q=80",
+  content: {
+    heading: "Corporate Events & Experiences",
+    description:
+      "Promaxify supports organizations in creating impactful corporate experiences, from product launches and conferences to dealership meets and brand activations.",
+    features: [
+      "Product Launches",
+      "Corporate Conferences",
+      "Dealership Meets",
+      "Brand Activations",
+    ],
+  },
+},
 
-  // {
-  //   id: 6,
-  //   slug: "office-branding",
-  //   category: "Corporate Solutions",
-  //   title: "Office Branding",
-  //   shortDescription:
-  //     "Creative workplace branding solutions that strengthen your company identity.",
-  //   image:
-  //     "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80",
-  //   content: {
-  //     heading: "Office Branding Solutions",
-  //     description:
-  //       "Transform your workplace into an environment that reflects your brand identity and culture.",
-  //     features: [
-  //       "Wall Graphics",
-  //       "Office Signage",
-  //       "Brand Displays",
-  //       "Interior Branding",
-  //     ],
-  //   },
-  // },
+{
+  id: 7,
+  slug: "incentive-travel-programs",
+  category: "Corporate Solutions",
+  title: "Incentive Travel (MICE)",
+  shortDescription:
+    "Reward-based travel programs designed to motivate employees, distributors, and dealer networks through memorable experiences.",
+  image:
+    "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+  content: {
+    heading: "Incentive Travel Programs",
+    description:
+      "We design memorable incentive travel experiences that recognize achievements and motivate employees, distributors, and dealer networks.",
+    features: [
+      "Employee Incentive Travel",
+      "Dealer Incentive Programs",
+      "Distributor Rewards",
+      "Corporate Travel Experiences",
+    ],
+  },
+},
 
-  // {
-  //   id: 7,
-  //   slug: "event-branding",
-  //   category: "Corporate Solutions",
-  //   title: "Event Branding",
-  //   shortDescription:
-  //     "Complete branding solutions for conferences, exhibitions and corporate events.",
-  //   image:
-  //     "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1200&q=80",
-  //   content: {
-  //     heading: "Event Branding",
-  //     description:
-  //       "Create a powerful event experience with professional visual branding and promotional materials.",
-  //     features: [
-  //       "Event Backdrops",
-  //       "Banners",
-  //       "Promotional Displays",
-  //       "Event Merchandise",
-  //     ],
-  //   },
-  // },
-
-  // {
-  //   id: 8,
-  //   slug: "sustainable-solutions",
-  //   category: "Corporate Solutions",
-  //   title: "Sustainable Solutions",
-  //   shortDescription:
-  //     "Eco-friendly products and responsible branding solutions for modern businesses.",
-  //   image:
-  //     "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1200&q=80",
-  //   content: {
-  //     heading: "Sustainable Business Solutions",
-  //     description:
-  //       "Environmentally responsible products that help businesses create a positive impact.",
-  //     features: [
-  //       "Eco-Friendly Gifts",
-  //       "Reusable Products",
-  //       "Sustainable Packaging",
-  //       "Green Merchandise",
-  //     ],
-  //   },
-  // },
+{
+  id: 8,
+  slug: "influencer-marketing-services",
+  category: "Corporate Solutions",
+  title: "Influencer Marketing",
+  shortDescription:
+    "Strategic influencer marketing solutions that help brands increase awareness, engagement, and audience reach.",
+  image:
+    "https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&w=1200&q=80",
+  content: {
+    heading: "Influencer Marketing Services",
+    description:
+      "Our influencer marketing solutions connect brands with relevant creators to build awareness, engage target audiences, and strengthen brand visibility.",
+    features: [
+      "Influencer Campaigns",
+      "Creator Collaborations",
+      "Brand Awareness Campaigns",
+      "Social Media Engagement",
+    ],
+  },
+},
 ];
 
 export const engagementSolutions = [
@@ -262,27 +261,31 @@ export const engagementSolutions = [
     },
   },
 
-  {
-    id: 12,
-    slug: "influencer-marketing",
-    category: "Engagement Solutions",
-    title: "Influencer Marketing",
-    shortDescription:
-      "Strategic brand partnerships and campaigns powered by influential voices.",
-    image:
-      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=80",
-    content: {
-      heading: "Influencer Marketing",
-      description:
-        "Connect your brand with relevant creators and audiences through strategic influencer campaigns.",
-      features: [
-        "Creator Partnerships",
-        "Campaign Strategy",
-        "Brand Promotion",
-        "Audience Engagement",
-      ],
-    },
+{
+  id: 12,
+  slug: "curated-activities",
+  category: "Engagement Solutions",
+  title: "Curated activities",
+
+  shortDescription:
+    "Thoughtfully designed activities that create engaging experiences and strengthen connections among employees, clients and teams.",
+
+  image:
+    "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=80",
+
+  content: {
+    heading: "Curated Activities",
+    description:
+      "We design and coordinate meaningful activities that encourage participation, build stronger relationships and create memorable experiences for employees, clients and corporate teams.",
+
+    features: [
+      "Team Building Activities",
+      "Employee Engagement Activities",
+      "Client Engagement Experiences",
+      "Customized Activities",
+    ],
   },
+},
 
   {
     id: 13,
@@ -451,136 +454,135 @@ export const insightsData = [
       ],
     },
   },
+{
+  id: 4,
+  slug: "customized-solutions-project",
+  category: "Print Solutions",
+  title: "Customized solutions",
 
-  {
-    id: 4,
-    slug: "custom-printing-project",
-    category: "Print Solutions",
-    title: "Custom Printing",
+  shortDescription:
+    "Customized printing and branding solutions designed to help businesses communicate their brand professionally across multiple touchpoints.",
 
-    shortDescription:
-      "Discover how high-quality printing solutions help brands communicate professionally across multiple touchpoints.",
+  image:
+    "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1000&q=80",
 
-    image:
-      "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1000&q=80",
+  content: {
+    heading: "Customized Solutions",
+    description:
+      "We provide customized printing and branding solutions tailored to the unique requirements of businesses, campaigns, events and corporate initiatives.",
 
-    content: {
-      heading: "Professional Printing Solutions",
-      description:
-        "Custom printing solutions designed to give businesses consistent and professional brand communication.",
-
-      features: [
-        "Brochures",
-        "Catalogs",
-        "Business Cards",
-        "Corporate Packaging",
-      ],
-    },
+    features: [
+      "Customized Printing",
+      "Corporate Branding Materials",
+      "Promotional Materials",
+      "Customized Packaging",
+    ],
   },
+},
 
-  {
-    id: 5,
-    slug: "employee-engagement-project",
-    category: "Engagement Solutions",
-    title: "Employee Engagement",
+{
+  id: 5,
+  slug: "employee-engagement-project",
+  category: "Engagement Solutions",
+  title: "employee engagement",
 
-    shortDescription:
-      "Explore strategies and programs designed to improve workplace culture and strengthen employee connections.",
+  shortDescription:
+    "Creative employee engagement solutions designed to recognize, motivate and build stronger connections within organizations.",
 
-    image:
-      "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=80",
+  image:
+    "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=80",
 
-    content: {
-      heading: "Building Stronger Teams",
-      description:
-        "A look at employee engagement programs designed to create stronger workplace relationships and motivation.",
+  content: {
+    heading: "Employee Engagement",
+    description:
+      "We help organizations create meaningful employee experiences through engagement initiatives that recognize achievements, motivate teams and strengthen workplace culture.",
 
-      features: [
-        "Recognition Programs",
-        "Team Building",
-        "Employee Rewards",
-        "Workplace Experiences",
-      ],
-    },
+    features: [
+      "Employee Welcome Kits",
+      "Recognition Programs",
+      "Employee Rewards",
+      "Milestone Celebrations",
+    ],
   },
+},
 
-  {
-    id: 6,
-    slug: "events-experiences-project",
-    category: "Engagement Solutions",
-    title: "Events & Experiences",
+{
+  id: 6,
+  slug: "experiential-services-project",
+  category: "Engagement Solutions",
+  title: "experiential services",
 
-    shortDescription:
-      "See how memorable events and experiences help brands create meaningful connections with their audiences.",
+  shortDescription:
+    "Creative events and experiential solutions designed to create memorable interactions between brands and their audiences.",
 
-    image:
-      "https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=1000&q=80",
+  image:
+    "https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=1000&q=80",
 
-    content: {
-      heading: "Memorable Brand Experiences",
-      description:
-        "Creative events and experiences designed to connect people, brands and communities.",
+  content: {
+    heading: "Experiential Services",
+    description:
+      "We create engaging events and brand experiences that connect people with brands through memorable interactions, activations and experiences.",
 
-      features: [
-        "Corporate Events",
-        "Product Launches",
-        "Brand Activations",
-        "Experiential Campaigns",
-      ],
-    },
+    features: [
+      "Corporate Events",
+      "Product Launches",
+      "Brand Activations",
+      "Experiential Campaigns",
+    ],
   },
+},
 
-  {
-    id: 7,
-    slug: "incentive-travel-project",
-    category: "Engagement Solutions",
-    title: "Incentive Travel",
+{
+  id: 7,
+  slug: "mice-kits-project",
+  category: "Engagement Solutions",
+  title: "mice kits",
 
-    shortDescription:
-      "Discover premium travel experiences designed to reward, motivate and inspire high-performing teams.",
+  shortDescription:
+    "Customized MICE kits designed to enhance corporate meetings, incentive programs, conferences and business travel experiences.",
 
-    image:
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=80",
+  image:
+    "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=80",
 
-    content: {
-      heading: "Reward Through Experiences",
-      description:
-        "Curated travel experiences that provide meaningful rewards and unforgettable moments for teams.",
+  content: {
+    heading: "MICE Kits",
+    description:
+      "We provide thoughtfully designed MICE kits and travel essentials that enhance corporate meetings, incentives, conferences and events while keeping brand identity at the center.",
 
-      features: [
-        "Corporate Retreats",
-        "Team Travel",
-        "Reward Programs",
-        "Luxury Experiences",
-      ],
-    },
+    features: [
+      "Conference Kits",
+      "Corporate Travel Kits",
+      "Event Essentials",
+      "Customized MICE Merchandise",
+    ],
   },
+},
 
-  {
-    id: 8,
-    slug: "influencer-marketing-project",
-    category: "Engagement Solutions",
-    title: "Influencer Marketing",
+{
+  id: 8,
+  slug: "promotional-services-project",
+  category: "Engagement Solutions",
+  title: "promotional services",
 
-    shortDescription:
-      "Explore how strategic influencer partnerships help brands reach new audiences and build credibility.",
+  shortDescription:
+    "Branded promotional solutions designed to increase visibility, strengthen brand recall and create meaningful customer engagement.",
 
-    image:
-      "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1000&q=80",
+  image:
+    "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1000&q=80",
 
-    content: {
-      heading: "Influence That Creates Impact",
-      description:
-        "Strategic influencer collaborations designed to connect brands with the right audiences.",
+  content: {
+    heading: "Promotional Services",
+    description:
+      "Our promotional services help businesses increase brand visibility through customized merchandise, promotional products and creative brand engagement solutions.",
 
-      features: [
-        "Creator Partnerships",
-        "Campaign Strategy",
-        "Social Media Reach",
-        "Brand Collaborations",
-      ],
-    },
+    features: [
+      "Promotional Merchandise",
+      "Branded Giveaways",
+      "Corporate Merchandise",
+      "Brand Activation Materials",
+    ],
   },
+},
 ];
 
 export const aboutData = [
@@ -661,3 +663,48 @@ export const aboutData = [
   //   alt: "Influencer Marketing",
   // },
 ];
+
+
+//  {
+//       id: 1,
+//       type: "OUR WORK",
+//       title: "Custom Jerseys",
+//       description:
+//         "Create a strong team identity with customized jerseys designed around your brand and event.",
+//       image:
+//         "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1200&q=80",
+//       large: true,
+//     },
+
+//     {
+//       id: 2,
+//       type: "OUR WORK",
+//       title: "Events & Exhibitions",
+//       description:
+//         "Build memorable brand experiences through impactful events, exhibitions and activations.",
+//       image:
+//         "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80",
+//       large: true,
+//     },
+
+//     {
+//       id: 3,
+//       type: "INSIGHTS",
+//       title: "Corporate Gifting Trends",
+//       description:
+//         "Discover the latest corporate gifting ideas that help brands strengthen relationships and create lasting recall.",
+//       image:
+//         "https://images.unsplash.com/photo-1607462109225-6b64ae2dd3cb?auto=format&fit=crop&w=1200&q=80",
+//       large: false,
+//     },
+
+//     {
+//       id: 4,
+//       type: "INSIGHTS",
+//       title: "Employee Engagement Ideas",
+//       description:
+//         "Explore creative ways to recognize, motivate and engage employees through meaningful experiences.",
+//       image:
+//         "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
+//       large: false,
+//     },

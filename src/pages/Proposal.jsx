@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { Helmet } from "react-helmet-async";
 const Proposal = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -41,6 +41,15 @@ const Proposal = () => {
   };
 
   return (
+    <>
+    <Helmet>
+  <title>Request a Proposal | Promaxify</title>
+
+  <meta
+    name="description"
+    content="Request a customized proposal from Promaxify for corporate branding, customized apparel, promotional products, events and business solutions."
+  />
+</Helmet>
     <section className="bg-[#111111] min-h-screen py-20 px-6 md:px-16">
       <div className="max-w-[1200px] mx-auto">
 
@@ -289,6 +298,7 @@ const Proposal = () => {
 
       </div>
     </section>
+    </>
   );
 };
 

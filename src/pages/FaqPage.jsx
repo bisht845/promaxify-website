@@ -186,7 +186,7 @@ const FAQ = () => {
     <main className="bg-[#1B1B1B] text-[#111111]">
 
       {/* ================= HERO ================= */}
-      <section className="bg-[#151515] text-white px-6 md:px-12 lg:px-16 py-24 md:py-32">
+      {/* <section className="bg-[#151515] text-white px-6 md:px-12 lg:px-16 py-24 md:py-32">
         <div className="max-w-[1440px] mx-auto">
 
           <div className="max-w-4xl">
@@ -211,7 +211,7 @@ const FAQ = () => {
           </div>
 
         </div>
-      </section>
+      </section> */}
 
       {/* ================= FAQ SECTION ================= */}
       <section className="py-20 md:py-28 px-6 md:px-12 lg:px-16">
@@ -278,6 +278,27 @@ const FAQ = () => {
           </div> */}
 
 
+          <div className="max-w-4xl mb-10 sm:mb-5 lg:mb-5">
+
+            <p className="text-[#ff7a00] text-sm font-bold uppercase tracking-[0.25em] mb-6">
+              FAQs
+            </p>
+
+            <h1 className="text-gray-400 text-4xl md:text-3xl lg:text-4xl font-black tracking-tight leading-[0.95]">
+              Frequently
+              <span className=" text-[#ff7a00]">
+              {" "}  Asked Questions
+              </span>
+            </h1>
+
+            <p className="text-gray-400 text-base md:text-lg max-w-2xl mt-8 leading-relaxed">
+              Find answers to common questions about our customized
+              corporate solutions, apparel, gifting, orders, delivery,
+              and partnerships.
+            </p>
+
+          </div>
+
           {/* ================= RESULTS ================= */}
           <div className="space-y-4">
 
@@ -321,7 +342,7 @@ const FAQ = () => {
                             {/* {faq.category} */}
                           </span>
 
-                          <h3 className="text-base md:text-lg font-bold text-[#ffff] mt-1">
+                          <h3 className="text-base md:text-md font-bold text-[#ffff] mt-1">
                             {faq.question}
                           </h3>
 
@@ -461,7 +482,7 @@ const FAQ = () => {
                 Still Have Questions?
               </p>
 
-              <h2 className="text-4xl md:text-5xl font-black leading-tight">
+              <h2 className="text-4xl md:text-4xl font-black leading-tight">
                 Let's talk about
                 <span className="block">
                   your requirements.

@@ -15,6 +15,7 @@ const Services = () => {
       : engagementSolutions;
 
   return (
+    <>
     <div className="bg-[#151515] min-h-screen text-white pb-24">
 
       {/* HERO SECTION */}
@@ -36,8 +37,7 @@ const Services = () => {
           </h1>
 
           <p className="text-gray-300 text-base md:text-xl font-light leading-relaxed max-w-3xl mx-auto">
-            Comprehensive corporate branding and engagement solutions
-            designed to enhance visibility and strengthen relationships.
+            Promaxify provides integrated corporate branding and engagement solutions designed to enhance brand visibility and strengthen business relationships.
           </p>
    <div className="pointer-events-none absolute -bottom-10 left-8 text-[15vw] font-black uppercase leading-none text-white/[0.05]">
 
@@ -416,6 +416,7 @@ const Services = () => {
       </button>
 
     </div>
+    </>
   );
 };
 

@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
-
 import {
   corporateSolutions,
   engagementSolutions,
   insightsData,
 } from "../data/main.js";
-
+import logo from "../assets/Logo.png"
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -86,12 +85,7 @@ const Navbar = () => {
             text-[#ff7a00]
             shrink-0
           "
-        >
-          PRO
-          <span className="text-white">
-            {" "}MAXIFY
-            <span className="text-[#ff7a00]">.</span>
-          </span>
+        ><img src={logo} alt="Promaxify"  className="h-8 sm:h-9 md:h-10 lg:h-11 w-auto object-contain"/>
         </Link>
 
         {/* =========================

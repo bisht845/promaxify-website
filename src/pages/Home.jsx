@@ -1,9 +1,11 @@
 import { useState, useEffect, useRef } from 'react';
 import { ArrowRight } from "lucide-react"; 
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import {
   corporateSolutions,
   engagementSolutions,
+  insightsData,
 } from "../data/main";
 const clientLogos = [
   // Google
@@ -32,6 +34,7 @@ const recentWork = [
   ...engagementSolutions,
 ].slice(0, 8);
 
+const insightData = [...insightsData].slice(0,4)
 const testimonials = [
   {
     id: 1,
@@ -147,6 +150,16 @@ useEffect(() => {
 }, [start]);
 
   return (
+    // SEO 
+    <>
+      <Helmet>
+    <title>Promaxify | Corporate Marketing & Branding Solutions</title>
+
+    <meta
+      name="description"
+      content="Promaxify Marketing Solutions delivers customized corporate branding, promotional products, apparel, events, MICE and business solutions tailored to your brand."
+    />
+  </Helmet>
     <div className="font-sans text-gray-900 bg-white">
 
 
@@ -774,6 +787,91 @@ useEffect(() => {
 </section>
       {/* --- END RECENT WORK / PORTFOLIO SECTION --- */}
 
+      {/* insight work  */}
+    <section className="bg-[#111111] py-20 md:py-28">
+      <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
+
+        {/* ================= HEADER ================= */}
+        <div className="mb-12 flex flex-col gap-6 md:mb-16 md:flex-row md:items-end md:justify-between">
+
+          <div className="max-w-3xl">
+            <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#ff7a00]">
+              Work & Insights
+            </p>
+
+            <h2 className="text-4xl font-light leading-tight text-white sm:text-3xl lg:text-4xl">
+              Ideas, experiences &
+              <span className="block font-normal">
+                work that create impact.
+              </span>
+            </h2>
+          </div>
+
+
+        </div>
+
+
+        {/* ================= FOUR CARDS ================= */}
+        <div className="grid gap-5 md:grid-cols-4">
+
+          {insightData.map((item) => (
+            <article
+              key={item.id}
+              className="group relative overflow-hidden rounded-3xl border border-white/10 bg-[#1a1a1a]"
+            >
+
+              {/* IMAGE */}
+              <div
+                className={`relative overflow-hidden ${
+                  item.large
+                    ? "h-[350px] sm:h-[400px]"
+                    : "h-[280px] sm:h-[320px]"
+                }`}
+              >
+
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+                />
+
+                {/* Dark overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
+
+                {/* Category */}
+                <div className="absolute left-5 top-5">
+                  <span className="rounded-full border border-white/20 bg-black/40 px-4 py-2 text-xs font-medium tracking-wider text-white backdrop-blur-md">
+                    {item.type}
+                  </span>
+                </div>
+
+                {/* Arrow */}
+                <Link to="/insights" className="absolute right-5 top-5 flex h-11 w-11 items-center justify-center rounded-full bg-white text-black transition duration-300 group-hover:rotate-45">
+                  <ArrowRight size={19} />
+                </Link>
+
+                {/* Content over image */}
+                <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-8">
+
+                  <h3 className="mb-3 text-2xl font-medium text-white sm:text-2xl">
+                    {item.title}
+                  </h3>
+
+                  <p className="max-w-lg text-sm leading-6 text-gray-300">
+                    {item.description}
+                  </p>
+
+                </div>
+
+              </div>
+
+            </article>
+          ))}
+
+        </div>
+      </div>
+    </section>
+      {/* insight work  */}
       {/* --- CLIENT SUCCESS / TESTIMONIALS SECTION --- */}
        <section className="bg-[#151515] py-24 px-8 md:px-16 relative overflow-hidden">
       
@@ -871,7 +969,7 @@ useEffect(() => {
           />
         </div>
 
-        {/* Right Side: Content & Call to Action */}
+        {/* Right Side: Content & Call to Actxion */}
         <div className="flex flex-col justify-center">
           <h2 className="text-3xl md:text-4xl lg:text-4xl font-bold mb-6 tracking-tight">
             Partner Network (PPP)
@@ -882,8 +980,8 @@ useEffect(() => {
           </p>
           
           <div>
-            <Link to="/partner" className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-300 shadow-lg hover:shadow-orange-500/25">
-              Become a Partner
+            <Link to="/about" className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-300 shadow-lg hover:shadow-orange-500/25">
+              Read More
             </Link>
           </div>
         </div>
@@ -947,26 +1045,27 @@ useEffect(() => {
       <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
 
         {/* Button 1 */}
-        <a
-          href="/partner"
+        <Link
+          to="/partner"
           className="bg-white text-[#ff7a00] px-8 py-4 rounded-full font-semibold transition duration-300 hover:bg-[#111111] hover:text-white"
         >
           Become a Partner
-        </a>
+        </Link>
 
         {/* Button 2 */}
-        <a
-          href="/proposal"
+        <Link
+          to="/proposal"
           className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold transition duration-300 hover:bg-white hover:text-[#ff7a00]"
         >
           Request a Proposal
-        </a>
+        </Link>
 
       </div>
 
     </div>
   </section>
     </div>
+    </>
   );
 };
 

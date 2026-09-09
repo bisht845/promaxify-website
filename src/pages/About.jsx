@@ -2,9 +2,20 @@ import React from "react";
 import { Link } from "react-router-dom";
 import {Check} from "lucide-react";
 import { aboutData } from "../data/main";
-
+import { Helmet } from "react-helmet-async";
+import FaqPage from "./FaqPage"
 const About = () => {
   return (
+    <>
+    {/* SEO  */}
+    <Helmet>
+  <title>About Promaxify | Corporate Marketing Solutions</title>
+
+  <meta
+    name="description"
+    content="Learn about Promaxify Marketing Solutions LLP, our expertise, approach and commitment to delivering creative, reliable and customized corporate solutions."
+  />
+</Helmet>
     <main className="min-h-screen overflow-hidden bg-[#111111] text-white">
 
       {/* ================================================= */}
@@ -98,13 +109,12 @@ const About = () => {
 
       </section>
 
-
       <div className="bg-[#151515] text-white min-h-screen font-sans selection:bg-orange-500 selection:text-white">
 
         {/* 1. Hero Section */}
         <section className="relative pt-20 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
           <div className="inline-block mb-4 px-5 py-2 rounded-full bg-white/5 border border-white/10 text-orange-500 text-xl font-semibold tracking-wide uppercase">
-            Corporate Branding & Engagement Solutions
+            Expert in Corporate Branding & Engagement Solutions
           </div>
           <h1 className="text-4xl md:text-4xl font-extrabold tracking-tight mb-8">
             We help businesses <br className="hidden md:block" />
@@ -673,6 +683,8 @@ const About = () => {
         </div>
 
       </section>
+      {/* FAQ Section */}
+     
  {/* 7. CTA Section */}
         <section className="py-22 px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-4xl mx-auto">
@@ -692,10 +704,11 @@ Connect with Promaxify Marketing Solutions LLP to explore customized solutions f
             </div>
           </div>
         </section>
-
+ <FaqPage />
 
 
     </main>
+    </>
   );
 };
 

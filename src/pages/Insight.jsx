@@ -3,9 +3,20 @@ import { Link } from 'react-router-dom';
 import {
   insightsData,
 } from "../data/main.js";
+import { Helmet } from 'react-helmet-async';
 
 export default function InsightsPage() {
   return (
+    <>
+    {/* SEO  */}
+    <Helmet>
+  <title>Insights | Promaxify Marketing Solutions</title>
+
+  <meta
+    name="description"
+    content="Explore Promaxify insights, ideas and practical resources covering corporate branding, customized apparel, promotional products, events and marketing solutions."
+  />
+</Helmet>
     <div className="min-h-screen bg-[#1a1a1a] text-white font-sans antialiased">
       {/* Navigation Header */}
       <header
@@ -26,7 +37,12 @@ export default function InsightsPage() {
           </h1>
 
           <p className="text-gray-300 text-base md:text-xl font-light leading-relaxed max-w-3xl mx-auto">
-            Explore our latest projects and learn how we help brands leave lasting impressions.
+            Real Challenges. Thoughtful Solutions. Proven Execution. 
+            <span className='block text-sm'>
+              Explore how Promaxify transforms corporate requirements into thoughtfully designed branding, engagement and experiential solutions across industries.
+From customized apparel and promotional merchandise to employee engagement, MICE kits and experiential services, our portfolio demonstrates how we combine creative thinking, customization and reliable execution to solve real business requirements.
+ 
+            </span>
 
 
           </p>
@@ -178,7 +194,7 @@ export default function InsightsPage() {
         <h2 className="text-4xl md:text-5xl font-black mb-8 uppercase max-w-4xl mx-auto leading-tight">
           Access Our Corporate Solutions Through Trusted Referrals
         </h2>
-        <a href="#" className="inline-block bg-white text-black px-8 py-3 font-bold tracking-wide hover:bg-gray-200 transition">
+        <a href="#" className="inline-block bg-white text-black px-8 py-3 font-bold tracking-wide hover:bg-[#FB7E06] hover:text-white transition">
           BECOME A PARTNER
         </a>
       </section>
@@ -186,5 +202,6 @@ export default function InsightsPage() {
       {/* Footer */}
       
     </div>
+    </>
   );
 }
