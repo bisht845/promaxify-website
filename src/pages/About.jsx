@@ -556,7 +556,7 @@ const About = () => {
               </p>
 
               <a
-                href="/partner"
+                href="/partner-network"
                 className="inline-block bg-[#111111] text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-[#111111] transition duration-300"
               >
                 Become a Partner →

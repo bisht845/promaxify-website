@@ -401,6 +401,68 @@ export const insightsData = [
         "Promotional Apparel",
       ],
     },
+
+   caseStudies: [
+  {
+    id: 1,
+    companyName: "FinTech Innovators Ltd.",
+    industry: "Financial Technology",
+
+    objective:
+      "Standardize remote onboarding experience globally while reducing logistical overhead.",
+
+    solution:
+      "Designed and deployed a centralized portal for HR to trigger automated shipping of premium welcome kits to 15+ countries.",
+
+    image:
+      "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=80",
+  },
+
+  {
+    id: 2,
+    companyName: "TechVision Solutions",
+    industry: "Information Technology",
+
+    objective:
+      "Create a consistent branded apparel experience for employees across multiple locations.",
+
+    solution:
+      "Developed customized corporate T-shirts and hoodies with standardized branding, sizing and centralized distribution.",
+
+    image:
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1000&q=80",
+  },
+
+  {
+    id: 3,
+    companyName: "Global Finance Group",
+    industry: "Financial Services",
+
+    objective:
+      "Build a stronger sense of belonging among employees participating in corporate events.",
+
+    solution:
+      "Created a coordinated range of branded apparel for employees, leadership teams and event participants.",
+
+    image:
+      "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=1000&q=80",
+  },
+
+  {
+    id: 4,
+    companyName: "Urban Retail Group",
+    industry: "Retail",
+
+    objective:
+      "Improve brand visibility through consistent employee and promotional apparel.",
+
+    solution:
+      "Designed and delivered customized uniforms and promotional apparel aligned with the company's visual identity.",
+
+    image:
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80",
+  },
+],  
   },
 
   {
@@ -427,6 +489,41 @@ export const insightsData = [
         "Corporate Gift Bags",
       ],
     },
+
+    caseStudies: [
+      {
+        id: 1,
+        title: "Corporate Laptop Bags",
+        description:
+          "Branded laptop bags designed for employees, business professionals and corporate gifting programs.",
+        image:
+          "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        id: 2,
+        title: "Executive Travel Bags",
+        description:
+          "Premium branded travel bags created for executives, business travel and corporate events.",
+        image:
+          "https://images.unsplash.com/photo-1553531384-397c80973a0b?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        id: 3,
+        title: "Branded Backpacks",
+        description:
+          "Functional and customized backpacks created for employee programs, events and promotional campaigns.",
+        image:
+          "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        id: 4,
+        title: "Corporate Gift Bags",
+        description:
+          "Customized gift bags designed to create a premium presentation for corporate gifting initiatives.",
+        image:
+          "https://images.unsplash.com/photo-1612902456551-333ac5afa26e?auto=format&fit=crop&w=1000&q=80",
+      },
+    ],
   },
 
   {
@@ -453,136 +550,347 @@ export const insightsData = [
         "Campaign Merchandise",
       ],
     },
-  },
-{
-  id: 4,
-  slug: "customized-solutions-project",
-  category: "Print Solutions",
-  title: "Customized solutions",
 
-  shortDescription:
-    "Customized printing and branding solutions designed to help businesses communicate their brand professionally across multiple touchpoints.",
-
-  image:
-    "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1000&q=80",
-
-  content: {
-    heading: "Customized Solutions",
-    description:
-      "We provide customized printing and branding solutions tailored to the unique requirements of businesses, campaigns, events and corporate initiatives.",
-
-    features: [
-      "Customized Printing",
-      "Corporate Branding Materials",
-      "Promotional Materials",
-      "Customized Packaging",
+    caseStudies: [
+      {
+        id: 1,
+        title: "Corporate Gift Collection",
+        description:
+          "A curated collection of branded corporate gifts created for clients, employees and business partners.",
+        image:
+          "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        id: 2,
+        title: "Branded Desk Accessories",
+        description:
+          "Useful branded desk products designed to keep the brand visible in everyday professional environments.",
+        image:
+          "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        id: 3,
+        title: "Event Giveaways",
+        description:
+          "Creative promotional giveaways developed for events, exhibitions and customer engagement campaigns.",
+        image:
+          "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        id: 4,
+        title: "Campaign Merchandise",
+        description:
+          "Customized merchandise created to support brand campaigns and improve audience recall.",
+        image:
+          "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1000&q=80",
+      },
     ],
   },
-},
 
-{
-  id: 5,
-  slug: "employee-engagement-project",
-  category: "Engagement Solutions",
-  title: "employee engagement",
+  {
+    id: 4,
+    slug: "customized-solutions-project",
+    category: "Print Solutions",
+    title: "Customized solutions",
 
-  shortDescription:
-    "Creative employee engagement solutions designed to recognize, motivate and build stronger connections within organizations.",
+    shortDescription:
+      "Customized printing and branding solutions designed to help businesses communicate their brand professionally across multiple touchpoints.",
 
-  image:
-    "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=80",
+    image:
+      "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1000&q=80",
 
-  content: {
-    heading: "Employee Engagement",
-    description:
-      "We help organizations create meaningful employee experiences through engagement initiatives that recognize achievements, motivate teams and strengthen workplace culture.",
+    content: {
+      heading: "Customized Solutions",
+      description:
+        "We provide customized printing and branding solutions tailored to the unique requirements of businesses, campaigns, events and corporate initiatives.",
 
-    features: [
-      "Employee Welcome Kits",
-      "Recognition Programs",
-      "Employee Rewards",
-      "Milestone Celebrations",
+      features: [
+        "Customized Printing",
+        "Corporate Branding Materials",
+        "Promotional Materials",
+        "Customized Packaging",
+      ],
+    },
+
+    caseStudies: [
+      {
+        id: 1,
+        title: "Corporate Brochures",
+        description:
+          "Professionally designed and printed brochures created to communicate corporate offerings clearly.",
+        image:
+          "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        id: 2,
+        title: "Product Catalogues",
+        description:
+          "Customized product catalogues designed to present products and services in a professional format.",
+        image:
+          "https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        id: 3,
+        title: "Corporate Stationery",
+        description:
+          "Branded stationery solutions developed to maintain consistency across everyday business communication.",
+        image:
+          "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        id: 4,
+        title: "Customized Packaging",
+        description:
+          "Branded packaging solutions designed to improve product presentation and strengthen brand recognition.",
+        image:
+          "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?auto=format&fit=crop&w=1000&q=80",
+      },
     ],
   },
-},
 
-{
-  id: 6,
-  slug: "experiential-services-project",
-  category: "Engagement Solutions",
-  title: "experiential services",
+  {
+    id: 5,
+    slug: "employee-engagement-project",
+    category: "Engagement Solutions",
+    title: "employee engagement",
 
-  shortDescription:
-    "Creative events and experiential solutions designed to create memorable interactions between brands and their audiences.",
+    shortDescription:
+      "Creative employee engagement solutions designed to recognize, motivate and build stronger connections within organizations.",
 
-  image:
-    "https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=1000&q=80",
+    image:
+      "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=80",
 
-  content: {
-    heading: "Experiential Services",
-    description:
-      "We create engaging events and brand experiences that connect people with brands through memorable interactions, activations and experiences.",
+    content: {
+      heading: "Employee Engagement",
+      description:
+        "We help organizations create meaningful employee experiences through engagement initiatives that recognize achievements, motivate teams and strengthen workplace culture.",
 
-    features: [
-      "Corporate Events",
-      "Product Launches",
-      "Brand Activations",
-      "Experiential Campaigns",
+      features: [
+        "Employee Welcome Kits",
+        "Recognition Programs",
+        "Employee Rewards",
+        "Milestone Celebrations",
+      ],
+    },
+
+    caseStudies: [
+      {
+        id: 1,
+        title: "Employee Welcome Kits",
+        description:
+          "Thoughtfully customized welcome kits designed to create a positive first experience for new employees.",
+        image:
+          "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        id: 2,
+        title: "Employee Recognition",
+        description:
+          "Recognition solutions designed to celebrate employee achievements and encourage a culture of appreciation.",
+        image:
+          "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        id: 3,
+        title: "Employee Rewards",
+        description:
+          "Customized reward programs created to recognize performance, milestones and employee contributions.",
+        image:
+          "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        id: 4,
+        title: "Milestone Celebrations",
+        description:
+          "Personalized celebration solutions designed to recognize important employee and organizational milestones.",
+        image:
+          "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=1000&q=80",
+      },
     ],
   },
-},
 
-{
-  id: 7,
-  slug: "mice-kits-project",
-  category: "Engagement Solutions",
-  title: "mice kits",
+  {
+    id: 6,
+    slug: "experiential-services-project",
+    category: "Engagement Solutions",
+    title: "experiential services",
 
-  shortDescription:
-    "Customized MICE kits designed to enhance corporate meetings, incentive programs, conferences and business travel experiences.",
+    shortDescription:
+      "Creative events and experiential solutions designed to create memorable interactions between brands and their audiences.",
 
-  image:
-    "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=80",
+    image:
+      "https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=1000&q=80",
 
-  content: {
-    heading: "MICE Kits",
-    description:
-      "We provide thoughtfully designed MICE kits and travel essentials that enhance corporate meetings, incentives, conferences and events while keeping brand identity at the center.",
+    content: {
+      heading: "Experiential Services",
+      description:
+        "We create engaging events and brand experiences that connect people with brands through memorable interactions, activations and experiences.",
 
-    features: [
-      "Conference Kits",
-      "Corporate Travel Kits",
-      "Event Essentials",
-      "Customized MICE Merchandise",
+      features: [
+        "Corporate Events",
+        "Product Launches",
+        "Brand Activations",
+        "Experiential Campaigns",
+      ],
+    },
+
+    caseStudies: [
+      {
+        id: 1,
+        title: "Corporate Events",
+        description:
+          "End-to-end corporate event experiences designed to engage employees, clients and business partners.",
+        image:
+          "https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        id: 2,
+        title: "Product Launches",
+        description:
+          "Memorable product launch experiences created to generate attention and connect products with target audiences.",
+        image:
+          "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        id: 3,
+        title: "Brand Activations",
+        description:
+          "Interactive brand activations designed to create meaningful audience engagement and brand recall.",
+        image:
+          "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        id: 4,
+        title: "Experiential Campaigns",
+        description:
+          "Creative experiential campaigns designed to bring brands closer to their audiences through real-world interactions.",
+        image:
+          "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1000&q=80",
+      },
     ],
   },
-},
 
-{
-  id: 8,
-  slug: "promotional-services-project",
-  category: "Engagement Solutions",
-  title: "promotional services",
+  {
+    id: 7,
+    slug: "mice-kits-project",
+    category: "Engagement Solutions",
+    title: "mice kits",
 
-  shortDescription:
-    "Branded promotional solutions designed to increase visibility, strengthen brand recall and create meaningful customer engagement.",
+    shortDescription:
+      "Customized MICE kits designed to enhance corporate meetings, incentive programs, conferences and business travel experiences.",
 
-  image:
-    "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1000&q=80",
+    image:
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=80",
 
-  content: {
-    heading: "Promotional Services",
-    description:
-      "Our promotional services help businesses increase brand visibility through customized merchandise, promotional products and creative brand engagement solutions.",
+    content: {
+      heading: "MICE Kits",
+      description:
+        "We provide thoughtfully designed MICE kits and travel essentials that enhance corporate meetings, incentives, conferences and events while keeping brand identity at the center.",
 
-    features: [
-      "Promotional Merchandise",
-      "Branded Giveaways",
-      "Corporate Merchandise",
-      "Brand Activation Materials",
+      features: [
+        "Conference Kits",
+        "Corporate Travel Kits",
+        "Event Essentials",
+        "Customized MICE Merchandise",
+      ],
+    },
+
+    caseStudies: [
+      {
+        id: 1,
+        title: "Conference Welcome Kits",
+        description:
+          "Customized conference kits prepared to give delegates a professional and memorable event experience.",
+        image:
+          "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        id: 2,
+        title: "Corporate Travel Kits",
+        description:
+          "Branded travel essentials designed for executives, employees and corporate incentive trips.",
+        image:
+          "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        id: 3,
+        title: "Event Essentials",
+        description:
+          "Practical event merchandise and essentials customized around the theme and identity of corporate events.",
+        image:
+          "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        id: 4,
+        title: "Customized MICE Merchandise",
+        description:
+          "Branded merchandise created to strengthen corporate identity throughout meetings, incentives and conferences.",
+        image:
+          "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1000&q=80",
+      },
     ],
   },
-},
+
+  {
+    id: 8,
+    slug: "promotional-services-project",
+    category: "Engagement Solutions",
+    title: "promotional services",
+
+    shortDescription:
+      "Branded promotional solutions designed to increase visibility, strengthen brand recall and create meaningful customer engagement.",
+
+    image:
+      "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1000&q=80",
+
+    content: {
+      heading: "Promotional Services",
+      description:
+        "Our promotional services help businesses increase brand visibility through customized merchandise, promotional products and creative brand engagement solutions.",
+
+      features: [
+        "Promotional Merchandise",
+        "Branded Giveaways",
+        "Corporate Merchandise",
+        "Brand Activation Materials",
+      ],
+    },
+
+    caseStudies: [
+      {
+        id: 1,
+        title: "Branded Giveaways",
+        description:
+          "Customized giveaways created to increase brand visibility and create memorable interactions with customers.",
+        image:
+          "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        id: 2,
+        title: "Corporate Merchandise",
+        description:
+          "Professionally branded merchandise developed for corporate campaigns, events and customer engagement.",
+        image:
+          "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        id: 3,
+        title: "Promotional Campaign Materials",
+        description:
+          "Customized promotional materials created to support marketing campaigns and improve brand visibility.",
+        image:
+          "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        id: 4,
+        title: "Brand Activation Materials",
+        description:
+          "Creative branded materials designed to support activations, events and customer-facing campaigns.",
+        image:
+          "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1000&q=80",
+      },
+    ],
+  },
 ];
 
 export const aboutData = [
@@ -663,48 +971,3 @@ export const aboutData = [
   //   alt: "Influencer Marketing",
   // },
 ];
-
-
-//  {
-//       id: 1,
-//       type: "OUR WORK",
-//       title: "Custom Jerseys",
-//       description:
-//         "Create a strong team identity with customized jerseys designed around your brand and event.",
-//       image:
-//         "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1200&q=80",
-//       large: true,
-//     },
-
-//     {
-//       id: 2,
-//       type: "OUR WORK",
-//       title: "Events & Exhibitions",
-//       description:
-//         "Build memorable brand experiences through impactful events, exhibitions and activations.",
-//       image:
-//         "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80",
-//       large: true,
-//     },
-
-//     {
-//       id: 3,
-//       type: "INSIGHTS",
-//       title: "Corporate Gifting Trends",
-//       description:
-//         "Discover the latest corporate gifting ideas that help brands strengthen relationships and create lasting recall.",
-//       image:
-//         "https://images.unsplash.com/photo-1607462109225-6b64ae2dd3cb?auto=format&fit=crop&w=1200&q=80",
-//       large: false,
-//     },
-
-//     {
-//       id: 4,
-//       type: "INSIGHTS",
-//       title: "Employee Engagement Ideas",
-//       description:
-//         "Explore creative ways to recognize, motivate and engage employees through meaningful experiences.",
-//       image:
-//         "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
-//       large: false,
-//     },

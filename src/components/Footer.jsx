@@ -204,19 +204,19 @@ function Footer() {
 
 
       <div className="flex items-center gap-8">
-        <a
-          href="#"
-          className="hover:text-[#ff7a00] transition-colors"
-        >
-          Privacy Policy
-        </a>
+       <Link
+  to="/legal#privacy-policy"
+  className="hover:text-[#ff7a00] transition-colors"
+>
+  Privacy Policy
+</Link>
 
-        <a
-          href="#"
-          className="hover:text-[#ff7a00] transition-colors"
-        >
-          Terms & Conditions
-        </a>
+<Link
+  to="/legal#terms-conditions"
+  className="hover:text-[#ff7a00] transition-colors"
+>
+  Terms & Conditions
+</Link>
       </div>
 
 

@@ -980,7 +980,7 @@ useEffect(() => {
           </p>
           
           <div>
-            <Link to="/about" className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-300 shadow-lg hover:shadow-orange-500/25">
+            <Link to="/partner-network" className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-300 shadow-lg hover:shadow-orange-500/25">
               Read More
             </Link>
           </div>
