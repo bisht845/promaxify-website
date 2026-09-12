@@ -8,26 +8,31 @@ import {
   insightsData,
 } from "../data/main";
 const clientLogos = [
-  // Google
-  "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+  "Adsparkx.png",
+  "Ascelepius wellness.png",
+  "Awign.png",
+  "birla white.png",
+  "BMP Ai.png",
+  "carex.png",
+  "circle work.png",
+  "Crompton.png",
+  "Dalmia.png",
+  "Finsure.png",
 
-  // Microsoft
-  "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
-
-  // Apple - White Logo
-  "https://upload.wikimedia.org/wikipedia/commons/3/31/Apple_logo_white.svg",
-
-  // Netflix
-  "https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png",
-
-  // Spotify
-  "https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg",
-
-  // Amazon
-  "https://upload.wikimedia.org/wikipedia/commons/4/4a/Amazon_icon.svg",
+  "Fresenius Kabi.png",
+  "fujifilm.png",
+  "HCL.png",
+  "Hunch.png",
+  "jsw paints.png",
+  "kjs.png",
+  "m3m.png",
+  "op jindal.png",
+  "saint gobain.png",
+  "systra.png",
 ];
 
-const repeatedLogos = [...clientLogos, ...clientLogos];
+const firstRowLogos = clientLogos.slice(0, 10);
+const secondRowLogos = clientLogos.slice(10, 20);
 
 const recentWork = [
   ...corporateSolutions,
@@ -273,40 +278,31 @@ useEffect(() => {
           <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-20 bg-gradient-to-l from-[#1A1A1A] to-transparent" />
 
           <div className="flex w-max gap-6 animate-[scrollRight_25s_linear_infinite]">
-            {repeatedLogos.map((logo, index) => (
+            {firstRowLogos.map((logo, index) => (
               <div
                 key={`row1-${index}`}
                 className="
-        group
-        flex
-        h-[130px]
-        w-[240px]
-        shrink-0
-        items-center
-        justify-center
-        rounded-2xl
-        border
-        border-[#ff7a00]/30
-        bg-[#222222]
-        px-8
-        shadow-[0_0_20px_rgba(255,122,0,0.08)]
-        transition-all
-        duration-500
-        hover:border-[#ff7a00]
-        hover:shadow-[0_10px_30px_rgba(255,122,0,0.25)]
-      "
+                  group flex h-[130px] w-[240px] shrink-0
+                  items-center justify-center rounded-2xl
+                  border border-[#ff7a00]/30
+                  bg-[#222222] px-8
+                  shadow-[0_0_20px_rgba(255,122,0,0.08)]
+                  transition-all duration-500
+                  hover:border-[#ff7a00]
+                  hover:shadow-[0_10px_30px_rgba(255,122,0,0.25)]
+                "
               >
                 <img
-                  src={logo}
-                  alt={`Client logo ${index + 1}`}
+                  src={`${import.meta.env.BASE_URL}client-logos/${encodeURI(logo)}`}
+                  alt={`Promaxify client ${index + 1}`}
                   className="
-          max-h-[70px]
-          max-w-[160px]
-          object-contain
-          transition-transform
-          duration-500
-          group-hover:scale-110
-        "
+                    max-h-[70px]
+                    max-w-[160px]
+                    object-contain
+                    transition-transform
+                    duration-500
+                    group-hover:scale-110
+                  "
                 />
               </div>
             ))}
@@ -339,45 +335,36 @@ useEffect(() => {
           {/* Right Fade */}
           <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-20 bg-gradient-to-l from-[#1A1A1A] to-transparent" />
 
-          <div className="flex w-max gap-6 animate-[scrollLeft_25s_linear_infinite]">
-            {repeatedLogos.map((logo, index) => (
-              <div
-                key={`row1-${index}`}
+        <div className="flex w-max gap-6 animate-[scrollLeft_25s_linear_infinite]">
+          {secondRowLogos.map((logo, index) => (
+            <div
+              key={`row2-${index}`}
+              className="
+                group flex h-[130px] w-[240px] shrink-0
+                items-center justify-center rounded-2xl
+                border border-[#ff7a00]/30
+                bg-[#222222] px-8
+                shadow-[0_0_20px_rgba(255,122,0,0.08)]
+                transition-all duration-500
+                hover:border-[#ff7a00]
+                hover:shadow-[0_10px_30px_rgba(255,122,0,0.25)]
+              "
+            >
+              <img
+                src={`${import.meta.env.BASE_URL}client-logos/${encodeURI(logo)}`}
+                alt={`Promaxify client ${index + 11}`}
                 className="
-        group
-        flex
-        h-[130px]
-        w-[240px]
-        shrink-0
-        items-center
-        justify-center
-        rounded-2xl
-        border
-        border-[#ff7a00]/30
-        bg-[#222222]
-        px-8
-        shadow-[0_0_20px_rgba(255,122,0,0.08)]
-        transition-all
-        duration-500
-        hover:border-[#ff7a00]
-        hover:shadow-[0_10px_30px_rgba(255,122,0,0.25)]
-      "
-              >
-                <img
-                  src={logo}
-                  alt={`Client logo ${index + 1}`}
-                  className="
-          max-h-[70px]
-          max-w-[160px]
-          object-contain
-          transition-transform
-          duration-500
-          group-hover:scale-110
-        "
-                />
-              </div>
-            ))}
-          </div>
+                  max-h-[70px]
+                  max-w-[160px]
+                  object-contain
+                  transition-transform
+                  duration-500
+                  group-hover:scale-110
+                "
+              />
+            </div>
+          ))}
+        </div>
         </div>
 
       </section>

@@ -207,7 +207,7 @@ export const engagementSolutions = [
     content: {
       heading: "Employee Engagement",
       description:
-        "We develop meaningful engagement programs that motivate employees and create stronger workplace relationships.",
+        "Employee engagement solutions that help organizations create stronger connections with their people. Promaxify develops customized programs and branded experiences for employee onboarding, recognition, celebrations, milestones and internal engagement initiatives. From welcome kits and employee merchandise to appreciation gifts, themed activities and communication collaterals, every element is designed around the organization’s culture, objectives and audience. We coordinate sourcing, customization, branding and execution to reduce the time and effort involved in managing multiple vendors. Whether it is a single engagement initiative or a larger employee program, Promaxify brings creative thinking, quality execution and dependable coordination together—helping organizations make employees feel valued, connected and part of the brand.",
       features: [
         "Employee Recognition",
         "Team Activities",
@@ -229,7 +229,7 @@ export const engagementSolutions = [
     content: {
       heading: "Events & Experiences",
       description:
-        "We plan and execute impactful events designed to create unforgettable experiences.",
+        "From conferences and product launches to dealership meets, corporate gatherings and brand-led experiences, Promaxify supports organizations with the branded elements that make events memorable and consistent. We develop customized event collaterals, participant kits, merchandise, awards, gifting and supporting branding requirements aligned with the event theme and brand identity. Our role can extend from understanding the requirement and sourcing the right products to customization, production and coordinated execution. By bringing multiple requirements together through one partner, we help clients save time, simplify coordination and maintain consistency across every touchpoint. The result is a well-planned event experience that strengthens brand presence, engages audiences and leaves a lasting impression.",
       features: [
         "Corporate Events",
         "Product Launches",
@@ -251,7 +251,7 @@ export const engagementSolutions = [
     content: {
       heading: "Incentive Travel",
       description:
-        "Reward and inspire your team with carefully planned travel and corporate retreat experiences.",
+        "Promaxify complements incentive travel and MICE programs with customized branding, merchandise and participant experiences that bring the destination, occasion and brand together. From travel kits, welcome kits and destination-themed merchandise to branded collaterals, gifting and event accessories, we create practical and memorable touchpoints for employees, dealers, partners and other participants. Solutions are tailored to the group profile, destination, theme, budget and timeline, with coordinated sourcing and customization to simplify execution. Whether supporting a reward trip, dealer incentive programme or corporate offsite, Promaxify helps transform a travel itinerary into a branded experience—giving organizers a comprehensive, time-effective and effort-saving solution for the physical and promotional elements of the programme.",
       features: [
         "Corporate Retreats",
         "Reward Travel",
@@ -276,7 +276,7 @@ export const engagementSolutions = [
   content: {
     heading: "Curated Activities",
     description:
-      "We design and coordinate meaningful activities that encourage participation, build stronger relationships and create memorable experiences for employees, clients and corporate teams.",
+      "Add an interactive and memorable dimension to corporate events with curated activities designed around participation, creativity and personalization. Promaxify can coordinate experiences such as instant photography, block printing, dot mandala, origami, caricature, onsite printing for customized gifts and other activity-led engagements. We also support artist and activity management, helping clients select suitable experiences and coordinate the people, materials and execution required on site. Activities can be customized to suit the event theme, audience, venue and brand objectives, making them relevant rather than simply entertaining. From employee events and conferences to launches, celebrations and activations, these experiences create engaging moments that participants can enjoy, personalize and remember",
 
     features: [
       "Team Building Activities",
@@ -299,7 +299,7 @@ export const engagementSolutions = [
     content: {
       heading: "Digital Marketing",
       description:
-        "Integrated digital marketing strategies designed to grow your online presence.",
+        "Promaxify extends engagement beyond physical experiences through digital marketing solutions designed to increase visibility, interaction and brand reach. Our offerings can include influencer marketing, promotional campaigns, social media optimization and related promotional services tailored to the campaign objective and target audience. We help brands identify suitable promotional approaches, develop campaign-led content and coordinate execution across relevant digital touchpoints. Whether the goal is to create awareness, promote an offering, support an event or strengthen social presence, solutions are customized around the brand, audience, budget and timeline. By combining creative communication with coordinated promotional execution, Promaxify helps organizations build stronger digital engagement while reducing the effort of managing multiple campaign requirements independently.",
       features: [
         "Social Media",
         "Content Marketing",
@@ -321,7 +321,7 @@ export const engagementSolutions = [
     content: {
       heading: "Advertisement Solutions",
       description:
-        "Creative advertising campaigns designed to increase brand awareness and engagement.",
+        "Promaxify provides customized advertisement and branding collateral solutions that help organizations communicate consistently across physical promotional touchpoints. Based on the campaign, location, audience and brand guidelines, we develop and coordinate relevant advertising collaterals for corporate, promotional, event and campaign requirements. Solutions can include customized printed and branded materials, promotional displays, campaign collaterals and other visibility elements, with scope tailored to the requirement. From concept alignment and material selection to customization, production and delivery, we help streamline execution through one coordinated partner. The focus is on creating practical, visually consistent and brand-aligned advertising solutions that support communication objectives, strengthen visibility and make every promotional touchpoint work harder for the brand.",
       features: [
         "Print Advertising",
         "Digital Advertising",
@@ -392,7 +392,10 @@ export const insightsData = [
     content: {
       heading: "Customized Apparel Solutions",
       description:
-        "A detailed look at how we create customized apparel that helps businesses build stronger brand recognition.",
+        `At Promaxify, we help your brand make a lasting impression through customized apparel and promotional merchandise that blend style, comfort, and identity.
+From corporate uniforms and sports jerseys to promotional t-shirts, hoodies, caps, and sashes, every product is crafted with precision and designed to reflect your brand’s personality. Whether it’s for a corporate event, trade show, tour, or marketing campaign, our apparel and accessories ensure your team looks cohesive and professional.
+Beyond clothing, we offer an extensive range of branded merchandise and giveaway items — including lanyards, umbrellas, flags, and other customized promotional products — designed to enhance brand recall and strengthen client relationships.
+With advanced printing and embroidery technologies, Promaxify ensures superior quality, vibrant finishes, and comfort that lasts. Each creation serves as a walking expression of your brand’s story.`,
 
       features: [
         "Corporate T-Shirts",
@@ -480,8 +483,11 @@ export const insightsData = [
     content: {
       heading: "Branded Bags & Corporate Gifting",
       description:
-        "Our customized bags are designed to combine functionality with strong and memorable brand visibility.",
-
+                `At Promaxify, we design and deliver premium, functional, and sustainable bags that serve as powerful brand ambassadors wherever they go.
+Our extensive collection includes everything from paper, jute, cotton, and canvas bags to non-woven, tote, and foldable shopping bags, as well as corporate backpacks, laptop sleeves, duffle and trolley bags — all customizable with your branding.
+Crafted with care and creativity, our bags combine style, durability, and practicality, making them perfect for events, promotions, gifting, and corporate use. Whether you’re looking for eco-conscious packaging options or premium executive bags, we ensure each piece reflects your brand’s personality and purpose.
+With Promaxify’s expertise in material selection, printing, and finishing, your brand doesn’t just get a bag — it gets a statement of identity, carried with pride and purpose.
+`,
       features: [
         "Laptop Bags",
         "Travel Bags",
@@ -663,7 +669,7 @@ export const insightsData = [
     content: {
       heading: "Employee Engagement",
       description:
-        "We help organizations create meaningful employee experiences through engagement initiatives that recognize achievements, motivate teams and strengthen workplace culture.",
+       "Employee engagement solutions that help organizations create stronger connections with their people. Promaxify develops customized programs and branded experiences for employee onboarding, recognition, celebrations, milestones and internal engagement initiatives. From welcome kits and employee merchandise to appreciation gifts, themed activities and communication collaterals, every element is designed around the organization’s culture, objectives and audience. We coordinate sourcing, customization, branding and execution to reduce the time and effort involved in managing multiple vendors. Whether it is a single engagement initiative or a larger employee program, Promaxify brings creative thinking, quality execution and dependable coordination together—helping organizations make employees feel valued, connected and part of the brand.",
 
       features: [
         "Employee Welcome Kits",
@@ -774,7 +780,7 @@ export const insightsData = [
     id: 7,
     slug: "mice-kits-project",
     category: "Engagement Solutions",
-    title: "mice kits",
+    title: "  ",
 
     shortDescription:
       "Customized MICE kits designed to enhance corporate meetings, incentive programs, conferences and business travel experiences.",
