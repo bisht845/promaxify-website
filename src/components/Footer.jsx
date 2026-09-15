@@ -23,14 +23,19 @@ function Footer() {
         <img src={logo} alt="Promaxify"  className="h-8 sm:h-9 md:h-10 lg:h-11 w-auto object-contain"/>
         </div>
 
-        <p className="text-[15px] leading-relaxed mb-8">
-          Elevating corporate brands through premium merchandise, tailored
-          engagement solutions, and strategic insights for industry leaders.
+        <p className="text-[15px] leading-relaxed mb-2">
+          New Delhi | Mumbai |  Goa | Patna 
         </p>
+        <p className="text-[15px] leading-relaxed mb-2">
+          info@promaxifymarketing.com
+        </p>
+        <p className="text-[15px] leading-relaxed mb-2">
+          +91 9625754262
+        </p>
+        
 
         <div className="text-[15px] leading-relaxed space-y-4">
           <p>Promaxify Marketing Solutions LLP</p>
-
         </div>
       </div>
 
@@ -199,7 +204,7 @@ function Footer() {
     <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-6 text-[13px]">
 
       <p className="text-center md:text-left">
-        © 2026 Promaxify Marketing Solutions LLP. All rights reserved. | Designed & Developed by <a href="https://www.topnexmedia.com/" className="text-white hover:underline" target="_blank" >Topnex Media</a>
+        © 2026 Promaxify Marketing Solutions LLP. All rights reserved. | Digital Partner <a href="https://www.topnexmedia.com/" className="text-white hover:underline" target="_blank" >Topnex Media</a>
       </p>
 
 

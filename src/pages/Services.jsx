@@ -28,12 +28,12 @@ const Services = () => {
       >
         <div className="max-w-4xl mx-auto">
 
-          <p className="text-[#ff7a00] text-xs md:text-sm font-bold tracking-[0.3em] uppercase mb-5">
+          {/* <p className="text-[#ff7a00] text-xs md:text-sm font-bold tracking-[0.3em] uppercase mb-5">
             Our Services
-          </p>
+          </p> */}
 
           <h1 className="text-4xl sm:text-5xl md:text-4xl font-black uppercase leading-[1] tracking-tight mb-6">
-            Integrated Solutions
+            Integrated <span className="text-[#ff7a00]">Solutions</span> 
           </h1>
 
           <p className="text-gray-300 text-base md:text-xl font-light leading-relaxed max-w-3xl mx-auto">
@@ -363,20 +363,20 @@ const Services = () => {
       <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
 
         {/* Button 1 */}
-        <a
-          href="/partner"
+        <Link
+          to="/partner-network"
           className="bg-white text-[#ff7a00] px-8 py-4 rounded-full font-semibold transition duration-300 hover:bg-[#111111] hover:text-white"
         >
           Become a Partner
-        </a>
+        </Link>
 
         {/* Button 2 */}
-        <a
-          href="/proposal"
+        <Link
+          to="/contact"
           className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold transition duration-300 hover:bg-white hover:text-[#ff7a00]"
         >
           Request a Proposal
-        </a>
+        </Link>
 
       </div>
 

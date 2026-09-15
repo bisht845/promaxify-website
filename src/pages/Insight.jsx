@@ -37,7 +37,7 @@ export default function InsightsPage() {
           </h1>
 
           <p className="text-gray-300 text-base md:text-xl font-light leading-relaxed max-w-3xl mx-auto">
-            Real Challenges. Thoughtful Solutions. Proven Execution. 
+          <span className='text-[#ff7a00]'>  Real Challenges. Thoughtful Solutions. Proven Execution.</span> 
             <span className='block text-sm'>
               Explore how Promaxify transforms corporate requirements into thoughtfully designed branding, engagement and experiential solutions across industries.
 From customized apparel and promotional merchandise to employee engagement, MICE kits and experiential services, our portfolio demonstrates how we combine creative thinking, customization and reliable execution to solve real business requirements.
@@ -191,12 +191,12 @@ From customized apparel and promotional merchandise to employee engagement, MICE
         <h3 className="text-orange-500 font-bold text-sm tracking-[0.2em] mb-4 uppercase">
           Partner Network
         </h3>
-        <h2 className="text-4xl md:text-5xl font-black mb-8 uppercase max-w-4xl mx-auto leading-tight">
+        <h2 className="text-4xl md:text-3xl mb-8  max-w-4xl mx-auto leading-tight">
           Access Our Corporate Solutions Through Trusted Referrals
         </h2>
-        <a href="#" className="inline-block bg-white text-black px-8 py-3 font-bold tracking-wide hover:bg-[#FB7E06] hover:text-white transition">
+        <Link to="/partner-network" className="inline-block bg-white text-black px-8 py-3 font-bold tracking-wide hover:bg-[#FB7E06] hover:text-white transition">
           BECOME A PARTNER
-        </a>
+        </Link>
       </section>
 
       {/* Footer */}

@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from "react";
-
+import { Link } from "react-router-dom";
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
   const [activeCategory, setActiveCategory] = useState("All");
@@ -78,90 +78,7 @@ const FAQ = () => {
       answer:
         "Every order goes through a quality check before dispatch. If an issue is found after delivery, reach out within 7 days with details and photos, and we'll arrange a replacement or resolution for the affected units. Our aim is to catch quality concerns before they reach you, not after.",
     },
-
-    // {
-    //   id: 11,
-    //   category: "Orders & Pricing",
-    //   question: "Is there a minimum order quantity?",
-    //   answer:
-    //     "Minimum order quantities can vary depending on the product, customization method, and project requirements. Contact our team for specific details.",
-    // },
-    // {
-    //   id: 12,
-    //   category: "Orders & Pricing",
-    //   question: "How is the pricing calculated?",
-    //   answer:
-    //     "Pricing depends on the product, quantity, customization, material, packaging, delivery requirements, and other project specifications.",
-    // },
-    // {
-    //   id: 13,
-    //   category: "Orders & Pricing",
-    //   question: "How can I request a quotation?",
-    //   answer:
-    //     "You can submit your requirements through our Request a Proposal page. Our team can then review your requirements and provide the appropriate quotation.",
-    // },
-    // {
-    //   id: 14,
-    //   category: "Orders & Pricing",
-    //   question: "How long does production take?",
-    //   answer:
-    //     "Production time depends on the product, quantity, customization, and project complexity. Timelines are discussed during the quotation and order process.",
-    // },
-
-    // {
-    //   id: 15,
-    //   category: "Delivery",
-    //   question: "Do you provide delivery across India?",
-    //   answer:
-    //     "Yes. We provide Pan-India delivery for eligible products and projects.",
-    // },
-    // {
-    //   id: 16,
-    //   category: "Delivery",
-    //   question: "Can you deliver orders to multiple locations?",
-    //   answer:
-    //     "Yes. Multiple-location delivery can be discussed for corporate and organizational orders based on the project requirements.",
-    // },
-    // {
-    //   id: 17,
-    //   category: "Delivery",
-    //   question: "How can I track my order?",
-    //   answer:
-    //     "Our team will provide the relevant delivery or shipment information based on your order and delivery arrangement.",
-    // },
-
-    // {
-    //   id: 18,
-    //   category: "Partnership",
-    //   question: "How can I become a Promaxify partner?",
-    //   answer:
-    //     "You can visit our Become a Partner page and submit your business details and requirements. Our team will review your request and get in touch with you.",
-    // },
-    // {
-    //   id: 19,
-    //   category: "Partnership",
-    //   question: "How can I request a proposal?",
-    //   answer:
-    //     "You can use our Request a Proposal page to share your requirements, estimated quantity, customization needs, and other project details.",
-    // },
-    // {
-    //   id: 20,
-    //   category: "Partnership",
-    //   question: "How can I contact Promaxify?",
-    //   answer:
-    //     "You can contact us through our Contact page for general enquiries, project discussions, partnership opportunities, and customized requirements.",
-    // },
   ];
-
-  // const categories = [
-  //   "All",
-  //   "General",
-  //   "Apparel",
-  //   "Corporate Gifting",
-  //   "Orders & Pricing",
-  //   "Delivery",
-  //   "Partnership",
-  // ];
 
     const filteredFAQs = useMemo(() => {
       return faqData.filter((faq) => {
@@ -280,9 +197,9 @@ const FAQ = () => {
 
           <div className="max-w-4xl mb-10 sm:mb-5 lg:mb-5">
 
-            <p className="text-[#ff7a00] text-sm font-bold uppercase tracking-[0.25em] mb-6">
+            {/* <p className="text-[#ff7a00] text-sm font-bold uppercase tracking-[0.25em] mb-6">
               FAQs
-            </p>
+            </p> */}
 
             <h1 className="text-gray-400 text-4xl md:text-3xl lg:text-4xl font-black tracking-tight leading-[0.95]">
               Frequently
@@ -300,170 +217,156 @@ const FAQ = () => {
           </div>
 
           {/* ================= RESULTS ================= */}
-          <div className="space-y-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
 
-            {filteredFAQs.length > 0 ? (
+  {filteredFAQs.length > 0 ? (
 
-              filteredFAQs.map((faq) => {
+    filteredFAQs.map((faq) => {
 
-                const isOpen = openIndex === faq.id;
+      const isOpen = openIndex === faq.id;
 
-                return (
-                  <div
-                    key={faq.id}
-                    className={`border rounded-2xl overflow-hidden transition-all duration-300 ${
-                      isOpen
-                        ? "border-[#ff7a00] shadow-lg shadow-orange-500/10"
-                        : "border-gray-200 hover:border-gray-300"
-                    }`}
-                  >
+      return (
+        <div
+          key={faq.id}
+          className={`border rounded-2xl overflow-hidden transition-all duration-300 ${
+            isOpen
+              ? "border-[#ff7a00] shadow-lg shadow-orange-500/10"
+              : "border-gray-200 hover:border-gray-300"
+          }`}
+        >
 
-                    {/* Question */}
-                    <button
-                      onClick={() => toggleFAQ(faq.id)}
-                      className="w-full flex items-center justify-between gap-6 text-left p-6 md:p-7"
-                    >
+          {/* Question */}
+          <button
+            onClick={() => toggleFAQ(faq.id)}
+            className="w-full flex items-center justify-between gap-6 text-left p-6 md:p-7"
+          >
 
-                      <div className="flex items-start gap-4">
+            <div className="flex items-start gap-4">
 
-                        <span
-                          className={`hidden sm:flex shrink-0 w-8 h-8 rounded-full items-center justify-center text-xs font-bold transition-all duration-300 ${
-                            isOpen
-                              ? "bg-[#ff7a00] text-white"
-                              : "bg-gray-100 text-gray-500"
-                          }`}
-                        >
-                          {faq.id}
-                        </span>
+              <span
+                className={`hidden sm:flex shrink-0 w-8 h-8 rounded-full items-center justify-center text-xs font-bold transition-all duration-300 ${
+                  isOpen
+                    ? "bg-[#ff7a00] text-white"
+                    : "bg-gray-100 text-gray-500"
+                }`}
+              >
+                {faq.id}
+              </span>
 
-                        <div>
+              <div>
+                <span className="text-[10px] uppercase tracking-[0.18em] font-bold text-[#ff7a00]">
+                </span>
 
-                          <span className="text-[10px] uppercase tracking-[0.18em] font-bold text-[#ff7a00]">
-                            {/* {faq.category} */}
-                          </span>
-
-                          <h3 className="text-base md:text-md font-bold text-[#ffff] mt-1">
-                            {faq.question}
-                          </h3>
-
-                        </div>
-
-                      </div>
-
-
-                      {/* Plus / Minus */}
-                      <span
-                        className={`shrink-0 w-9 h-9 rounded-full flex items-center justify-center transition-all duration-300 ${
-                          isOpen
-                            ? "bg-[#ff7a00] text-white rotate-180"
-                            : "bg-gray-100 text-gray-700"
-                        }`}
-                      >
-
-                        {isOpen ? (
-
-                          <svg
-                            className="w-5 h-5"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth="2"
-                              d="M5 12h14"
-                            />
-                          </svg>
-
-                        ) : (
-
-                          <svg
-                            className="w-5 h-5"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth="2"
-                              d="M12 5v14m-7-7h14"
-                            />
-                          </svg>
-
-                        )}
-
-                      </span>
-
-                    </button>
-
-
-                    {/* Answer */}
-                    <div
-                      className={`grid transition-[grid-template-rows] duration-500 ease-in-out ${
-                        isOpen
-                          ? "grid-rows-[1fr]"
-                          : "grid-rows-[0fr]"
-                      }`}
-                    >
-
-                      <div className="overflow-hidden">
-
-                        <div className="px-6 md:px-7 pb-7 pl-6 sm:pl-[4.5rem]">
-
-                          <div className="h-px bg-gray-100 mb-5" />
-
-                          <p className="text-white text-sm md:text-base leading-7 max-w-3xl">
-                            {faq.answer}
-                          </p>
-
-                        </div>
-
-                      </div>
-
-                    </div>
-
-                  </div>
-                );
-              })
-
-            ) : (
-
-              /* ================= NO RESULTS ================= */
-              <div className="text-center py-20 border border-gray-200 rounded-2xl">
-
-                <div className="w-16 h-16 mx-auto mb-5 rounded-full bg-gray-100 flex items-center justify-center">
-
-                  <svg
-                    className="w-7 h-7 text-gray-400"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"
-                    />
-                  </svg>
-
-                </div>
-
-                <h3 className="text-xl font-bold mb-2">
-                  No questions found
+                <h3 className="text-base md:text-md font-bold text-[#ffff] mt-1">
+                  {faq.question}
                 </h3>
+              </div>
 
-                <p className="text-gray-500">
-                  Try another search or select a different category.
+            </div>
+
+            {/* Plus / Minus */}
+            <span
+              className={`shrink-0 w-9 h-9 rounded-full flex items-center justify-center transition-all duration-300 ${
+                isOpen
+                  ? "bg-[#ff7a00] text-white rotate-180"
+                  : "bg-gray-100 text-gray-700"
+              }`}
+            >
+              {isOpen ? (
+                <svg
+                  className="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M5 12h14"
+                  />
+                </svg>
+              ) : (
+                <svg
+                  className="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M12 5v14m-7-7h14"
+                  />
+                </svg>
+              )}
+            </span>
+
+          </button>
+
+          {/* Answer */}
+          <div
+            className={`grid transition-[grid-template-rows] duration-500 ease-in-out ${
+              isOpen
+                ? "grid-rows-[1fr]"
+                : "grid-rows-[0fr]"
+            }`}
+          >
+            <div className="overflow-hidden">
+
+              <div className="px-6 md:px-7 pb-7 pl-6 sm:pl-[4.5rem]">
+
+                <div className="h-px bg-gray-100 mb-5" />
+
+                <p className="text-white text-sm md:text-base leading-7 max-w-3xl">
+                  {faq.answer}
                 </p>
 
               </div>
 
-            )}
-
+            </div>
           </div>
+
+        </div>
+      );
+    })
+
+  ) : (
+
+    <div className="lg:col-span-2 text-center py-20 border border-gray-200 rounded-2xl">
+
+      <div className="w-16 h-16 mx-auto mb-5 rounded-full bg-gray-100 flex items-center justify-center">
+
+        <svg
+          className="w-7 h-7 text-gray-400"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"
+          />
+        </svg>
+
+      </div>
+
+      <h3 className="text-xl font-bold mb-2">
+        No questions found
+      </h3>
+
+      <p className="text-gray-500">
+        Try another search or select a different category.
+      </p>
+
+    </div>
+
+  )}
+
+</div>  
 
         </div>
 
@@ -506,12 +409,12 @@ const FAQ = () => {
                 Contact Us
               </a>
 
-              <a
-                href="/proposal"
+              <Link
+                href="/contact"
                 className="bg-white text-[#111111] px-7 py-4 rounded-full font-bold text-sm text-center hover:bg-gray-100 transition-all duration-300"
               >
                 Request a Proposal
-              </a>
+              </Link>
 
             </div>
 

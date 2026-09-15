@@ -64,21 +64,19 @@ const About = () => {
               {/* TITLE */}
               <h1 className="max-w-6xl text-4xl font-black uppercase leading-[0.88] tracking-tight sm:text-3xl md:text-4xl lg:text-[3rem]">
 
-                We Create {" "}
+                Expert in Corporate {" "}
 
                 <span className="text-[#ff7a00]">
-                  More Than
+                Branding &
                 </span>
-
                 <br />
-
-                Brands.
+                Engagement Solutions
 
               </h1>
 
 
               {/* DESCRIPTION */}
-              <div className="mt-10 max-w-xl border-l border-[#ff7a00] pl-6">
+              {/* <div className="mt-10 max-w-xl border-l border-[#ff7a00] pl-6">
 
                 <p className="text-base leading-relaxed text-gray-300 md:text-xl">
 
@@ -88,7 +86,7 @@ const About = () => {
 
                 </p>
 
-              </div>
+              </div> */}
 
             </div>
 
@@ -113,7 +111,7 @@ const About = () => {
 
         {/* 1. Hero Section */}
         <section className="relative pt-20 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
-          <div className="inline-block mb-4 px-5 py-2 rounded-full bg-white/5 border border-white/10 text-orange-500 text-xl font-semibold tracking-wide uppercase">
+          {/* <div className="inline-block mb-4 px-5 py-2 rounded-full bg-white/5 border border-white/10 text-orange-500 text-xl font-semibold tracking-wide uppercase">
             Expert in Corporate Branding & Engagement Solutions
           </div>
           <h1 className="text-4xl md:text-4xl font-extrabold tracking-tight mb-8">
@@ -121,10 +119,9 @@ const About = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">
               amplify their brand impact.
             </span>
-          </h1>
-          <p className="max-w-3xl mx-auto text-xl text-gray-400 leading-relaxed">
-            We are a dynamic and innovative marketing solutions provider dedicated to helping businesses amplify their brand impact through high-quality corporate branding, and engagement solutions, offering customized promotional merchandise, corporate gifting, customized apparel, event, sports & exhibition merchandise, and engagement-driven programs. We understand the power of a well-executed marketing strategy and are committed to delivering products that resonate with your audience and elevate your brand.
-            We partner with organizations to strengthen their brand presence, employee engagement, and client relationships through thoughtfully designed products and experiences
+          </h1> */}
+          <p className="text-justify flex max-w-3xl mx-auto text-xl text-gray-400">
+            We are a dynamic and innovative marketing solutions provider dedicated to helping businesses amplify their brand impact through high-quality corporate branding, and engagement solutions, offering customized promotional merchandise, corporate gifting, customized apparel, event, sports & exhibition merchandise, and engagement-driven programs. We understand the power of a well-executed marketing strategy and are committed to delivering products that resonate with your audience and elevate your brand. We partner with organizations to strengthen their brand presence, employee engagement, and client relationships through thoughtfully designed products and experiences.
 
           </p>
         </section>
@@ -361,7 +358,7 @@ const About = () => {
                   1
                 </div>
                 <h3 className="text-xl font-bold mb-3">Understand</h3>
-                <p className="text-gray-400">Deeply analyzing your brand identity, audience, and campaign objectives.</p>
+                <p className="text-gray-400">We begin by understanding the client’s brand identity, business goals, and target audience.</p>
               </div>
 
               {/* Step 2 */}
@@ -370,7 +367,7 @@ const About = () => {
                   2
                 </div>
                 <h3 className="text-xl font-bold mb-3">Design</h3>
-                <p className="text-gray-400">Creating custom, tailored solutions and visual concepts that align with your goals.</p>
+                <p className="text-gray-400">Our team develops creative and customized solutions aligned with the organization’s branding and engagement requirements.</p>
               </div>
 
               {/* Step 3 */}
@@ -379,7 +376,7 @@ const About = () => {
                   3
                 </div>
                 <h3 className="text-xl font-bold mb-3">Execute</h3>
-                <p className="text-gray-400">Flawless production, quality assurance, and timely delivery of the final product.</p>
+                <p className="text-gray-400">Our team develops creative and customized solutions aligned with the organization’s branding and engagement requirements.</p>
               </div>
             </div>
           </div>
@@ -392,12 +389,12 @@ const About = () => {
 
           {/* Section Header */}
           <div className="max-w-3xl mb-16">
-            <p className="text-[#ff7a00] uppercase tracking-[3px] text-sm font-semibold mb-4">
+            {/* <p className="text-[#ff7a00] uppercase tracking-[3px] text-sm font-semibold mb-4">
               Why Promaxify
-            </p>
+            </p> */}
 
             <h2 className="text-white text-4xl md:text-5xl font-bold mb-6">
-              Why Organizations Choose Promaxify
+              Why <span className="text-[#ff7a00]">Promaxify {""} ?</span> 
             </h2>
 
             <p className="text-gray-400 text-lg leading-relaxed">
@@ -503,7 +500,7 @@ const About = () => {
 
 
           {/* Industry Content */}
-          <div className="border-l-4 border-[#ff7a00] pl-6 md:pl-8 mb-20 max-w-4xl">
+          {/* <div className="border-l-4 border-[#ff7a00] pl-6 md:pl-8 mb-20 max-w-4xl">
 
             <h3 className="text-white text-2xl md:text-3xl font-semibold mb-5">
               Solutions Built for Every Industry
@@ -515,56 +512,10 @@ const About = () => {
               and engagement needs of each organization.
             </p>
 
-          </div>
+          </div> */}
 
 
-          {/* Partner Network */}
-          <div className="bg-[#ff7a00] rounded-2xl p-8 md:p-14 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-
-            {/* Left */}
-            <div>
-
-              <p className="text-white/80 uppercase tracking-[3px] text-sm font-semibold mb-4">
-                Grow With Us
-              </p>
-
-              <h2 className="text-white text-3xl md:text-5xl font-bold mb-6">
-                Promaxify Partner Network
-              </h2>
-
-              <p className="text-white/90 text-lg leading-relaxed">
-                Promaxify collaborates with consultants, agencies, and professionals
-                through the Promaxify Partner Network.
-              </p>
-
-            </div>
-
-
-            {/* Right */}
-            <div>
-
-              <p className="text-white/90 text-lg leading-relaxed mb-6">
-                This initiative allows industry professionals who interact with
-                corporate organizations to introduce businesses that may benefit
-                from Promaxify's services.
-              </p>
-
-              <p className="text-white/90 text-lg leading-relaxed mb-8">
-                Partners receive referral rewards for successful projects, creating
-                a collaborative ecosystem that supports organizations in accessing
-                high-quality corporate solutions.
-              </p>
-
-              <a
-                href="/partner-network"
-                className="inline-block bg-[#111111] text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-[#111111] transition duration-300"
-              >
-                Become a Partner →
-              </a>
-
-            </div>
-
-          </div>
+     
 
         </div>
       </section>
@@ -686,7 +637,7 @@ const About = () => {
       {/* FAQ Section */}
      
  {/* 7. CTA Section */}
-        <section className="py-22 px-4 sm:px-6 lg:px-8 text-center">
+        <section className="py-16 px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Let's Create Something Exceptional</h2>
             <p className="text-md text-gray-400 mb-10">
@@ -695,10 +646,10 @@ Connect with Promaxify Marketing Solutions LLP to explore customized solutions f
 
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <Link to="/partner" className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-bold transition-all shadow-lg hover:shadow-orange-500/25 transform hover:-translate-y-1">
+              <Link to="/partner-network" className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-bold transition-all shadow-lg hover:shadow-orange-500/25 transform hover:-translate-y-1">
                Become a Partner 
               </Link>
-              <Link to="/proposal" className="bg-white/10 hover:bg-white/20 border border-white/10 text-white px-8 py-4 rounded-lg font-bold transition-all transform hover:-translate-y-1">
+              <Link to="/contact" className="bg-white/10 hover:bg-white/20 border border-white/10 text-white px-8 py-4 rounded-lg font-bold transition-all transform hover:-translate-y-1">
                Request Proposal 
               </Link>
             </div>

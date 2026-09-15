@@ -105,93 +105,93 @@ With a creative in-house design team, we ensure every layout, texture, and finis
       ],
     },
   },
-{
-  id: 5,
-  slug: "employee-engagement-programs",
-  category: "Corporate Solutions",
-  title: "Employee Engagement",
-  shortDescription:
-    "Solutions designed to improve workplace culture, strengthen employee engagement, and motivate teams through meaningful experiences.",
-  image:
-    "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
-  content: {
-    heading: "Employee Engagement Programs",
-    description:
-      "We help organizations create meaningful employee experiences through thoughtfully designed programs that recognize, motivate, and engage their teams.",
-    features: [
-      "Employee Welcome Kits",
-      "Employee Recognition Programs",
-      "Milestone Celebrations",
-      "Employee Engagement Initiatives",
-    ],
-  },
-},
+// {
+//   id: 5,
+//   slug: "employee-engagement-programs",
+//   category: "Corporate Solutions",
+//   title: "Employee Engagement",
+//   shortDescription:
+//     "Solutions designed to improve workplace culture, strengthen employee engagement, and motivate teams through meaningful experiences.",
+//   image:
+//     "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
+//   content: {
+//     heading: "Employee Engagement Programs",
+//     description:
+//       "We help organizations create meaningful employee experiences through thoughtfully designed programs that recognize, motivate, and engage their teams.",
+//     features: [
+//       "Employee Welcome Kits",
+//       "Employee Recognition Programs",
+//       "Milestone Celebrations",
+//       "Employee Engagement Initiatives",
+//     ],
+//   },
+// },
 
-{
-  id: 6,
-  slug: "corporate-events-experiences",
-  category: "Corporate Solutions",
-  title: "Events & Exhibition ",
-  shortDescription:
-    "Meaningful corporate events and experiences designed to strengthen brand presence and create memorable interactions.",
-  image:
-    "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1200&q=80",
-  content: {
-    heading: "Corporate Events & Experiences",
-    description:
-      "Promaxify supports organizations in creating impactful corporate experiences, from product launches and conferences to dealership meets and brand activations.",
-    features: [
-      "Product Launches",
-      "Corporate Conferences",
-      "Dealership Meets",
-      "Brand Activations",
-    ],
-  },
-},
+// {
+//   id: 6,
+//   slug: "corporate-events-experiences",
+//   category: "Corporate Solutions",
+//   title: "Events & Exhibition ",
+//   shortDescription:
+//     "Meaningful corporate events and experiences designed to strengthen brand presence and create memorable interactions.",
+//   image:
+//     "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1200&q=80",
+//   content: {
+//     heading: "Corporate Events & Experiences",
+//     description:
+//       "Promaxify supports organizations in creating impactful corporate experiences, from product launches and conferences to dealership meets and brand activations.",
+//     features: [
+//       "Product Launches",
+//       "Corporate Conferences",
+//       "Dealership Meets",
+//       "Brand Activations",
+//     ],
+//   },
+// },
 
-{
-  id: 7,
-  slug: "incentive-travel-programs",
-  category: "Corporate Solutions",
-  title: "Incentive Travel (MICE)",
-  shortDescription:
-    "Reward-based travel programs designed to motivate employees, distributors, and dealer networks through memorable experiences.",
-  image:
-    "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
-  content: {
-    heading: "Incentive Travel Programs",
-    description:
-      "We design memorable incentive travel experiences that recognize achievements and motivate employees, distributors, and dealer networks.",
-    features: [
-      "Employee Incentive Travel",
-      "Dealer Incentive Programs",
-      "Distributor Rewards",
-      "Corporate Travel Experiences",
-    ],
-  },
-},
+// {
+//   id: 7,
+//   slug: "incentive-travel-programs",
+//   category: "Corporate Solutions",
+//   title: "Incentive Travel (MICE)",
+//   shortDescription:
+//     "Reward-based travel programs designed to motivate employees, distributors, and dealer networks through memorable experiences.",
+//   image:
+//     "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+//   content: {
+//     heading: "Incentive Travel Programs",
+//     description:
+//       "We design memorable incentive travel experiences that recognize achievements and motivate employees, distributors, and dealer networks.",
+//     features: [
+//       "Employee Incentive Travel",
+//       "Dealer Incentive Programs",
+//       "Distributor Rewards",
+//       "Corporate Travel Experiences",
+//     ],
+//   },
+// },
 
-{
-  id: 8,
-  slug: "influencer-marketing-services",
-  category: "Corporate Solutions",
-  title: "Influencer Marketing",
-  shortDescription:
-    "Strategic influencer marketing solutions that help brands increase awareness, engagement, and audience reach.",
-  image:
-    "https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&w=1200&q=80",
-  content: {
-    heading: "Influencer Marketing Services",
-    description:
-      "Our influencer marketing solutions connect brands with relevant creators to build awareness, engage target audiences, and strengthen brand visibility.",
-    features: [
-      "Influencer Campaigns",
-      "Creator Collaborations",
-      "Brand Awareness Campaigns",
-      "Social Media Engagement",
-    ],
-  },
-},
+// {
+//   id: 8,
+//   slug: "influencer-marketing-services",
+//   category: "Corporate Solutions",
+//   title: "Influencer Marketing",
+//   shortDescription:
+//     "Strategic influencer marketing solutions that help brands increase awareness, engagement, and audience reach.",
+//   image:
+//     "https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&w=1200&q=80",
+//   content: {
+//     heading: "Influencer Marketing Services",
+//     description:
+//       "Our influencer marketing solutions connect brands with relevant creators to build awareness, engage target audiences, and strengthen brand visibility.",
+//     features: [
+//       "Influencer Campaigns",
+//       "Creator Collaborations",
+//       "Brand Awareness Campaigns",
+//       "Social Media Engagement",
+//     ],
+//   },
+// },
 ];
 
 export const engagementSolutions = [

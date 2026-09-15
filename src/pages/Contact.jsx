@@ -24,9 +24,8 @@ const Contact = () => {
             Big or small, every requirement matters.
           </p>
 
-          <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-[3rem] font-extrabold text-white mb-7 leading-[1.1] tracking-tight">
-            Customized. Branded.
-            <br className="hidden md:block" />
+          <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-[2.5rem] font-extrabold text-white mb-7 leading-[1.1] tracking-tight">
+            Customized. Branded. 
             Delivered.{" "}
             {/* <span className="text-orange-500">
               Let's Connect.
@@ -50,7 +49,7 @@ const Contact = () => {
       {/* =====================================================
           CONTACT FORM SECTION
       ====================================================== */}
-      <section className="bg-gray-50 py-20 md:py-24 px-4 sm:px-6 lg:px-8 font-sans">
+      <section className="bg-gray-50 py-20 md:py-12 px-4 sm:px-6 lg:px-8 font-sans">
         <div className="max-w-7xl mx-auto">
 
           {/* Section Heading */}
@@ -211,7 +210,7 @@ const Contact = () => {
                 </p>
 
                 <Link
-                  to="/proposal"
+                  to="/contact"
                   className="inline-flex items-center gap-2 mt-3 text-orange-500 font-semibold hover:text-orange-400 transition"
                 >
                   Request a Proposal
@@ -240,12 +239,13 @@ const Contact = () => {
       {/* =====================================================
           MAP SECTION
       ====================================================== */}
-      <section className="bg-white py-20 md:py-24 px-4 sm:px-6 lg:px-8">
+      {/* <section className="bg-white py-20 md:py-24 px-4 sm:px-6 lg:px-8"> */}
 
-        <div className="max-w-7xl mx-auto">
+        {/* <div className="max-w-7xl mx-auto">
+         */}
 
           {/* Heading */}
-          <div className="mb-10">
+          {/* <div className="mb-10">
 
             <p className="text-orange-500 text-sm font-bold tracking-[0.2em] uppercase mb-3">
               Find Us
@@ -277,26 +277,26 @@ const Contact = () => {
 
             </div>
 
-          </div>
+          </div> */}
 
 
           {/* Map */}
-          <div className="rounded-3xl overflow-hidden shadow-xl border border-gray-200 h-[350px] md:h-[450px]">
+          {/* <div className="rounded-3xl overflow-hidden shadow-xl border border-gray-200 h-[350px] md:h-[450px]">
 
             <iframe
               title="Promaxify Marketing Solutions Location"
-              src="https://www.google.com/maps?q=D%20367%2F368%2C%20Nawada%20Housing%20Complex%2C%20New%20Delhi%2C%20Delhi%20110059&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.672833906762!2d77.11055694706425!3d28.699431812979505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03e49f874e7f%3A0xcd566da7527ab9b!2sMangalam%20Place%2C%20Sector%203%2C%20Rohini%2C%20Delhi%2C%20110085!5e0!3m2!1sen!2sin!4v1789472784463!5m2!1sen!2sin"
               className="w-full h-full border-0"
               loading="lazy"
               allowFullScreen
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
 
-          </div>
+          </div> */}
 
-        </div>
+        {/* </div> */}
 
-      </section>
+      {/* </section> */}
 
 
       {/* =====================================================
@@ -323,14 +323,14 @@ const Contact = () => {
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
 
             <Link
-              to="/partner"
+              to="/partner-network"
               className="bg-white text-[#ff7a00] px-8 py-4 rounded-full font-semibold transition duration-300 hover:bg-[#111111] hover:text-white"
             >
               Become a Partner
             </Link>
 
             <Link
-              to="/proposal"
+              to="/contact"
               className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold transition duration-300 hover:bg-white hover:text-[#ff7a00]"
             >
               Request a Proposal

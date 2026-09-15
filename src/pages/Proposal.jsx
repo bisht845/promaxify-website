@@ -285,12 +285,12 @@ const Proposal = () => {
 
 
             {/* Button */}
-            <button
+            <Link to="/contact"
               type="submit"
               className="mt-8 bg-[#ff7a00] text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-[#111111] transition duration-300"
             >
               Request Proposal →
-            </button>
+            </Link>
 
           </form>
 

@@ -141,8 +141,8 @@ useEffect(() => {
 
     setCount({
       years: Math.floor(ease * 15),
-      brands: Math.floor(ease * 500),
-      units: Math.floor(ease * 50000),
+      brands: Math.floor(ease * 100),
+      units: Math.floor(ease * 3),
       delivery: Math.floor(ease * 100),
     });
 
@@ -187,22 +187,22 @@ useEffect(() => {
         <div className="relative z-10 max-w-[1440px] mx-auto w-full px-8 md:px-1 py-15">
           <div className="max-w-4xl">
             {/* Subheading */}
-            <div className="flex items-center space-x-4 mb-6 mt-12">
+            {/* <div className="flex items-center space-x-4 mb-6 mt-12">
               <div className="h-0.5 w-16 bg-[#ff7a00]"></div>
               <span className="text-sm font-bold tracking-[0.15em] uppercase text-gray-100">
-                Corporate Branding. Lasting Impressions.
+                Corporate Branding & Engagement Solutions
               </span>
-            </div>
+            </div> */}
 
             {/* Main Heading */}
-            <h1 className="text-5xl md:text-[4rem] font-black uppercase leading-[1.05] mb-8 tracking-tight text-white">
-              Brands That <br />
-              <span className="text-[#ff7a00]">Get Remembered</span>
+            <h1 className="text-5xl md:text-[3rem] font-black  leading-[1.05] mb-8 tracking-tight text-white pt-10">
+              Corporate Branding & <br />
+              <span className="text-[#ff7a00]">Engagement Solutions</span>
             </h1>
 
             {/* Description */}
-            <p className="text-lg md:text-xl text-gray-400 max-w-2xl mb-12 leading-relaxed font-light">
-              Promaxify Marketing Solutions specializes in premium corporate branding, delivering customized promotional merchandise, tailored gifting, and engagement-driven programs.
+            <p className="text-lg md:text-sm text-gray-400 max-w-2xl mb-12 leading-relaxed font-light">
+             Promaxify Marketing Solutions LLP specializes in corporate branding, and engagement solutions, offering customized promotional merchandise, corporate gifting, customized apparel, event, sports & exhibition merchandise, and engagement-driven programs.
             </p>
 
             {/* Action Buttons */}
@@ -253,8 +253,7 @@ useEffect(() => {
           {/* Main Heading */}
           <h2 className="mb-6 text-4xl font-black uppercase leading-tight tracking-tight text-white sm:text-5xl md:text-5xl">
             Brands That <br className="hidden md:block" />
-
-            Choose <span className="text-[#ff7a00]">Promaxify</span>
+Trust <span className="text-[#ff7a00]">Promaxify</span>
           </h2>
 
           {/* Description */}
@@ -538,7 +537,7 @@ useEffect(() => {
       {/* Stat 3 */}
       <div className="flex-1 flex flex-col items-center w-full py-8 md:py-0">
         <h3 className="text-6xl md:text-[2.5rem] font-black leading-none mb-4 tracking-tight">
-          {count.units.toLocaleString()}+
+          {count.units.toLocaleString()}M+
         </h3>
 
         <p className="text-[11px] md:text-xs font-bold uppercase tracking-[0.15em] text-white">
@@ -787,10 +786,10 @@ useEffect(() => {
             </p>
 
             <h2 className="text-4xl font-light leading-tight text-white sm:text-3xl lg:text-4xl">
-              Ideas, experiences &
-              <span className="block font-normal">
+               Experiences & Engagements
+              {/* <span className="block font-normal">
                 work that create impact.
-              </span>
+              </span> */}
             </h2>
           </div>
 
@@ -959,9 +958,9 @@ useEffect(() => {
         {/* Right Side: Content & Call to Actxion */}
         <div className="flex flex-col justify-center">
           <h2 className="text-3xl md:text-4xl lg:text-4xl font-bold mb-6 tracking-tight">
-            Partner Network (PPP)
+            Promaxify Partner Network (PPP)
           </h2>
-          
+            
           <p className="text-gray-300 text-lg md:text-[16px] leading-relaxed mb-8">
             We collaborate with consultants, agencies, and professionals through our Partner Network, enabling organizations to access corporate branding and engagement solutions through trusted referrals.
           </p>
@@ -980,12 +979,12 @@ useEffect(() => {
       <div className="max-w-7xl mx-auto">
         
         {/* Top Content Area */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-4xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 tracking-tight text-white">
             Associate Companies
           </h2>
           <p className="text-gray-400 text-lg leading-relaxed">
-            Yes! We are equally committed to serve your requirements by our professional skillsets — together with our associate companies we are dedicated to cater to all your diverse requirements. You may visit the respective website for more details.
+           Together with our associate companies we are dedicated to cater to all your diverse requirements.
           </p>
         </div>
 
@@ -1015,25 +1014,26 @@ useEffect(() => {
       <section className="bg-[#ff7a00] py-16 px-6 md:px-16">
     <div className="max-w-[1440px] mx-auto text-center">
 
-      <p className="text-white/80 uppercase tracking-[3px] text-sm font-semibold mb-4">
+      {/* <p className="text-white/80 uppercase tracking-[3px] text-sm font-semibold mb-4">
         Let's Build Something Great
-      </p>
+      </p> */}
 
       <h2 className="text-white text-4xl md:text-5xl font-bold mb-5">
-        Let’s Work Together
+       Let’s Create Something <br />
+       Exceptional for Your Brand
       </h2>
 
-      <p className="text-white/90 text-lg max-w-2xl mx-auto mb-8 leading-relaxed">
+      {/* <p className="text-white/90 text-lg max-w-2xl mx-auto mb-8 leading-relaxed">
         Partner with Promaxify to create innovative branding and engagement
         solutions that make a lasting impact.
-      </p>
+      </p> */}
 
       {/* CTA Buttons */}
       <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
 
         {/* Button 1 */}
         <Link
-          to="/partner"
+          to="/partner-network"
           className="bg-white text-[#ff7a00] px-8 py-4 rounded-full font-semibold transition duration-300 hover:bg-[#111111] hover:text-white"
         >
           Become a Partner
@@ -1041,7 +1041,7 @@ useEffect(() => {
 
         {/* Button 2 */}
         <Link
-          to="/proposal"
+          to="/contact"
           className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold transition duration-300 hover:bg-white hover:text-[#ff7a00]"
         >
           Request a Proposal

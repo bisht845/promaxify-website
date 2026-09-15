@@ -321,7 +321,7 @@ function PartnerNetwork() {
           {/* Heading */}
           <h2 className="mt-5 text-3xl font-bold leading-tight tracking-tight sm:text-4xl md:text-5xl">
 
-            Let's Create More Value.
+            Let’s Build What’s Next.
 
             <span className="text-[#ff7a00]">
               {" "}Together.
@@ -391,7 +391,7 @@ function PartnerNetwork() {
 
           {/* Supporting text */}
           <p className="mt-5 text-sm text-gray-500">
-            Start with a conversation. Explore the possibilities.
+           No forms. No waiting. Just a direct conversation.
           </p>
 
         </div>

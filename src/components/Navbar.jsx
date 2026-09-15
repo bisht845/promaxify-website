@@ -85,7 +85,7 @@ const Navbar = () => {
             text-[#ff7a00]
             shrink-0
           "
-        ><img src={logo} alt="Promaxify"  className="h-8 sm:h-9 md:h-10 lg:h-11 w-auto object-contain"/>
+        ><img src={logo} alt="Promaxify"  className="h-8 sm:h-9 md:h-10 lg:h-10 w-auto object-contain"/>
         </Link>
 
         {/* =========================
@@ -340,7 +340,7 @@ const Navbar = () => {
         ========================== */}
         <div className="hidden lg:block">
           <Link
-            to="/proposal"
+            to="/contact"
             className="
               inline-flex
               items-center
@@ -748,7 +748,7 @@ const Navbar = () => {
 
             {/* MOBILE CTA */}
             <Link
-              to="/proposal"
+              to="/contact"
               onClick={closeMobileMenu}
               className="
                 mt-5
