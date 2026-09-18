@@ -780,7 +780,7 @@ With Promaxify’s expertise in material selection, printing, and finishing, you
     id: 7,
     slug: "mice-kits-project",
     category: "Engagement Solutions",
-    title: "  ",
+    title: "MICE kits",
 
     shortDescription:
       "Customized MICE kits designed to enhance corporate meetings, incentive programs, conferences and business travel experiences.",

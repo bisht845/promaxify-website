@@ -279,7 +279,7 @@ const About = () => {
           </div>
         </section>
 
-        <section className="bg-[#111111] py-24 px-6 md:px-16">
+        <section className="bg-[#111111] py-14 px-6 md:px-16">
           <div className="max-w-[1440px] mx-auto">
 
             {/* Section Header */}
@@ -341,7 +341,7 @@ const About = () => {
         </section>
 
         {/* 4. Methodology Section */}
-        <section className="py-24 bg-black/30">
+        <section className="py-12 bg-black/30">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <span className="text-orange-500 font-semibold tracking-wider uppercase text-sm">Our Methodology</span>
@@ -384,11 +384,11 @@ const About = () => {
 
       </div>
       {/* {/* 5. Why Choose */}  
-      <section className="bg-[#111111] py-24 px-6 md:px-16">
+      <section className="bg-[#111111] py-14 px-6 md:px-16">
         <div className="max-w-[1440px] mx-auto">
 
           {/* Section Header */}
-          <div className="max-w-3xl mb-16">
+          <div className="max-w-3xl mb-10">
             {/* <p className="text-[#ff7a00] uppercase tracking-[3px] text-sm font-semibold mb-4">
               Why Promaxify
             </p> */}
@@ -405,7 +405,7 @@ const About = () => {
 
 
           {/* Key Strengths */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5 mb-24">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5 mb-5">
 
             {/* 01 */}
             <div className="bg-[#1a1a1a] border border-gray-800 hover:border-[#ff7a00] p-6 rounded-xl transition duration-300 group">

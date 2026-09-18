@@ -402,15 +402,14 @@ const FAQ = () => {
 
             <div className="flex flex-col sm:flex-row gap-3 shrink-0">
 
-              <a
-                href="/contact"
+              <Link
+                to="/contact"
                 className="bg-[#111111] text-white px-7 py-4 rounded-full font-bold text-sm text-center hover:bg-black transition-all duration-300"
               >
                 Contact Us
-              </a>
-
+              </Link>
               <Link
-                href="/contact"
+                to="/contact"
                 className="bg-white text-[#111111] px-7 py-4 rounded-full font-bold text-sm text-center hover:bg-gray-100 transition-all duration-300"
               >
                 Request a Proposal

@@ -15,189 +15,252 @@ function Footer() {
   <div className="max-w-[1440px] mx-auto w-full">
 
     {/* Main Footer Content */}
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 mb-16">
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 mb-16">
 
-      {/* Column 1: Brand Info */}
-      <div className="lg:col-span-4 pr-0 lg:pr-8">
-        <div className="flex items-center mb-6">
-        <img src={logo} alt="Promaxify"  className="h-8 sm:h-9 md:h-10 lg:h-11 w-auto object-contain"/>
-        </div>
+  {/* Column 1: Brand Info */}
+  <div className="lg:col-span-4 pr-0 lg:pr-8">
+    <div className="flex items-center mb-6">
+      <img
+        src={logo}
+        alt="Promaxify"
+        className="h-8 sm:h-9 md:h-10 lg:h-11 w-auto object-contain"
+      />
+    </div>
 
-        <p className="text-[15px] leading-relaxed mb-2">
-          New Delhi | Mumbai |  Goa | Patna 
-        </p>
-        <p className="text-[15px] leading-relaxed mb-2">
-          info@promaxifymarketing.com
-        </p>
-        <p className="text-[15px] leading-relaxed mb-2">
-          +91 9625754262
-        </p>
-        
+    <p className="text-[15px] leading-relaxed mb-2">
+      New Delhi | Mumbai | Goa | Patna
+    </p>
 
-        <div className="text-[15px] leading-relaxed space-y-4">
-          <p>Promaxify Marketing Solutions LLP</p>
-        </div>
-      </div>
+    {/* Email */}
+    <p className="text-[15px] leading-relaxed mb-2">
+      <a
+        href="mailto:info@promaxifymarketing.com"
+        className="hover:text-[#ff7a00] transition-colors"
+      >
+        info@promaxifymarketing.com
+      </a>
+    </p>
 
+    {/* Phone */}
+    <p className="text-[15px] leading-relaxed mb-2">
+      <a
+        href="tel:+919625754262"
+        className="hover:text-[#ff7a00] transition-colors"
+      >
+        +91 9625754262
+      </a>
+    </p>
 
-      {/* Column 2: Solutions */}
-      <div className="lg:col-span-2">
-        <h4 className="text-white font-bold uppercase tracking-widest text-sm mb-6">
-          Solutions
-        </h4>
-
-        <ul className="space-y-4 text-[15px]">
-          <li>
-            <a href="#" className="hover:text-[#ff7a00] transition-colors">
-              Corporate Solutions
-            </a>
-          </li>
-
-          <li>
-            <a href="#" className="hover:text-[#ff7a00] transition-colors">
-              Engagement Solutions
-            </a>
-          </li>
-
-          <li>
-            <a href="#" className="hover:text-[#ff7a00] transition-colors">
-              Custom Apparel
-            </a>
-          </li>
-
-          <li>
-            <a href="#" className="hover:text-[#ff7a00] transition-colors">
-              Promo Merchandise
-            </a>
-          </li>
-        </ul>
-      </div>
+    <div className="text-[15px] leading-relaxed space-y-4">
+      <p>Promaxify Marketing Solutions LLP</p>
+    </div>
+  </div>
 
 
-      {/* Column 3: Insights */}
-      <div className="lg:col-span-2">
-        <h4 className="text-white font-bold uppercase tracking-widest text-sm mb-6">
-          Insights
-        </h4>
+{/* Column 2: Solutions */}
+<div className="lg:col-span-2">
+  <h4 className="text-white font-bold uppercase tracking-widest text-sm mb-6">
+    Solutions
+  </h4>
 
-        <ul className="space-y-4 text-[15px]">
-          <li>
-            <a href="#" className="hover:text-[#ff7a00] transition-colors">
-              Corporate Programs
-            </a>
-          </li>
+  <ul className="space-y-4 text-[15px]">
+    <li>
+      <Link
+        to="/services"
+        className="hover:text-[#ff7a00] transition-colors"
+      >
+        Corporate Solutions
+      </Link>
+    </li>
 
-          <li>
-            <a href="#" className="hover:text-[#ff7a00] transition-colors">
-              Resources & Guides
-            </a>
-          </li>
+    <li>
+      <Link
+        to="/services"
+        className="hover:text-[#ff7a00] transition-colors"
+      >
+        Engagement Solutions
+      </Link>
+    </li>
 
-          <li>
-            <a href="#" className="hover:text-[#ff7a00] transition-colors">
-              Partner Network
-            </a>
-          </li>
+    <li>
+      <Link
+        to="/services"
+        className="hover:text-[#ff7a00] transition-colors"
+      >
+        Custom Apparel
+      </Link>
+    </li>
 
-          <li>
-            <a href="#" className="hover:text-[#ff7a00] transition-colors">
-              Case Studies
-            </a>
-          </li>
-        </ul>
-      </div>
-
-
-      {/* Column 4: Company */}
-      <div className="lg:col-span-2">
-        <h4 className="text-white font-bold uppercase tracking-widest text-sm mb-6">
-          Quick Link
-        </h4>
-
-        <ul className="space-y-4 text-[15px]">
-          <li>
-            <Link to="/about" className="hover:text-[#ff7a00] transition-colors">
-              About Us
-            </Link>
-          </li>
-
-          <li>
-            <Link to="/contact" className="hover:text-[#ff7a00] transition-colors">
-              Contact
-            </Link>
-          </li>
-
-          <li>
-            <Link to="/services" className="hover:text-[#ff7a00] transition-colors">
-              Services
-            </Link>
-          </li>
-          <li>
-            <Link to="/faq" className="hover:text-[#ff7a00] transition-colors">
-              FAQ
-            </Link>
-          </li>
-        </ul>
-      </div>
+    <li>
+      <Link
+        to="/services"
+        className="hover:text-[#ff7a00] transition-colors"
+      >
+        Promo Merchandise
+      </Link>
+    </li>
+  </ul>
+</div>
 
 
-      {/* Column 5: Social Media */}
-      <div className="lg:col-span-2">
+{/* Column 3: Insights */}
+<div className="lg:col-span-2">
+  <h4 className="text-white font-bold uppercase tracking-widest text-sm mb-6">
+    Insights
+  </h4>
 
-        <h4 className="text-white font-bold uppercase tracking-widest text-sm mb-6">
-          Follow Us
-        </h4>
+  <ul className="space-y-4 text-[15px]">
+    <li>
+      <Link
+        to="/insights"
+        className="hover:text-[#ff7a00] transition-colors"
+      >
+        Corporate Programs
+      </Link>
+    </li>
 
-        <p className="text-[15px] leading-relaxed mb-6">
-          Connect with us and stay updated with our latest work and insights.
-        </p>
+    <li>
+      <Link
+        to="/insights"
+        className="hover:text-[#ff7a00] transition-colors"
+      >
+        Resources & Guides
+      </Link>
+    </li>
+
+    <li>
+      <Link
+        to="/partner-network"
+        className="hover:text-[#ff7a00] transition-colors"
+      >
+        Partner Network
+      </Link>
+    </li>
+
+    <li>
+      <Link
+        to="/insights"
+        className="hover:text-[#ff7a00] transition-colors"
+      >
+        Case Studies
+      </Link>
+    </li>
+  </ul>
+</div>
 
 
-        {/* Social Media Icons */}
-        <div className="flex flex-wrap gap-3">
+{/* Column 4: Quick Links */}
+<div className="lg:col-span-2">
+  <h4 className="text-white font-bold uppercase tracking-widest text-sm mb-6">
+    Quick Link
+  </h4>
 
-          {/* LinkedIn */}
-          <a
-            href="#"
-            aria-label="LinkedIn"
-            className="w-10 h-10 bg-[#1a1a1a] border border-gray-800 flex items-center justify-center text-white hover:bg-[#ff7a00] hover:border-[#ff7a00] transition-all duration-300"
-          >
-            <FaLinkedinIn className="text-lg" />
-          </a>
+  <ul className="space-y-4 text-[15px]">
+    <li>
+      <Link
+        to="/about"
+        className="hover:text-[#ff7a00] transition-colors"
+      >
+        About Us
+      </Link>
+    </li>
+
+    <li>
+      <Link
+        to="/contact"
+        className="hover:text-[#ff7a00] transition-colors"
+      >
+        Contact
+      </Link>
+    </li>
+
+    <li>
+      <Link
+        to="/services"
+        className="hover:text-[#ff7a00] transition-colors"
+      >
+        Services
+      </Link>
+    </li>
+
+    <li>
+      <Link
+        to="/faq"
+        className="hover:text-[#ff7a00] transition-colors"
+      >
+        FAQ
+      </Link>
+    </li>
+
+  </ul>
+</div>
+
+  {/* Column 5: Social Media */}
+  <div className="lg:col-span-2">
+
+    <h4 className="text-white font-bold uppercase tracking-widest text-sm mb-6">
+      Follow Us
+    </h4>
+
+    <p className="text-[15px] leading-relaxed mb-6">
+      Connect with us and stay updated with our latest work and insights.
+    </p>
 
 
-          {/* Instagram */}
-          <a
-            href="#"
-            aria-label="Instagram"
-            className="w-10 h-10 bg-[#1a1a1a] border border-gray-800 flex items-center justify-center text-white hover:bg-[#ff7a00] hover:border-[#ff7a00] transition-all duration-300"
-          >
-            <FaInstagram className="text-lg" />
-          </a>
+    {/* Social Media Icons */}
+    <div className="flex flex-wrap gap-3">
+
+      {/* LinkedIn */}
+      <a
+        href="https://www.linkedin.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="LinkedIn"
+        className="w-10 h-10 bg-[#1a1a1a] border border-gray-800 flex items-center justify-center text-white hover:bg-[#ff7a00] hover:border-[#ff7a00] transition-all duration-300"
+      >
+        <FaLinkedinIn className="text-lg" />
+      </a>
 
 
-          {/* Facebook */}
-          <a
-            href="#"
-            aria-label="Facebook"
-            className="w-10 h-10 bg-[#1a1a1a] border border-gray-800 flex items-center justify-center text-white hover:bg-[#ff7a00] hover:border-[#ff7a00] transition-all duration-300"
-          >
-            <FaFacebookF className="text-lg" />
-          </a>
+      {/* Instagram */}
+      <a
+        href="https://www.instagram.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Instagram"
+        className="w-10 h-10 bg-[#1a1a1a] border border-gray-800 flex items-center justify-center text-white hover:bg-[#ff7a00] hover:border-[#ff7a00] transition-all duration-300"
+      >
+        <FaInstagram className="text-lg" />
+      </a>
 
-          {/* X / Twitter */}
-          <a
-            href="#"
-            aria-label="X"
-            className="w-10 h-10 bg-[#1a1a1a] border border-gray-800 flex items-center justify-center text-white hover:bg-[#ff7a00] hover:border-[#ff7a00] transition-all duration-300"
-          >
-            <FaXTwitter className="text-lg" />
-          </a>
 
-        </div>
-      </div>
+      {/* Facebook */}
+      <a
+        href="https://www.facebook.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Facebook"
+        className="w-10 h-10 bg-[#1a1a1a] border border-gray-800 flex items-center justify-center text-white hover:bg-[#ff7a00] hover:border-[#ff7a00] transition-all duration-300"
+      >
+        <FaFacebookF className="text-lg" />
+      </a>
+
+
+      {/* X / Twitter */}
+      <a
+        href="https://x.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="X"
+        className="w-10 h-10 bg-[#1a1a1a] border border-gray-800 flex items-center justify-center text-white hover:bg-[#ff7a00] hover:border-[#ff7a00] transition-all duration-300"
+      >
+        <FaXTwitter className="text-lg" />
+      </a>
 
     </div>
+  </div>
+
+</div>
 
 
     {/* Sub-footer */}

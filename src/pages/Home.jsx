@@ -184,7 +184,7 @@ useEffect(() => {
         ))}
 
         {/* Content Wrapper (Needs relative z-10 to sit above absolute background images) */}
-        <div className="relative z-10 max-w-[1440px] mx-auto w-full px-8 md:px-1 py-15">
+        <div className="relative z-10 max-w-[1440px] mx-auto w-full px-8 md:px-1 py-22">
           <div className="max-w-4xl">
             {/* Subheading */}
             {/* <div className="flex items-center space-x-4 mb-6 mt-12">
@@ -216,7 +216,7 @@ useEffect(() => {
             </div>
 
             {/* Dynamic Slider Indicators */}
-            <div className="flex gap-2 mt-32">
+            <div className="flex gap-2 mt-16">
               {sliderImages.map((_, index) => (
                 <button
                   key={index}
@@ -231,7 +231,7 @@ useEffect(() => {
         </div>
       </header>
 
-      <section className="relative overflow-hidden bg-[#1A1A1A] py-24">
+      <section className="relative overflow-hidden bg-[#1A1A1A] py-14">
 
         {/* Background Glow */}
         <div className="pointer-events-none absolute left-1/2 top-[45%] h-[300px] w-[700px] -translate-x-1/2 rounded-full bg-[#ff7a00]/10 blur-[140px]" />
@@ -368,7 +368,7 @@ Trust <span className="text-[#ff7a00]">Promaxify</span>
 
       </section>
 
-      <section className="py-24 bg-gradient-to-br from-[#151515] to-[#1b1816] text-white relative overflow-hidden">
+      <section className="py-18 bg-gradient-to-br from-[#151515] to-[#1b1816] text-white relative overflow-hidden">
         <div className="bg-noise absolute inset-0 opacity-20 pointer-events-none"></div>
         <div className="absolute top-0 right-0 w-1/2 h-full bg-white/5 skew-x-12 translate-x-1/4 pointer-events-none"></div>
 
@@ -705,7 +705,7 @@ Trust <span className="text-[#ff7a00]">Promaxify</span>
 
             <div>
 
-              <p
+              {/* <p
                 className="
                   text-[#ff7a00]
                   text-xs
@@ -718,7 +718,7 @@ Trust <span className="text-[#ff7a00]">Promaxify</span>
 
                 {item.category}
 
-              </p>
+              </p> */}
 
 
               <h3
@@ -774,7 +774,7 @@ Trust <span className="text-[#ff7a00]">Promaxify</span>
       {/* --- END RECENT WORK / PORTFOLIO SECTION --- */}
 
       {/* insight work  */}
-    <section className="bg-[#111111] py-20 md:py-28">
+    <section className="bg-[#111111] py-20 md:py-18">
       <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
 
         {/* ================= HEADER ================= */}
@@ -803,7 +803,7 @@ Trust <span className="text-[#ff7a00]">Promaxify</span>
           {insightData.map((item) => (
             <article
               key={item.id}
-              className="group relative overflow-hidden rounded-3xl border border-white/10 bg-[#1a1a1a]"
+              className="group relative overflow-hidden  border border-white/10 bg-[#1a1a1a]"
             >
 
               {/* IMAGE */}
@@ -839,7 +839,7 @@ Trust <span className="text-[#ff7a00]">Promaxify</span>
                 {/* Content over image */}
                 <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-8">
 
-                  <h3 className="mb-3 text-2xl font-medium text-white sm:text-2xl">
+                  <h3 className="mb-3 text-xl font-medium text-white sm:text-xl">
                     {item.title}
                   </h3>
 
@@ -859,7 +859,7 @@ Trust <span className="text-[#ff7a00]">Promaxify</span>
     </section>
       {/* insight work  */}
       {/* --- CLIENT SUCCESS / TESTIMONIALS SECTION --- */}
-       <section className="bg-[#151515] py-24 px-8 md:px-16 relative overflow-hidden">
+       <section className="bg-[#151515] py-12 px-8 md:px-16 relative overflow-hidden">
       
       {/* Large Background Watermark Quotes */}
       <div className="absolute top-0 right-10 text-[30rem] font-black text-white/[0.02] leading-none select-none pointer-events-none hidden lg:block font-serif">
@@ -887,7 +887,7 @@ Trust <span className="text-[#ff7a00]">Promaxify</span>
               <div
                 key={`${testimonial.id}-${index}`}
                 className={`bg-[#1e1e1e] p-10 flex flex-col justify-between shrink-0
-                  w-[320px] sm:w-[380px] min-h-[400px]
+                  w-[320px] sm:w-[300px] min-h-[400px]
                   transition-colors duration-300
                   ${
                     testimonial.featured
@@ -900,14 +900,14 @@ Trust <span className="text-[#ff7a00]">Promaxify</span>
                 <div>
                   {/* Quote Icon */}
                   <svg
-                    className="w-12 h-12 text-[#ff7a00] mb-8"
+                    className="w-10 h-10 text-[#ff7a00] mb-2"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >
                     <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
                   </svg>
 
-                  <p className="text-gray-300 text-[17px] leading-relaxed mb-10">
+                  <p className="text-gray-300 text-[17px] leading-relaxed">
                     "{testimonial.review}"
                   </p>
                 </div>
@@ -975,7 +975,7 @@ Trust <span className="text-[#ff7a00]">Promaxify</span>
       </div>
     </section>
       {/* --- END PArtner PROJECT SECTION --- */}
-      <section className="bg-[#151515] text-white py-20 px-4 sm:px-6 lg:px-8">
+      <section className="bg-[#151515] text-white py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         
         {/* Top Content Area */}

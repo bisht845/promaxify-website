@@ -187,7 +187,7 @@ From customized apparel and promotional merchandise to employee engagement, MICE
       </section>
 
       {/* Partner Network Section */}
-      <section className="text-center py-24 px-4 bg-[#141414] border-t border-gray-800">
+      <section className="text-center py-14 px-4 bg-[#141414] border-t border-gray-800">
         <h3 className="text-orange-500 font-bold text-sm tracking-[0.2em] mb-4 uppercase">
           Partner Network
         </h3>
