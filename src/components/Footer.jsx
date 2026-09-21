@@ -115,7 +115,7 @@ function Footer() {
         to="/insights"
         className="hover:text-[#ff7a00] transition-colors"
       >
-        Corporate Programs
+       Customized Apparel
       </Link>
     </li>
 
@@ -124,16 +124,7 @@ function Footer() {
         to="/insights"
         className="hover:text-[#ff7a00] transition-colors"
       >
-        Resources & Guides
-      </Link>
-    </li>
-
-    <li>
-      <Link
-        to="/partner-network"
-        className="hover:text-[#ff7a00] transition-colors"
-      >
-        Partner Network
+        Bags & Baggage
       </Link>
     </li>
 
@@ -142,7 +133,16 @@ function Footer() {
         to="/insights"
         className="hover:text-[#ff7a00] transition-colors"
       >
-        Case Studies
+        Employee engagement
+      </Link>
+    </li>
+
+    <li>
+      <Link
+        to="/insights"
+        className="hover:text-[#ff7a00] transition-colors"
+      >
+        Customized solutions
       </Link>
     </li>
   </ul>
