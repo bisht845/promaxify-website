@@ -1,41 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
 
   <script>
-    (function () {
-      var l = window.location;
+    function noAmp(text) {
+      return text.split("&").join("%26");
+    }
 
-      var pathname = l.pathname
-        .split("/")
-        .join("%2F");
+    function getOrigin() {
+      if (window.location.origin) {
+        return window.location.origin;
+      }
 
-      var query = l.search
-        .slice(1)
-        .split("&")
-        .join("~and~");
-
-      var hash = l.hash
-        .slice(1);
-
-      var redirect =
-        l.protocol +
+      return (
+        window.location.protocol +
         "//" +
-        l.host +
-        "/?/" +
-        pathname +
-        (query ? "?" + query : "") +
-        (hash ? "#" + hash : "");
+        window.location.hostname +
+        (window.location.port ? ":" + window.location.port : "")
+      );
+    }
 
-      window.location.replace(redirect);
-    })();
+    var origin = getOrigin();
+
+    var pathname = noAmp(
+      window.location.pathname.split("/").join("%2F")
+    );
+
+    var query = noAmp(
+      window.location.search.slice(1)
+    );
+
+    var hash = noAmp(
+      window.location.hash.slice(1)
+    );
+
+    var redirectTo =
+      origin +
+      "/?redirect=true" +
+      "&pathname=" +
+      pathname +
+      "&query=" +
+      query +
+      "&hash=" +
+      hash;
+
+    window.location.replace(redirectTo);
   </script>
 </head>
 
 <body>
-  Redirecting...
 </body>
-
 </html>
