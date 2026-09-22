@@ -83,71 +83,29 @@ function ScrollToTop() {
 const App = () => {
   return (
     <BrowserRouter>
-
       <ScrollToTop />
-
       <Routes>
+      <Route element={<Layout />}>
 
-        <Route element={<Layout />}>
+          <Route index element={<Home />} />              // /
 
-          <Route index element={<Home />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/services/:slug" element={<ServiceDetails />} />
 
-          <Route
-            path="/services"
-            element={<Services />}
-          />
+          <Route path="/insights" element={<Insight />} />
+          <Route path="/insights/:slug" element={<ServiceDetails />} />
 
-          <Route
-            path="/services/:slug"
-            element={<ServiceDetails />}
-          />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
 
-          <Route
-            path="/insights"
-            element={<Insight />}
-          />
+          <Route path="/partner" element={<Partner />} />
+          <Route path="/partner-network" element={<PartnerNetwork />} />
 
-          <Route
-            path="/insights/:slug"
-            element={<ServiceDetails />}
-          />
+          <Route path="/proposal" element={<Proposal />} />
+          <Route path="/faq" element={<FaqPage />} />
+          <Route path="/legal" element={<Legal />} />
 
-          <Route
-            path="/about"
-            element={<About />}
-          />
-
-          <Route
-            path="/contact"
-            element={<Contact />}
-          />
-
-          <Route
-            path="/partner"
-            element={<Partner />}
-          />
-
-          <Route
-            path="/partner-network"
-            element={<PartnerNetwork />}
-          />
-
-          <Route
-            path="/proposal"
-            element={<Proposal />}
-          />
-
-          <Route
-            path="/faq"
-            element={<FaqPage />}
-          />
-
-          <Route
-            path="/legal"
-            element={<Legal />}
-          />
-
-        </Route>
+      </Route>
 
       </Routes>
 
