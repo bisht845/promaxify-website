@@ -14,10 +14,13 @@ const Contact = () => {
     content="Get in touch with Promaxify Marketing Solutions for customized corporate branding, promotional products, apparel, events and business solutions."
   />
 </Helmet>
+
+{/* HERO SECTION ====================================================== */} 
+ <section className="bg-[#151515] py-24 md:py-32 px-4 sm:px-6 lg:px-8 font-sans"> <div className="max-w-5xl mx-auto text-center"> {/* <p className="text-orange-500 text-sm md:text-base font-bold tracking-[0.2em] uppercase mb-6"> Big or small, every requirement matters. </p> <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-[2.5rem] font-extrabold text-white mb-7 leading-[1.1] tracking-tight"> Customized. Branded. Delivered.{" "} <span className="text-orange-500"> Let's Connect. </span> </h1> */} <p className="text-xl md:text-2xl text-[#ff7a00] italic font-light mb-8"> "Let's Create Something That Represents Your Brand Better." </p> <div className="w-24 h-1 bg-orange-500 mx-auto mb-8 rounded-full"></div> <p className="text-base md:text-lg text-gray-400 leading-relaxed max-w-4xl mx-auto"> At Promaxify Marketing Solutions, we are dedicated to helping your business grow and succeed. Partner with us and experience the difference of working with a team that truly cares about your brand’s success. Let us help you elevate, maximize, and magnify your brand’s presence in the market. </p> </div> </section>
 {/* =====================================================
     CONTACT FORM + MAP SECTION
 ====================================================== */}
-    <section className="bg-[#1B1B1B] py-20 md:py-12 px-4 sm:px-6 lg:px-8 font-sans mt-15">
+    <section className="bg-[#1B1B1B] py-20 md:py-12 px-4 sm:px-6 lg:px-8 font-sans">
       <div className="max-w-7xl mx-auto">
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
