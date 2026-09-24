@@ -83,7 +83,7 @@ We also provide eco-friendly and customizable options, ensuring your brand stand
     id: 4,
     slug: "custom-printing",
     category: "Corporate Solutions",
-    title: "Custom Printing",
+    title: "Custom Solutions",
     shortDescription:
       "Brochures, Catalogs, ID Cards, Lanyards, Packaging and Brand Materials.",
     image:
@@ -265,7 +265,7 @@ export const engagementSolutions = [
   id: 12,
   slug: "curated-activities",
   category: "Engagement Solutions",
-  title: "Curated activities",
+  title: "Experiential Activities",
 
   shortDescription:
     "Thoughtfully designed activities that create engaging experiences and strengthen connections among employees, clients and teams.",
@@ -597,7 +597,7 @@ With Promaxify’s expertise in material selection, printing, and finishing, you
     id: 4,
     slug: "customized-solutions-project",
     category: "Print Solutions",
-    title: "Customized solutions",
+    title: "Customized Solutions",
 
     shortDescription:
       "Customized printing and branding solutions designed to help businesses communicate their brand professionally across multiple touchpoints.",
@@ -841,7 +841,7 @@ With Promaxify’s expertise in material selection, printing, and finishing, you
     id: 8,
     slug: "promotional-services-project",
     category: "Engagement Solutions",
-    title: "promotional services",
+    title: "advertisement services",
 
     shortDescription:
       "Branded promotional solutions designed to increase visibility, strengthen brand recall and create meaningful customer engagement.",

@@ -54,7 +54,7 @@ textarea {
 }
 
 .animate-scrollTestimonials {
-  animation: scrollTestimonials 25s linear infinite;
+  animation: scrollTestimonials 20s linear infinite;
   will-change: transform;
 }
 

@@ -276,7 +276,7 @@ Trust <span className="text-[#ff7a00]">Promaxify</span>
           {/* Right Fade */}
           <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-20 bg-gradient-to-l from-[#1A1A1A] to-transparent" />
 
-          <div className="flex w-max gap-6 animate-[scrollRight_25s_linear_infinite]">
+          <div className="flex w-max gap-6 animate-[scrollRight_20s_linear_infinite]">
             {firstRowLogos.map((logo, index) => (
               <div
                 key={`row1-${index}`}
@@ -334,7 +334,7 @@ Trust <span className="text-[#ff7a00]">Promaxify</span>
           {/* Right Fade */}
           <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-20 bg-gradient-to-l from-[#1A1A1A] to-transparent" />
 
-        <div className="flex w-max gap-6 animate-[scrollLeft_25s_linear_infinite]">
+        <div className="flex w-max gap-6 animate-[scrollLeft_20s_linear_infinite]">
           {secondRowLogos.map((logo, index) => (
             <div
               key={`row2-${index}`}
@@ -381,8 +381,8 @@ Trust <span className="text-[#ff7a00]">Promaxify</span>
               </span>
             </div>
             <div style={{ opacity: 1, transform: 'none' }}>
-              <h2 className="font-sans font-bold tracking-tight text-white mb-6 text-3xl md:text-5xl">
-                <span>The standard for <span className="text-orange-500">excellence</span>.</span>
+              <h2 className="font-sans font-bold tracking-tight text-white mb-6 text-4xl sm:text-5xl lg:text-4xl">
+                <span>The Standard For <span className="text-orange-500">Excellence</span>.</span>
               </h2>
             </div>
             <p className="text-lg text-neutral-300 font-body leading-relaxed" style={{ opacity: 1, transform: 'none' }}>
@@ -575,8 +575,8 @@ Trust <span className="text-[#ff7a00]">Promaxify</span>
           Recent Work
         </p>
 
-        <h2 className="text-white text-4xl sm:text-5xl lg:text-4xl font-black uppercase tracking-wide">
-          Delivered With Precision
+        <h2 className="font-sans text-white text-4xl sm:text-5xl lg:text-4xl font-bold  tracking-wide">
+          Delivered With <span className='text-[#ff7a00]'>Precision</span> 
         </h2>
 
       </div>
@@ -785,8 +785,8 @@ Trust <span className="text-[#ff7a00]">Promaxify</span>
               Work & Insights
             </p>
 
-            <h2 className="text-4xl font-light leading-tight text-white sm:text-3xl lg:text-4xl">
-               Experiences & Engagements
+            <h2 className="text-4xl font-bold leading-tight text-white sm:text-3xl lg:text-4xl">
+               Experiences & <span className='text-[#ff7a00]'>Engagements</span>
               {/* <span className="block font-normal">
                 work that create impact.
               </span> */}
@@ -874,8 +874,8 @@ Trust <span className="text-[#ff7a00]">Promaxify</span>
             Trusted By Our Clients
           </h4>
 
-          <h2 className="text-white text-5xl md:text-4xl font-black uppercase tracking-tight">
-            Client Success
+          <h2 className="text-white text-5xl md:text-4xl font-bold  tracking-tight">
+            Client <span className='text-[#ff7a00]'>Success</span>
           </h2>
         </div>
 
@@ -980,8 +980,8 @@ Trust <span className="text-[#ff7a00]">Promaxify</span>
         
         {/* Top Content Area */}
         <div className="text-center max-w-4xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 tracking-tight text-white">
-            Associate Companies
+          <h2 className="uppercase text-3xl md:text-4xl font-bold mb-6 tracking-tight text-white">
+            Associate <span className='text-[#ff7a00]'>Companies</span> 
           </h2>
           <p className="text-gray-400 text-lg leading-relaxed">
            Together with our associate companies we are dedicated to cater to all your diverse requirements.

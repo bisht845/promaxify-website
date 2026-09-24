@@ -14,274 +14,164 @@ const Contact = () => {
     content="Get in touch with Promaxify Marketing Solutions for customized corporate branding, promotional products, apparel, events and business solutions."
   />
 </Helmet>
-      {/* =====================================================
-          HERO SECTION
-      ====================================================== */}
-      <section className="bg-[#151515] py-24 md:py-32 px-4 sm:px-6 lg:px-8 font-sans">
-        <div className="max-w-5xl mx-auto text-center">
+{/* =====================================================
+    CONTACT FORM + MAP SECTION
+====================================================== */}
+    <section className="bg-[#1B1B1B] py-20 md:py-12 px-4 sm:px-6 lg:px-8 font-sans mt-15">
+      <div className="max-w-7xl mx-auto">
 
-          <p className="text-orange-500 text-sm md:text-base font-bold tracking-[0.2em] uppercase mb-6">
-            Big or small, every requirement matters.
-          </p>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
 
-          <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-[2.5rem] font-extrabold text-white mb-7 leading-[1.1] tracking-tight">
-            Customized. Branded. 
-            Delivered.{" "}
-            {/* <span className="text-orange-500">
-              Let's Connect.
-            </span> */}
-          </h1>
+          {/* =================================================
+              LEFT - QUICK ENQUIRY
+          ================================================== */}
+          <div className="bg-[#1B1B1B] rounded-3xl p-7 md:p-10 shadow-xl border border-white/10">
 
-          <p className="text-xl md:text-2xl text-gray-400 italic font-light mb-8">
-            "Let's create something that represents your brand better."
-          </p>
+            <div className="mb-8">
 
-          <div className="w-24 h-1 bg-orange-500 mx-auto mb-8 rounded-full"></div>
+              <span className="inline-flex items-center px-4 py-1.5 rounded-full bg-orange-50 text-orange-600 text-sm font-semibold mb-4">
+                Quick Enquiry
+              </span>
 
-          <p className="text-base md:text-lg text-gray-400 leading-relaxed max-w-3xl mx-auto">
-            At Promaxify Marketing Solutions, we are dedicated to helping your business grow and succeed. Partner with us and experience the difference of working with a team that truly cares about your brand’s success. Let us help you elevate, maximize, and magnify your brand’s presence in the market.
-          </p>
+              <h2 className="text-3xl font-bold text-white mb-3">
+                Let's Start a Conversation
+              </h2>
 
-        </div>
-      </section>
+              <p className="text-gray-500 text-sm md:text-base">
+                Tell us briefly about your requirement and our team
+                will connect with you.
+              </p>
 
+            </div>
 
-      {/* =====================================================
-          CONTACT FORM SECTION
-      ====================================================== */}
-      <section className="bg-gray-50 py-20 md:py-12 px-4 sm:px-6 lg:px-8 font-sans">
-        <div className="max-w-7xl mx-auto">
+            <form
+              action="https://api.web3forms.com/submit"
+              method="POST"
+              className="space-y-5"
+            >
 
-          {/* Section Heading */}
-          <div className="text-center mb-14">
+              {/* Web3Forms */}
+              <input
+                type="hidden"
+                name="access_key"
+                value="YOUR_WEB3FORMS_ACCESS_KEY"
+              />
 
-            <p className="text-orange-500 text-sm font-bold tracking-[0.2em] uppercase mb-3">
-              Get In Touch
-            </p>
+              <input
+                type="hidden"
+                name="subject"
+                value="New Contact Enquiry - Promaxify"
+              />
 
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-              Tell Us What You Need
-            </h2>
+              {/* Name + Company */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
 
-            <p className="text-gray-500 max-w-2xl mx-auto">
-              Share a few details about your requirement and our team
-              will get back to you with the right solution.
-            </p>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Full Name"
+                  required
+                  className="w-full px-4 py-3.5 bg-white border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition"
+                />
+
+                <input
+                  type="text"
+                  name="company"
+                  placeholder="Company Name"
+                  className="w-full px-4 py-3.5 bg-white border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition"
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email Address"
+                  required
+                  className="w-full px-4 py-3.5 bg-white border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition"
+                />
+
+                <input
+                  type="tel"
+                  name="phone"
+                  placeholder="Phone Number"
+                  required
+                  className="w-full px-4 py-3.5 bg-white border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition"
+                />
+
+              </div>
+
+              {/* Service */}
+              <select
+                name="service"
+                required
+                className="w-full px-4 py-3.5 bg-white border border-gray-200 rounded-xl text-gray-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition"
+              >
+                <option value="">
+                  Service Interested In
+                </option>
+
+                <option value="Corporate Gifting">
+                  Corporate Gifting
+                </option>
+
+                <option value="Corporate Apparel">
+                  Corporate Apparel & Uniforms
+                </option>
+
+                <option value="Promotional Merchandise">
+                  Promotional Merchandise
+                </option>
+
+                <option value="Branding Solutions">
+                  Branding Solutions
+                </option>
+
+                <option value="Other">
+                  Other
+                </option>
+              </select>
+
+              {/* Message */}
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="Tell us about your requirement..."
+                required
+                className="w-full px-4 py-3.5 bg-white border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition resize-none"
+              ></textarea>
+
+              {/* Button */}
+              <button
+                type="submit"
+                className="w-full py-4 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl transition-all shadow-lg hover:shadow-orange-500/30"
+              >
+                Submit Enquiry
+              </button>
+
+            </form>
+
+            <div className="mt-8 pt-7 border-t border-white/10">
+
+              <p className="text-gray-500 text-sm">
+                Have a specific requirement?
+              </p>
+
+              <Link
+                to="/contact"
+                className="inline-flex items-center gap-2 mt-3 text-orange-500 font-semibold hover:text-orange-400 transition"
+              >
+                Request a Proposal
+                <span>→</span>
+              </Link>
+
+            </div>
 
           </div>
 
 
-          <div className="grid grid-cols-1 lg:grid-cols- gap-8 items-start">
-
-            {/* =================================================
-                LEFT - QUICK ENQUIRY
-            ================================================== */}
-            <div className="bg-[#b1b1b1] rounded-3xl p-7 md:p-10 shadow-xl border border-gray-100">
-
-              <div className="mb-8">
-
-                <span className="inline-flex items-center px-4 py-1.5 rounded-full bg-orange-50 text-orange-600 text-sm font-semibold mb-4">
-                  Quick Enquiry
-                </span>
-
-                <h2 className="text-3xl font-bold text-gray-900 mb-3">
-                  Let's Start a Conversation
-                </h2>
-
-                <p className="text-gray-500 text-sm md:text-base">
-                  Tell us briefly about your requirement and our team
-                  will connect with you.
-                </p>
-
-              </div>
-
-
-              <form
-                action="https://api.web3forms.com/submit"
-                method="POST"
-                className="space-y-5"
-              >
-
-                {/* Web3Forms */}
-                <input
-                  type="hidden"
-                  name="access_key"
-                  value="YOUR_WEB3FORMS_ACCESS_KEY"
-                />
-
-                <input
-                  type="hidden"
-                  name="subject"
-                  value="New Contact Enquiry - Promaxify"
-                />
-
-                {/* Name + Company */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-
-                  <input
-                    type="text"
-                    name="name"
-                    placeholder="Full Name"
-                    required
-                    className="w-full px-4 py-3.5 bg-white border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition"
-                  />
-
-                  <input
-                    type="text"
-                    name="company"
-                    placeholder="Company Name"
-                    className="w-full px-4 py-3.5 bg-white border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition"
-                  />
-
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Email Address"
-                    required
-                    className="w-full px-4 py-3.5 bg-white border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition"
-                  />
-
-                  <input
-                    type="tel"
-                    name="phone"
-                    placeholder="Phone Number"
-                    required
-                    className="w-full px-4 py-3.5 bg-white border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition"
-                  />
-
-                </div>
-
-
-                {/* Service */}
-                <select
-                  name="service"
-                  required
-                  className="w-full px-4 py-3.5 bg-white border border-gray-200 rounded-xl text-gray-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition"
-                >
-                  <option value="">
-                    Service Interested In
-                  </option>
-
-                  <option value="Corporate Gifting">
-                    Corporate Gifting
-                  </option>
-
-                  <option value="Corporate Apparel">
-                    Corporate Apparel & Uniforms
-                  </option>
-
-                  <option value="Promotional Merchandise">
-                    Promotional Merchandise
-                  </option>
-
-                  <option value="Branding Solutions">
-                    Branding Solutions
-                  </option>
-
-                  <option value="Other">
-                    Other
-                  </option>
-                </select>
-
-
-                {/* Message */}
-                <textarea
-                  name="message"
-                  rows="5"
-                  placeholder="Tell us about your requirement..."
-                  required
-                  className="w-full px-4 py-3.5 bg-white border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition resize-none"
-                ></textarea>
-
-
-                {/* Button */}
-                <button
-                  type="submit"
-                  className="w-xl py-4  bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl transition-all shadow-lg hover:shadow-orange-500/30"
-                >
-                  Submit Enquiry
-                </button>
-
-              </form>
-<div className="mt-8 pt-7 border-t border-white/10">
-
-                <p className="text-gray-500 text-sm">
-                  Have a specific requirement?
-                </p>
-
-                <Link
-                  to="/contact"
-                  className="inline-flex items-center gap-2 mt-3 text-orange-500 font-semibold hover:text-orange-400 transition"
-                >
-                  Request a Proposal
-
-                  <span>→</span>
-                </Link>
-
-              </div>
-            </div>
-
-
-            {/* =================================================
-                RIGHT - CONTACT INFORMATION
-            ================================================== */}
-            
-
-         
-
-          </div>
-          
-        </div>
-        
-      </section>
-
-
-      {/* =====================================================
-          MAP SECTION
-      ====================================================== */}
-      {/* <section className="bg-white py-20 md:py-24 px-4 sm:px-6 lg:px-8"> */}
-
-        {/* <div className="max-w-7xl mx-auto">
-         */}
-
-          {/* Heading */}
-          {/* <div className="mb-10">
-
-            <p className="text-orange-500 text-sm font-bold tracking-[0.2em] uppercase mb-3">
-              Find Us
-            </p>
-
-            <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-5">
-
-              <div>
-
-                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900">
-                  Visit Our Office
-                </h2>
-
-                <p className="text-gray-500 mt-3 max-w-xl">
-                  We would love to meet you and discuss how we can
-                  help grow your brand.
-                </p>
-
-              </div>
-
-              <a
-                href="https://www.google.com/maps/search/?api=1&query=Promaxify+Marketing+Solutions+Nawada+Housing+Complex+New+Delhi"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center bg-[#111111] hover:bg-orange-500 text-white px-6 py-3 rounded-full font-semibold transition-all"
-              >
-                Open in Google Maps
-              </a>
-
-            </div>
-
-          </div> */}
-
-
-          {/* Map */}
-          {/* <div className="rounded-3xl overflow-hidden shadow-xl border border-gray-200 h-[350px] md:h-[450px]">
+          {/* =================================================
+              RIGHT - MAP
+          ================================================== */}
+          <div className="rounded-3xl overflow-hidden shadow-xl border border-white/10 h-[450px]  min-h-[450px] mt-47">
 
             <iframe
               title="Promaxify Marketing Solutions Location"
@@ -292,12 +182,12 @@ const Contact = () => {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
 
-          </div> */}
+          </div>
 
-        {/* </div> */}
+        </div>
 
-      {/* </section> */}
-
+      </div>
+    </section>
 
       {/* =====================================================
           CTA SECTION

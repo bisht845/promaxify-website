@@ -373,7 +373,7 @@ const FAQ = () => {
       </section>
 
       {/* ================= CTA ================= */}
-      <section className="bg-[#ff7a00] px-6 md:px-12 lg:px-16 py-20 md:py-24">
+      <section className="bg-[#ff7a00] px-6 md:px-12 lg:px-16 py-20 md:py-12">
 
         <div className="max-w-[1200px] mx-auto">
 

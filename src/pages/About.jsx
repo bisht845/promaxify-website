@@ -16,13 +16,13 @@ const About = () => {
     content="Learn about Promaxify Marketing Solutions LLP, our expertise, approach and commitment to delivering creative, reliable and customized corporate solutions."
   />
 </Helmet>
-    <main className="min-h-screen overflow-hidden bg-[#111111] text-white">
+    <main className="!min-h-[50vh] overflow-hidden bg-[#111111] text-white">
 
       {/* ================================================= */}
       {/* HERO */}
       {/* ================================================= */}
 
-      <section className="relative min-h-screen overflow-hidden">
+      <section className="relative  overflow-hidden">
 
         {/* LEFT ORANGE ACCENT */}
         <div className="absolute left-0 top-0 h-full w-2 bg-[#ff7a00]" />
@@ -41,7 +41,7 @@ const About = () => {
 
 
         {/* CONTENT */}
-        <div className="relative z-10 mx-auto flex min-h-screen max-w-[1700px] items-center px-6 sm:px-10 md:px-16">
+        <div className="relative z-10 mx-auto flex min-h-[87vh] max-w-[1700px] items-center px-6 sm:px-10 md:px-16">
 
           <div className="grid w-full grid-cols-1 gap-16 lg:grid-cols-12 lg:items-end">
 
@@ -62,31 +62,16 @@ const About = () => {
 
 
               {/* TITLE */}
-              <h1 className="max-w-6xl text-4xl font-black uppercase leading-[0.88] tracking-tight sm:text-3xl md:text-4xl lg:text-[3rem]">
+              <h1 className="max-w-6xl text-4xl font-black  leading-[1.1] tracking-tight sm:text-3xl md:text-4xl lg:text-[3rem]">
 
                 Expert in Corporate {" "}
 
                 <span className="text-[#ff7a00]">
-                Branding &
-                </span>
-                <br />
-                Engagement Solutions
+                Branding & Engagement
+                </span> {" "}
+                 Solutions
 
               </h1>
-
-
-              {/* DESCRIPTION */}
-              {/* <div className="mt-10 max-w-xl border-l border-[#ff7a00] pl-6">
-
-                <p className="text-base leading-relaxed text-gray-300 md:text-xl">
-
-                  We create experiences, connections and moments that
-                  help businesses stay in the minds of the people who
-                  matter most.
-
-                </p>
-
-              </div> */}
 
             </div>
 
@@ -136,8 +121,8 @@ const About = () => {
           About Promaxify
         </p>
 
-        <h2 className="text-white text-4xl md:text-5xl font-bold mb-6">
-          Company Overview
+        <h2 className="text-white text-4xl md:text-4xl font-bold mb-6">
+          Company <span className="text-[#ff7a00]">Overview</span> 
         </h2>
 
         <div className="w-20 h-1 bg-orange-500 mb-8"></div>
@@ -227,7 +212,7 @@ const About = () => {
         {/* 3. Vision & Mission Cards */}
         <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">A partner in your brand's journey</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 uppercase">A partner in your <span className="text-[#ff7a00]">brand's journey</span> </h2>
             <p className="text-gray-400 max-w-2xl mx-auto text-lg">
               Built on the foundation of delivering excellence, we collaborate closely with our clients to transform their vision into tangible brand touchpoints.
             </p>
@@ -289,8 +274,8 @@ const About = () => {
                 Our Expertise
               </p>
 
-              <h2 className="text-white text-4xl md:text-5xl font-bold mb-6">
-                What We Do
+              <h2 className="text-white text-4xl md:text-4xl font-bold mb-6">
+                What <span className="text-[#ff7a00]">We Do</span> 
               </h2>
 
               <p className="text-gray-400 text-lg leading-relaxed">
@@ -345,7 +330,7 @@ const About = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <span className="text-orange-500 font-semibold tracking-wider uppercase text-sm">Our Methodology</span>
-              <h2 className="text-3xl md:text-4xl font-bold mt-2">A Simple, Effective Approach</h2>
+              <h2 className="uppercase text-3xl md:text-4xl font-bold mt-2 ]"> Simple & <span className="text-[#ff7a00]">Effective</span> </h2>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
@@ -393,7 +378,7 @@ const About = () => {
               Why Promaxify
             </p> */}
 
-            <h2 className="text-white text-4xl md:text-5xl font-bold mb-6">
+            <h2 className="text-white text-4xl md:text-4xl font-bold mb-6">
               Why <span className="text-[#ff7a00]">Promaxify {""} ?</span> 
             </h2>
 
@@ -560,23 +545,19 @@ const About = () => {
           {/* CONTENT */}
           <div>
 
-            <p className="mb-6 text-xs font-bold uppercase tracking-[0.3em] text-[#ff7a00]">
+            {/* <p className="mb-6 text-xs font-bold uppercase tracking-[0.3em] text-[#ff7a00]">
 
               WHO WE WORK WITH
 
-            </p>
+            </p> */}
 
 
-            <h2 className="text-4xl font-black uppercase leading-[1] sm:text-5xl md:text-4xl">
+            <h2 className="text-4xl font-black uppercase leading-[1] sm:text-4xl md:text-4xl">
 
-              Creativity Is
-
-              <br />
-
-              Only The
+               Industry  
 
               <span className="text-[#ff7a00]">
-                {" "}Beginning.
+                {" "}focus
               </span>
 
             </h2>
@@ -639,7 +620,7 @@ const About = () => {
  {/* 7. CTA Section */}
         <section className="py-16 px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">Let's Create Something Exceptional</h2>
+            <h2 className="text-4xl md:text-4xl font-bold mb-6">Let's Create Something <span className="text-[#ff7a00]">Exceptional</span></h2>
             <p className="text-md text-gray-400 mb-10">
               If your organization is looking to enhance its brand presence through corporate merchandise, promotional products, engagement programs, or experiential initiatives, our team would be happy to collaborate.
 Connect with Promaxify Marketing Solutions LLP to explore customized solutions for your business.
