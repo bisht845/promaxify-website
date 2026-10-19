@@ -841,7 +841,7 @@ With Promaxify’s expertise in material selection, printing, and finishing, you
     id: 8,
     slug: "promotional-services-project",
     category: "Engagement Solutions",
-    title: "advertisement services",
+    title: "Promotional Services",
 
     shortDescription:
       "Branded promotional solutions designed to increase visibility, strengthen brand recall and create meaningful customer engagement.",
