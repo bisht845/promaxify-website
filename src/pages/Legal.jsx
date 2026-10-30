@@ -132,6 +132,9 @@ function Legal() {
                   </p>
 
                   <ul>
+
+                    <li>Customized promotional merchadise.</li>
+                    <li>Advertisement services.</li>
                     <li>Digital Marketing and Marketing Strategy.</li>
                     <li>Search Engine Optimization (SEO).</li>
                     <li>Social Media Management and Marketing.</li>
