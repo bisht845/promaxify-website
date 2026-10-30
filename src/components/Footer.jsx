@@ -273,6 +273,13 @@ function Footer() {
 
       <div className="flex items-center gap-8">
        <Link
+  to="/legal#Refund-Cancellation"
+  className="hover:text-[#ff7a00] transition-colors"
+>
+  Refund & Cancellation
+</Link>
+
+       <Link
   to="/legal#privacy-policy"
   className="hover:text-[#ff7a00] transition-colors"
 >

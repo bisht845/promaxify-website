@@ -54,64 +54,39 @@ function Legal() {
       {/* =========================================================
           QUICK NAVIGATION
       ========================================================= */}
-      <section className="border-b border-white/10 bg-[#202020]">
-        <div className="mx-auto max-w-[1200px] px-6 py-6 sm:px-10 lg:px-16">
+ 
+    <section className="sticky top-0 z-50 border-b border-white/10 bg-[#202020] shadow-lg">
+      <div className="mx-auto max-w-[1200px] px-6 py-6 sm:px-10 lg:px-16">
 
-          <div className="flex flex-wrap gap-3">
+        <div className="flex flex-wrap gap-3">
 
-            <a
-              href="#privacy-policy"
-              className="
-                inline-flex
-                items-center
-                gap-2
-                rounded-lg
-                border
-                border-white/10
-                bg-[#1a1a1a]
-                px-5
-                py-3
-                text-sm
-                font-semibold
-                text-white
-                transition
-                hover:border-[#ff7a00]/50
-                hover:text-[#ff7a00]
-              "
-            >
-              <FaShieldHalved />
-              Privacy Policy
-            </a>
+          <a
+            href="#refund-policy"
+            className="inline-flex items-center gap-2 rounded-lg border border-white/10 bg-[#1a1a1a] px-5 py-3 text-sm font-semibold text-white transition hover:border-[#ff7a00]/50 hover:text-[#ff7a00]"
+          >
+            <FaShieldHalved />
+            Refund & Cancellation
+          </a>
 
-            <a
-              href="#terms-conditions"
-              className="
-                inline-flex
-                items-center
-                gap-2
-                rounded-lg
-                border
-                border-white/10
-                bg-[#1a1a1a]
-                px-5
-                py-3
-                text-sm
-                font-semibold
-                text-white
-                transition
-                hover:border-[#ff7a00]/50
-                hover:text-[#ff7a00]
-              "
-            >
-              <FaFileContract />
-              Terms & Conditions
-            </a>
+          <a
+            href="#privacy-policy"
+            className="inline-flex items-center gap-2 rounded-lg border border-white/10 bg-[#1a1a1a] px-5 py-3 text-sm font-semibold text-white transition hover:border-[#ff7a00]/50 hover:text-[#ff7a00]"
+          >
+            <FaShieldHalved />
+            Privacy Policy
+          </a>
 
-          </div>
+          <a
+            href="#terms-conditions"
+            className="inline-flex items-center gap-2 rounded-lg border border-white/10 bg-[#1a1a1a] px-5 py-3 text-sm font-semibold text-white transition hover:border-[#ff7a00]/50 hover:text-[#ff7a00]"
+          >
+            <FaFileContract />
+            Terms & Conditions
+          </a>
 
         </div>
-      </section>
-
+      </div>
+    </section>
 
       {/* =========================================================
           MAIN CONTENT
@@ -119,7 +94,876 @@ function Legal() {
       <section className="bg-[#f7f7f7] text-[#222]">
 
         <div className="mx-auto max-w-[1200px] px-6 py-16 sm:px-10 lg:px-16">
+            <article
+              id="refund-policy"
+              className="scroll-mt-24"
+            >
+              <div className="mb-12">
+                <span className="text-xs font-bold tracking-[0.2em] text-[#ff7a00]">
+                  01 — REFUNDS
+                </span>
 
+                <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
+                  Refund & Cancellation Policy
+                </h2>
+
+                <p className="mt-5 max-w-3xl text-base leading-8 text-gray-600">
+                  Promaxify Marketing Solutions LLP ("Promaxify", "we",
+                  "us" or "our") is committed to maintaining transparency
+                  in all client engagements. This Refund and Cancellation
+                  Policy explains the terms and conditions governing
+                  cancellations, refunds, ongoing services, project
+                  payments and related commercial arrangements.
+                  This Policy applies to all clients purchasing our
+                  digital marketing and professional services.
+                </p>
+              </div>
+
+              <div className="space-y-10">
+
+                {/* 1. Purpose and Scope */}
+                <LegalSection
+                  number="1"
+                  title="Purpose & Scope"
+                >
+                  <p>
+                    This Policy applies to services offered by Promaxify
+                    Marketing Solutions LLP, including:
+                  </p>
+
+                  <ul>
+                    <li>Digital Marketing and Marketing Strategy.</li>
+                    <li>Search Engine Optimization (SEO).</li>
+                    <li>Social Media Management and Marketing.</li>
+                    <li>Google Ads and Meta Ads Management.</li>
+                    <li>Website Design and Development.</li>
+                    <li>Branding and Creative Design Services.</li>
+                    <li>Content Marketing and Production.</li>
+                    <li>Consulting, Training and Related Professional Services.</li>
+                  </ul>
+
+                  <p>
+                    This Policy does not govern refunds processed directly
+                    by third-party advertising platforms, application stores,
+                    domain registrars, hosting providers or software vendors.
+                    Such refunds remain subject to the respective third-party
+                    provider's policies.
+                  </p>
+
+                  <p>
+                    Any signed agreement, proposal or statement of work
+                    containing specific refund or cancellation terms will
+                    prevail over this general Policy for that engagement
+                    where the terms conflict.
+                  </p>
+                </LegalSection>
+
+                {/* 2. Definitions */}
+                <LegalSection
+                  number="2"
+                  title="Definitions"
+                >
+                  <ul>
+                    <li>
+                      <strong>Engagement:</strong>{" "}
+                      Any paid service arrangement between Promaxify
+                      and a Client, confirmed through a quotation,
+                      invoice, purchase order or signed agreement.
+                    </li>
+
+                    <li>
+                      <strong>Retainer:</strong>{" "}
+                      A recurring payment, generally monthly, covering
+                      an agreed scope of professional services,
+                      deliverables or management activities.
+                    </li>
+
+                    <li>
+                      <strong>Project:</strong>{" "}
+                      A fixed-scope engagement with defined milestones,
+                      deliverables or timelines, such as website
+                      development, branding or SEO implementation.
+                    </li>
+
+                    <li>
+                      <strong>Ad Spend:</strong>{" "}
+                      Advertising budgets paid to third-party platforms
+                      or publishers, separate from Promaxify's
+                      professional management fees.
+                    </li>
+
+                    <li>
+                      <strong>Non-Refundable Expenses:</strong>{" "}
+                      Costs committed to third parties with Client
+                      authorization, including advertising credits,
+                      licensed assets, domain purchases, software
+                      subscriptions, plugin licenses and specialized
+                      contractor expenses.
+                    </li>
+
+                    <li>
+                      <strong>Cancellation Notice Period:</strong>{" "}
+                      The minimum advance written notice required
+                      to terminate an ongoing service arrangement.
+                    </li>
+                  </ul>
+                </LegalSection>
+
+                {/* 3. General Principles */}
+                <LegalSection
+                  number="3"
+                  title="General Refund Principles"
+                >
+                  <p>
+                    Promaxify invests professional time, technical
+                    expertise, resources and operational capacity in
+                    every client engagement, including onboarding,
+                    discovery, campaign configuration, tracking setup
+                    and creative production.
+                  </p>
+
+                  <p>
+                    Accordingly, the following general principles apply:
+                  </p>
+
+                  <ul>
+                    <li>
+                      Payments for services already performed or
+                      deliverables already completed are generally
+                      non-refundable.
+                    </li>
+
+                    <li>
+                      Third-party costs and expenses already committed
+                      are generally non-refundable.
+                    </li>
+
+                    <li>
+                      Scheduled retainer periods remain subject to
+                      the agreed payment and cancellation terms.
+                    </li>
+
+                    <li>
+                      Refund eligibility will be assessed based on
+                      documented delivery, unused prepaid periods,
+                      contractual terms and the reason for cancellation.
+                    </li>
+
+                    <li>
+                      Dissatisfaction with subjective creative preferences
+                      does not automatically qualify for a refund where
+                      the agreed specifications have been fulfilled.
+                    </li>
+
+                    <li>
+                      Marketing results, including traffic, rankings,
+                      leads and conversions, are not guaranteed unless
+                      expressly agreed in a separate written agreement.
+                    </li>
+                  </ul>
+
+                  <p>
+                    All cancellation and refund requests must be
+                    submitted in writing through our official
+                    business communication channel.
+                  </p>
+                </LegalSection>
+
+                {/* 4. Retainer Cancellation */}
+                <LegalSection
+                  number="4"
+                  title="Retainer & Ongoing Service Cancellations"
+                >
+                  <h4 className="font-semibold text-[#222]">
+                    4.1 Standard Cancellation Notice
+                  </h4>
+
+                  <p>
+                    For monthly retainers and ongoing services,
+                    including SEO, paid advertising management,
+                    social media management and content marketing,
+                    Clients must provide at least 30 calendar days'
+                    written notice before the desired termination date,
+                    unless a different period is specified in the
+                    signed agreement.
+                  </p>
+
+                  <p>
+                    Cancellation requests received during an active
+                    billing cycle may take effect at the end of the
+                    applicable notice period. Depending on the timing
+                    of the request and contractual terms, additional
+                    billing obligations may apply.
+                  </p>
+
+                  <h4 className="font-semibold text-[#222]">
+                    4.2 Work During the Notice Period
+                  </h4>
+
+                  <p>
+                    During the notice period, Promaxify may continue
+                    performing services according to the agreed scope,
+                    unless both parties mutually agree to an earlier
+                    termination.
+                  </p>
+
+                  <p>
+                    Early termination without the required notice may
+                    result in charges equivalent to the shorter of
+                    the remaining notice period or one monthly retainer
+                    fee, together with applicable non-refundable
+                    expenses, subject to the signed agreement and law.
+                  </p>
+
+                  <p>
+                    Reasonable transition assistance may include:
+                  </p>
+
+                  <ul>
+                    <li>Sharing available performance reports.</li>
+                    <li>Providing relevant campaign documentation.</li>
+                    <li>Transferring account administration access where permitted.</li>
+                    <li>Sharing completed deliverables.</li>
+                    <li>Providing reasonable campaign handover assistance.</li>
+                  </ul>
+
+                  <p>
+                    Outstanding invoices must be settled before final
+                    handover, subject to applicable contractual terms
+                    and law.
+                  </p>
+
+                  <h4 className="font-semibold text-[#222]">
+                    4.3 Pausing Services
+                  </h4>
+
+                  <p>
+                    Clients may request a temporary pause of ongoing
+                    retainer services in writing. Approval will depend
+                    on the nature of the engagement and Promaxify's
+                    operational capacity.
+                  </p>
+
+                  <p>
+                    Paused services may still incur applicable
+                    platform maintenance, hosting, software or
+                    third-party subscription charges where previously
+                    disclosed or agreed.
+                  </p>
+                </LegalSection>
+
+                {/* 5. Project Cancellation */}
+                <LegalSection
+                  number="5"
+                  title="Fixed-Scope Project Cancellations"
+                >
+                  <p>
+                    This section applies to fixed-scope projects,
+                    including website development, rebranding,
+                    branding packages, SEO audits and implementation
+                    projects.
+                  </p>
+
+                  <p>
+                    Project payments are governed by the milestone
+                    and payment schedule specified in the applicable
+                    proposal or agreement.
+                  </p>
+
+                  <p>
+                    If a Client cancels a project after work has
+                    commenced, the Client remains responsible for:
+                  </p>
+
+                  <ul>
+                    <li>Fees for all completed milestones.</li>
+                    <li>
+                      Work in progress, calculated according to
+                      agreed milestone percentages or applicable
+                      contractual rates.
+                    </li>
+                    <li>Non-refundable third-party expenses.</li>
+                    <li>Other approved project-related commitments.</li>
+                  </ul>
+
+                  <p>
+                    Deposits paid to reserve project capacity may
+                    become non-refundable once discovery, planning,
+                    production or development work has started,
+                    subject to applicable contractual terms and law.
+                  </p>
+
+                  <p>
+                    If Promaxify fails to deliver an agreed milestone
+                    by its specified date solely due to its own fault
+                    and does not resolve the issue within a reasonable
+                    period after written notice, the Client may be
+                    eligible for a partial refund or service credit
+                    for the undelivered portion.
+                  </p>
+
+                  <p>
+                    Delays resulting from missing information,
+                    delayed approvals, unavailable access or
+                    Client-requested scope changes do not
+                    automatically qualify for refunds.
+                  </p>
+                </LegalSection>
+
+                {/* 6. Refund Eligibility */}
+                <LegalSection
+                  number="6"
+                  title="Refund Eligibility"
+                >
+                  <p>
+                    All refund requests are reviewed individually
+                    based on the applicable agreement, payment records,
+                    services delivered and documented circumstances.
+                    The following guidelines generally apply:
+                  </p>
+
+                  <h4 className="font-semibold text-[#222]">
+                    6.1 Duplicate Payments or Billing Errors
+                  </h4>
+
+                  <p>
+                    Verified duplicate payments or incorrect charges
+                    will be eligible for a refund of the erroneous
+                    amount, generally within 10 to 15 business days
+                    after verification.
+                  </p>
+
+                  <h4 className="font-semibold text-[#222]">
+                    6.2 Services Not Yet Commenced
+                  </h4>
+
+                  <p>
+                    If cancellation occurs before onboarding or
+                    project work begins and no third-party expenses
+                    have been committed, deposits may be considered
+                    for refund after deducting any reasonable,
+                    previously disclosed and legally permissible
+                    administrative charges.
+                  </p>
+
+                  <h4 className="font-semibold text-[#222]">
+                    6.3 Partially Completed Projects
+                  </h4>
+
+                  <p>
+                    Refunds, where applicable, will be limited to
+                    eligible undelivered prepaid portions after
+                    deducting completed work and non-refundable
+                    expenses.
+                  </p>
+
+                  <h4 className="font-semibold text-[#222]">
+                    6.4 Retainer Overpayments
+                  </h4>
+
+                  <p>
+                    Verified overpayments may be adjusted against
+                    future invoices or refunded where the amount
+                    has not already been offset against services
+                    delivered.
+                  </p>
+
+                  <h4 className="font-semibold text-[#222]">
+                    6.5 Dissatisfaction With Results
+                  </h4>
+
+                  <p>
+                    Dissatisfaction with marketing performance or
+                    subjective preferences does not ordinarily
+                    qualify for a refund unless deliverables materially
+                    deviate from agreed written specifications and
+                    the issue is not resolved within a reasonable
+                    remediation period.
+                  </p>
+
+                  <h4 className="font-semibold text-[#222]">
+                    6.6 Advertising Platform Payments
+                  </h4>
+
+                  <p>
+                    Advertising spend already credited or paid to
+                    third-party advertising accounts is subject
+                    to the respective platform's refund policies.
+                    Promaxify cannot independently guarantee
+                    recovery of such amounts.
+                  </p>
+
+                  <h4 className="font-semibold text-[#222]">
+                    6.7 Training Programs and Workshops
+                  </h4>
+
+                  <p>
+                    Refunds for workshops, training sessions and
+                    events may be available when cancellation is
+                    requested at least seven calendar days before
+                    the scheduled date. Requests made within seven
+                    days may be subject to forfeiture or credit
+                    at Promaxify's discretion, unless separate
+                    event-specific terms or applicable law provide
+                    otherwise.
+                  </p>
+                </LegalSection>
+
+                {/* 7. Advertising Spend */}
+                <LegalSection
+                  number="7"
+                  title="Advertising & Media Spend"
+                >
+                  <p>
+                    Professional advertising management fees and
+                    advertising budgets are separate charges.
+                    When a Client authorizes Promaxify to manage
+                    advertising campaigns through platforms such
+                    as Google Ads, Meta Ads or other publishers:
+                  </p>
+
+                  <ul>
+                    <li>
+                      Advertising amounts already spent on impressions,
+                      clicks or other delivered advertising services
+                      are non-refundable by Promaxify.
+                    </li>
+
+                    <li>
+                      Unused prepaid advertising balances remain
+                      subject to the third-party platform's refund
+                      and balance policies.
+                    </li>
+
+                    <li>
+                      Platform fees and other third-party charges
+                      may not be refundable.
+                    </li>
+
+                    <li>
+                      Advertising expenditure statements may be
+                      provided upon reasonable request.
+                    </li>
+
+                    <li>
+                      Campaign cancellation does not entitle the
+                      Client to recover advertising services
+                      already delivered.
+                    </li>
+                  </ul>
+
+                  <p>
+                    If an advertising account is suspended due to
+                    Client-provided prohibited content or policy
+                    violations, applicable management fees for
+                    work already performed and committed expenses
+                    remain payable, subject to the agreement.
+                  </p>
+                </LegalSection>
+
+                {/* 8. Chargebacks */}
+                <LegalSection
+                  number="8"
+                  title="Chargebacks & Payment Disputes"
+                >
+                  <p>
+                    Clients are encouraged to contact Promaxify
+                    directly to resolve billing concerns, incorrect
+                    charges or payment disputes before initiating
+                    chargebacks or payment reversals with banks,
+                    card networks or payment providers.
+                  </p>
+
+                  <p>
+                    We will review genuine payment concerns and
+                    provide relevant invoices, payment records,
+                    service documentation and communication
+                    records where necessary.
+                  </p>
+
+                  <p>
+                    Where a chargeback concerns valid payments
+                    for services already delivered or contractual
+                    obligations, Promaxify reserves the right
+                    to suspend ongoing work, recover outstanding
+                    amounts and take appropriate action in
+                    accordance with applicable law.
+                  </p>
+                </LegalSection>
+
+                {/* 9. Taxes */}
+                <LegalSection
+                  number="9"
+                  title="Taxes & Refund Processing"
+                >
+                  <p>
+                    All applicable taxes, including Goods and
+                    Services Tax (GST), will be handled in
+                    accordance with Indian tax regulations.
+                  </p>
+
+                  <p>
+                    Approved refunds will be processed after
+                    necessary verification and applicable
+                    tax adjustments.
+                  </p>
+
+                  <ul>
+                    <li>
+                      Refunds are generally initiated within
+                      15 business days of approval.
+                    </li>
+
+                    <li>
+                      Refunds will ordinarily be made through
+                      the original payment method wherever feasible.
+                    </li>
+
+                    <li>
+                      Bank transfers may require additional
+                      verification for security purposes.
+                    </li>
+
+                    <li>
+                      Applicable GST credit notes and related
+                      documentation will be issued in accordance
+                      with Indian tax regulations.
+                    </li>
+                  </ul>
+
+                  <p>
+                    Actual credit timelines may vary depending
+                    on the payment gateway, bank or financial
+                    institution.
+                  </p>
+                </LegalSection>
+
+                {/* 10. Scope Reduction */}
+                <LegalSection
+                  number="10"
+                  title="Client-Initiated Scope Reduction"
+                >
+                  <p>
+                    Any request to reduce or modify the agreed
+                    service scope after work has commenced may
+                    be treated as a partial cancellation.
+                  </p>
+
+                  <p>
+                    In such cases:
+                  </p>
+
+                  <ul>
+                    <li>Fees for completed work remain payable.</li>
+                    <li>
+                      Previously committed third-party expenses
+                      remain payable.
+                    </li>
+                    <li>
+                      Future deliverables may be revised through
+                      a mutually agreed written change order.
+                    </li>
+                    <li>
+                      Project fees and timelines may be adjusted
+                      according to the revised scope.
+                    </li>
+                  </ul>
+
+                  <p>
+                    A change in business objectives or project
+                    requirements does not automatically qualify
+                    for a refund of completed work or previously
+                    delivered milestones.
+                  </p>
+                </LegalSection>
+
+                {/* 11. Termination */}
+                <LegalSection
+                  number="11"
+                  title="Termination by Promaxify"
+                >
+                  <p>
+                    Promaxify reserves the right to suspend or
+                    terminate an engagement in circumstances
+                    including:
+                  </p>
+
+                  <ul>
+                    <li>Non-payment of outstanding invoices.</li>
+                    <li>Material breach of contractual obligations.</li>
+                    <li>Illegal, fraudulent or prohibited activities.</li>
+                    <li>Abusive or inappropriate conduct toward our team.</li>
+                    <li>
+                      Repeated failure to provide required
+                      information, approvals or account access.
+                    </li>
+                  </ul>
+
+                  <p>
+                    In such circumstances, refunds will generally
+                    not be provided for services already performed
+                    or expenses already committed.
+                  </p>
+
+                  <p>
+                    If Promaxify terminates an engagement without
+                    cause before delivering prepaid services that
+                    have not yet been performed, eligible unused
+                    prepaid professional service fees will be
+                    refunded within a reasonable period, subject
+                    to applicable contractual terms and law.
+                  </p>
+                </LegalSection>
+
+                {/* 12. Force Majeure */}
+                <LegalSection
+                  number="12"
+                  title="Force Majeure & Extraordinary Events"
+                >
+                  <p>
+                    Promaxify will not be held responsible for
+                    delays or interruptions caused by circumstances
+                    beyond reasonable control, including:
+                  </p>
+
+                  <ul>
+                    <li>Natural disasters and extreme weather events.</li>
+                    <li>Government restrictions or regulatory actions.</li>
+                    <li>Major internet or infrastructure failures.</li>
+                    <li>Third-party platform outages.</li>
+                    <li>Other extraordinary circumstances beyond reasonable control.</li>
+                  </ul>
+
+                  <p>
+                    Where such circumstances affect service delivery,
+                    Promaxify may propose revised schedules or
+                    alternative arrangements instead of immediate
+                    cancellation.
+                  </p>
+
+                  <p>
+                    If services cannot resume within 60 days,
+                    or another period specified in the agreement,
+                    the Client may request termination and an
+                    appropriate pro-rata refund of eligible unused
+                    prepaid professional service fees, excluding
+                    completed work and non-refundable expenses,
+                    subject to applicable law.
+                  </p>
+                </LegalSection>
+
+                {/* 13. Internship */}
+                <LegalSection
+                  number="13"
+                  title="Internship & Recruitment Programs"
+                >
+                  <p>
+                    Internship, training, recruitment and placement
+                    programs offered by Promaxify may be governed
+                    by separate program-specific terms.
+                  </p>
+
+                  <p>
+                    Where an application, registration or training
+                    fee is introduced, applicable refund conditions
+                    will be disclosed at the time of registration
+                    or payment.
+                  </p>
+
+                  <p>
+                    Stipends, internship benefits and employment-related
+                    arrangements will be governed by the relevant
+                    offer letters or program agreements.
+                  </p>
+                </LegalSection>
+
+                {/* 14. Disputes */}
+                <LegalSection
+                  number="14"
+                  title="Dispute Resolution"
+                >
+                  <p>
+                    If a Client disagrees with a refund decision,
+                    they may submit a written request for
+                    reconsideration with relevant supporting
+                    documents and additional information.
+                  </p>
+
+                  <p>
+                    Promaxify aims to review such requests fairly
+                    and resolve genuine concerns through
+                    good-faith communication.
+                  </p>
+
+                  <p>
+                    If a dispute remains unresolved, it will
+                    be addressed in accordance with the governing
+                    law and dispute resolution provisions of
+                    the applicable agreement.
+                  </p>
+
+                  <p>
+                    Nothing in this Policy limits any rights
+                    available to consumers under applicable
+                    Indian law.
+                  </p>
+                </LegalSection>
+
+                {/* 15. Request Process */}
+                <LegalSection
+                  number="15"
+                  title="How to Submit a Refund or Cancellation Request"
+                >
+                  <p>
+                    All refund and cancellation requests must
+                    be submitted in writing through our official
+                    business email address.
+                  </p>
+
+                  <p>
+                    Please include the following information
+                    in your request:
+                  </p>
+
+                  <ul>
+                    <li>Full name or authorized representative's name.</li>
+                    <li>Company or business name, where applicable.</li>
+                    <li>Engagement or project name.</li>
+                    <li>Invoice number or payment reference.</li>
+                    <li>Requested cancellation effective date.</li>
+                    <li>Reason for the refund or cancellation.</li>
+                    <li>Supporting documents, invoices or payment receipts.</li>
+                  </ul>
+
+                  <p>
+                    Please use one of the following email subject lines:
+                  </p>
+
+                  <div className="mt-4 rounded-xl border border-gray-200 bg-white p-5">
+                    <p className="font-semibold text-[#222]">
+                      Refund Request – [Project or Service Name]
+                    </p>
+
+                    <p className="mt-2 font-semibold text-[#222]">
+                      Cancellation Request – [Project or Service Name]
+                    </p>
+                  </div>
+
+                  <p>
+                    Promaxify aims to acknowledge requests within
+                    three business days and provide a substantive
+                    response within ten business days. Complex
+                    requests involving third-party reconciliation
+                    may require additional time.
+                  </p>
+                </LegalSection>
+
+                {/* 16. Other Policies */}
+                <LegalSection
+                  number="16"
+                  title="Relationship With Other Policies"
+                >
+                  <p>
+                    This Refund and Cancellation Policy should
+                    be read together with our other applicable
+                    website policies, including:
+                  </p>
+
+                  <ul>
+                    <li>Terms and Conditions.</li>
+                    <li>Privacy Policy.</li>
+                    <li>Cookie Policy.</li>
+                  </ul>
+
+                  <p>
+                    These policies collectively govern the
+                    Client's relationship with Promaxify and
+                    the use of our website and professional services.
+                  </p>
+                </LegalSection>
+
+                {/* 17. Updates */}
+                <LegalSection
+                  number="17"
+                  title="Policy Updates"
+                >
+                  <p>
+                    Promaxify reserves the right to update or
+                    modify this Policy from time to time to
+                    reflect changes in business practices,
+                    service offerings, payment procedures,
+                    third-party platform requirements or
+                    applicable legal requirements.
+                  </p>
+
+                  <p>
+                    Updated versions will be published on our
+                    website with a revised effective date.
+                  </p>
+
+                  <p>
+                    Changes will generally apply to new
+                    engagements from their effective date.
+                    Existing engagements will continue to be
+                    governed by their applicable agreements,
+                    unless otherwise mutually agreed or
+                    required by law.
+                  </p>
+                </LegalSection>
+
+                {/* 18. Acknowledgment */}
+                <LegalSection
+                  number="18"
+                  title="Acknowledgment"
+                >
+                  <p>
+                    By purchasing or engaging Promaxify Marketing
+                    Solutions LLP for paid services, the Client
+                    acknowledges that they have read and
+                    understood this Refund and Cancellation Policy
+                    and the applicable terms of their engagement.
+                  </p>
+
+                  <p>
+                    We encourage all Clients to review service
+                    descriptions, deliverables, payment schedules
+                    and project timelines carefully before
+                    entering into an engagement.
+                  </p>
+
+                  <p>
+                    For clarification regarding refunds,
+                    cancellations or billing arrangements,
+                    please contact our official business
+                    support team through the contact details
+                    published on our website.
+                  </p>
+
+                  <div className="mt-5 rounded-xl border border-gray-200 bg-white p-6">
+                    <p className="font-semibold text-[#222]">
+                      Promaxify Marketing Solutions LLP
+                    </p>
+
+                    <p className="mt-2 text-gray-600">
+                      Website:{" "}
+                      <a
+                        href="https://promaxifymarketing.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-[#ff7a00] hover:underline"
+                      >
+                        www.promaxifymarketing.com
+                      </a>
+                    </p>
+                  </div>
+                </LegalSection>
+
+              </div>
+            </article>
+        {/* =====================================================
+              DIVIDER
+          ===================================================== */}
+          <div className="my-20 border-t border-gray-200" />
           {/* =====================================================
               PRIVACY POLICY
           ===================================================== */}
