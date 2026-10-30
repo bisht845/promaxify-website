@@ -939,7 +939,7 @@ function Legal() {
                     published on our website.
                   </p>
 
-                  <div className="mt-5 rounded-xl border border-gray-200 bg-white p-6">
+                  {/* <div className="mt-5 rounded-xl border border-gray-200 bg-white p-6">
                     <p className="font-semibold text-[#222]">
                       Promaxify Marketing Solutions LLP
                     </p>
@@ -955,7 +955,7 @@ function Legal() {
                         www.promaxifymarketing.com
                       </a>
                     </p>
-                  </div>
+                  </div> */}
                 </LegalSection>
 
               </div>
