@@ -6,6 +6,7 @@ import {
 } from "../data/main.js";
 import logo from "../assets/Logo.png"
 import { Link } from "react-router-dom";
+import CaseStudies from './../pages/CaseStudies';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -324,6 +325,14 @@ const Navbar = () => {
             className="text-gray-300 hover:text-[#ff7a00] transition-colors duration-300 py-2"
           >
             About
+          </Link>
+
+          {/* Case Stadies */}
+          <Link
+            to="/case-studies"
+            className="text-gray-300 hover:text-[#ff7a00] transition-colors duration-300 py-2"
+          >
+            Case Studies
           </Link>
 
           {/* CONTACT */}

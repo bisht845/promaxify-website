@@ -197,7 +197,7 @@ const ServiceDetails = () => {
         SECTION HEADER
     ================================== */}
 
-    <div className="mb-12 md:mb-16">
+    {/* <div className="mb-12 md:mb-16">
 
       <p className="text-[#ff7a00] text-xs font-bold tracking-[0.25em] uppercase mb-4">
         Our Work
@@ -214,7 +214,7 @@ const ServiceDetails = () => {
         </span>.
       </p>
 
-    </div>
+    </div> */}
 
 
     {/* =================================

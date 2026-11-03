@@ -404,68 +404,7 @@ With advanced printing and embroidery technologies, Promaxify ensures superior q
         "Promotional Apparel",
       ],
     },
-
-   caseStudies: [
-  {
-    id: 1,
-    companyName: "FinTech Innovators Ltd.",
-    industry: "Financial Technology",
-
-    objective:
-      "Standardize remote onboarding experience globally while reducing logistical overhead.",
-
-    solution:
-      "Designed and deployed a centralized portal for HR to trigger automated shipping of premium welcome kits to 15+ countries.",
-
-    image:
-      "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=80",
-  },
-
-  {
-    id: 2,
-    companyName: "TechVision Solutions",
-    industry: "Information Technology",
-
-    objective:
-      "Create a consistent branded apparel experience for employees across multiple locations.",
-
-    solution:
-      "Developed customized corporate T-shirts and hoodies with standardized branding, sizing and centralized distribution.",
-
-    image:
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1000&q=80",
-  },
-
-  {
-    id: 3,
-    companyName: "Global Finance Group",
-    industry: "Financial Services",
-
-    objective:
-      "Build a stronger sense of belonging among employees participating in corporate events.",
-
-    solution:
-      "Created a coordinated range of branded apparel for employees, leadership teams and event participants.",
-
-    image:
-      "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=1000&q=80",
-  },
-
-  {
-    id: 4,
-    companyName: "Urban Retail Group",
-    industry: "Retail",
-
-    objective:
-      "Improve brand visibility through consistent employee and promotional apparel.",
-
-    solution:
-      "Designed and delivered customized uniforms and promotional apparel aligned with the company's visual identity.",
-
-    image:
-      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80",
-  },
-],  
+  
   },
 
   {
@@ -496,40 +435,40 @@ With Promaxify’s expertise in material selection, printing, and finishing, you
       ],
     },
 
-    caseStudies: [
-      {
-        id: 1,
-        title: "Corporate Laptop Bags",
-        description:
-          "Branded laptop bags designed for employees, business professionals and corporate gifting programs.",
-        image:
-          "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1000&q=80",
-      },
-      {
-        id: 2,
-        title: "Executive Travel Bags",
-        description:
-          "Premium branded travel bags created for executives, business travel and corporate events.",
-        image:
-          "https://images.unsplash.com/photo-1553531384-397c80973a0b?auto=format&fit=crop&w=1000&q=80",
-      },
-      {
-        id: 3,
-        title: "Branded Backpacks",
-        description:
-          "Functional and customized backpacks created for employee programs, events and promotional campaigns.",
-        image:
-          "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?auto=format&fit=crop&w=1000&q=80",
-      },
-      {
-        id: 4,
-        title: "Corporate Gift Bags",
-        description:
-          "Customized gift bags designed to create a premium presentation for corporate gifting initiatives.",
-        image:
-          "https://images.unsplash.com/photo-1612902456551-333ac5afa26e?auto=format&fit=crop&w=1000&q=80",
-      },
-    ],
+    // caseStudies: [
+    //   {
+    //     id: 1,
+    //     title: "Corporate Laptop Bags",
+    //     description:
+    //       "Branded laptop bags designed for employees, business professionals and corporate gifting programs.",
+    //     image:
+    //       "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1000&q=80",
+    //   },
+    //   {
+    //     id: 2,
+    //     title: "Executive Travel Bags",
+    //     description:
+    //       "Premium branded travel bags created for executives, business travel and corporate events.",
+    //     image:
+    //       "https://images.unsplash.com/photo-1553531384-397c80973a0b?auto=format&fit=crop&w=1000&q=80",
+    //   },
+    //   {
+    //     id: 3,
+    //     title: "Branded Backpacks",
+    //     description:
+    //       "Functional and customized backpacks created for employee programs, events and promotional campaigns.",
+    //     image:
+    //       "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?auto=format&fit=crop&w=1000&q=80",
+    //   },
+    //   {
+    //     id: 4,
+    //     title: "Corporate Gift Bags",
+    //     description:
+    //       "Customized gift bags designed to create a premium presentation for corporate gifting initiatives.",
+    //     image:
+    //       "https://images.unsplash.com/photo-1612902456551-333ac5afa26e?auto=format&fit=crop&w=1000&q=80",
+    //   },
+    // ],
   },
 
   {
@@ -557,40 +496,40 @@ With Promaxify’s expertise in material selection, printing, and finishing, you
       ],
     },
 
-    caseStudies: [
-      {
-        id: 1,
-        title: "Corporate Gift Collection",
-        description:
-          "A curated collection of branded corporate gifts created for clients, employees and business partners.",
-        image:
-          "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1000&q=80",
-      },
-      {
-        id: 2,
-        title: "Branded Desk Accessories",
-        description:
-          "Useful branded desk products designed to keep the brand visible in everyday professional environments.",
-        image:
-          "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=80",
-      },
-      {
-        id: 3,
-        title: "Event Giveaways",
-        description:
-          "Creative promotional giveaways developed for events, exhibitions and customer engagement campaigns.",
-        image:
-          "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1000&q=80",
-      },
-      {
-        id: 4,
-        title: "Campaign Merchandise",
-        description:
-          "Customized merchandise created to support brand campaigns and improve audience recall.",
-        image:
-          "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1000&q=80",
-      },
-    ],
+    // caseStudies: [
+    //   {
+    //     id: 1,
+    //     title: "Corporate Gift Collection",
+    //     description:
+    //       "A curated collection of branded corporate gifts created for clients, employees and business partners.",
+    //     image:
+    //       "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1000&q=80",
+    //   },
+    //   {
+    //     id: 2,
+    //     title: "Branded Desk Accessories",
+    //     description:
+    //       "Useful branded desk products designed to keep the brand visible in everyday professional environments.",
+    //     image:
+    //       "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=80",
+    //   },
+    //   {
+    //     id: 3,
+    //     title: "Event Giveaways",
+    //     description:
+    //       "Creative promotional giveaways developed for events, exhibitions and customer engagement campaigns.",
+    //     image:
+    //       "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1000&q=80",
+    //   },
+    //   {
+    //     id: 4,
+    //     title: "Campaign Merchandise",
+    //     description:
+    //       "Customized merchandise created to support brand campaigns and improve audience recall.",
+    //     image:
+    //       "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1000&q=80",
+    //   },
+    // ],
   },
 
   {
@@ -618,40 +557,40 @@ With Promaxify’s expertise in material selection, printing, and finishing, you
       ],
     },
 
-    caseStudies: [
-      {
-        id: 1,
-        title: "Corporate Brochures",
-        description:
-          "Professionally designed and printed brochures created to communicate corporate offerings clearly.",
-        image:
-          "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=1000&q=80",
-      },
-      {
-        id: 2,
-        title: "Product Catalogues",
-        description:
-          "Customized product catalogues designed to present products and services in a professional format.",
-        image:
-          "https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=1000&q=80",
-      },
-      {
-        id: 3,
-        title: "Corporate Stationery",
-        description:
-          "Branded stationery solutions developed to maintain consistency across everyday business communication.",
-        image:
-          "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1000&q=80",
-      },
-      {
-        id: 4,
-        title: "Customized Packaging",
-        description:
-          "Branded packaging solutions designed to improve product presentation and strengthen brand recognition.",
-        image:
-          "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?auto=format&fit=crop&w=1000&q=80",
-      },
-    ],
+    // caseStudies: [
+    //   {
+    //     id: 1,
+    //     title: "Corporate Brochures",
+    //     description:
+    //       "Professionally designed and printed brochures created to communicate corporate offerings clearly.",
+    //     image:
+    //       "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=1000&q=80",
+    //   },
+    //   {
+    //     id: 2,
+    //     title: "Product Catalogues",
+    //     description:
+    //       "Customized product catalogues designed to present products and services in a professional format.",
+    //     image:
+    //       "https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=1000&q=80",
+    //   },
+    //   {
+    //     id: 3,
+    //     title: "Corporate Stationery",
+    //     description:
+    //       "Branded stationery solutions developed to maintain consistency across everyday business communication.",
+    //     image:
+    //       "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1000&q=80",
+    //   },
+    //   {
+    //     id: 4,
+    //     title: "Customized Packaging",
+    //     description:
+    //       "Branded packaging solutions designed to improve product presentation and strengthen brand recognition.",
+    //     image:
+    //       "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?auto=format&fit=crop&w=1000&q=80",
+    //   },
+    // ],
   },
 
   {
@@ -679,40 +618,7 @@ With Promaxify’s expertise in material selection, printing, and finishing, you
       ],
     },
 
-    caseStudies: [
-      {
-        id: 1,
-        title: "Employee Welcome Kits",
-        description:
-          "Thoughtfully customized welcome kits designed to create a positive first experience for new employees.",
-        image:
-          "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=80",
-      },
-      {
-        id: 2,
-        title: "Employee Recognition",
-        description:
-          "Recognition solutions designed to celebrate employee achievements and encourage a culture of appreciation.",
-        image:
-          "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1000&q=80",
-      },
-      {
-        id: 3,
-        title: "Employee Rewards",
-        description:
-          "Customized reward programs created to recognize performance, milestones and employee contributions.",
-        image:
-          "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?auto=format&fit=crop&w=1000&q=80",
-      },
-      {
-        id: 4,
-        title: "Milestone Celebrations",
-        description:
-          "Personalized celebration solutions designed to recognize important employee and organizational milestones.",
-        image:
-          "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=1000&q=80",
-      },
-    ],
+  
   },
 
   {
@@ -740,40 +646,7 @@ With Promaxify’s expertise in material selection, printing, and finishing, you
       ],
     },
 
-    caseStudies: [
-      {
-        id: 1,
-        title: "Corporate Events",
-        description:
-          "End-to-end corporate event experiences designed to engage employees, clients and business partners.",
-        image:
-          "https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=1000&q=80",
-      },
-      {
-        id: 2,
-        title: "Product Launches",
-        description:
-          "Memorable product launch experiences created to generate attention and connect products with target audiences.",
-        image:
-          "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1000&q=80",
-      },
-      {
-        id: 3,
-        title: "Brand Activations",
-        description:
-          "Interactive brand activations designed to create meaningful audience engagement and brand recall.",
-        image:
-          "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1000&q=80",
-      },
-      {
-        id: 4,
-        title: "Experiential Campaigns",
-        description:
-          "Creative experiential campaigns designed to bring brands closer to their audiences through real-world interactions.",
-        image:
-          "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1000&q=80",
-      },
-    ],
+   
   },
 
   {
@@ -801,40 +674,7 @@ With Promaxify’s expertise in material selection, printing, and finishing, you
       ],
     },
 
-    caseStudies: [
-      {
-        id: 1,
-        title: "Conference Welcome Kits",
-        description:
-          "Customized conference kits prepared to give delegates a professional and memorable event experience.",
-        image:
-          "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=80",
-      },
-      {
-        id: 2,
-        title: "Corporate Travel Kits",
-        description:
-          "Branded travel essentials designed for executives, employees and corporate incentive trips.",
-        image:
-          "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1000&q=80",
-      },
-      {
-        id: 3,
-        title: "Event Essentials",
-        description:
-          "Practical event merchandise and essentials customized around the theme and identity of corporate events.",
-        image:
-          "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1000&q=80",
-      },
-      {
-        id: 4,
-        title: "Customized MICE Merchandise",
-        description:
-          "Branded merchandise created to strengthen corporate identity throughout meetings, incentives and conferences.",
-        image:
-          "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1000&q=80",
-      },
-    ],
+   
   },
 
   {
@@ -862,40 +702,40 @@ With Promaxify’s expertise in material selection, printing, and finishing, you
       ],
     },
 
-    caseStudies: [
-      {
-        id: 1,
-        title: "Branded Giveaways",
-        description:
-          "Customized giveaways created to increase brand visibility and create memorable interactions with customers.",
-        image:
-          "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1000&q=80",
-      },
-      {
-        id: 2,
-        title: "Corporate Merchandise",
-        description:
-          "Professionally branded merchandise developed for corporate campaigns, events and customer engagement.",
-        image:
-          "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1000&q=80",
-      },
-      {
-        id: 3,
-        title: "Promotional Campaign Materials",
-        description:
-          "Customized promotional materials created to support marketing campaigns and improve brand visibility.",
-        image:
-          "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1000&q=80",
-      },
-      {
-        id: 4,
-        title: "Brand Activation Materials",
-        description:
-          "Creative branded materials designed to support activations, events and customer-facing campaigns.",
-        image:
-          "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1000&q=80",
-      },
-    ],
+    // caseStudies: [
+    //   {
+    //     id: 1,
+    //     title: "Branded Giveaways",
+    //     description:
+    //       "Customized giveaways created to increase brand visibility and create memorable interactions with customers.",
+    //     image:
+    //       "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1000&q=80",
+    //   },
+    //   {
+    //     id: 2,
+    //     title: "Corporate Merchandise",
+    //     description:
+    //       "Professionally branded merchandise developed for corporate campaigns, events and customer engagement.",
+    //     image:
+    //       "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1000&q=80",
+    //   },
+    //   {
+    //     id: 3,
+    //     title: "Promotional Campaign Materials",
+    //     description:
+    //       "Customized promotional materials created to support marketing campaigns and improve brand visibility.",
+    //     image:
+    //       "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1000&q=80",
+    //   },
+    //   {
+    //     id: 4,
+    //     title: "Brand Activation Materials",
+    //     description:
+    //       "Creative branded materials designed to support activations, events and customer-facing campaigns.",
+    //     image:
+    //       "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1000&q=80",
+    //   },
+    // ],
   },
 ];
 

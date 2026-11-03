@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet-async";
+import { submitEnquiry } from "../services/api";
 const Proposal = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -20,25 +21,19 @@ const Proposal = () => {
     });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    // console.log(formData);
-
-    alert("Thank you! Your proposal request has been submitted.");
-
+  const handleSubmit = async (e) => {
+  e.preventDefault();
+  const res = await submitEnquiry({ ...formData, source: "proposal_form" });
+  if (res.success) {
+    alert("Thank you! Your proposal request has been logged into our system.");
     setFormData({
-      name: "",
-      company: "",
-      email: "",
-      phone: "",
-      service: "",
-      quantity: "",
-      budget: "",
-      timeline: "",
-      message: "",
+      name: "", company: "", email: "", phone: "", service: "",
+      quantity: "", budget: "", timeline: "", message: "",
     });
-  };
+  } else {
+    alert(res.message || "Failed to submit request.");
+  }
+};
 
   return (
     <>

@@ -7,6 +7,7 @@ import {
   engagementSolutions,
   insightsData,
 } from "../data/main";
+import HomeCaseStudies from '../components/HomeCaseStudies';
 const clientLogos = [
   "Adsparkx.png",
   "Ascelepius wellness.png",
@@ -775,7 +776,7 @@ Trust <span className="text-[#ff7a00]">Promaxify</span>
 
       {/* insight work  */}
     <section className="bg-[#111111] py-20 md:py-18">
-      <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-8xl px-5 sm:px-12 lg:px-14">
 
         {/* ================= HEADER ================= */}
         <div className="mb-12 flex flex-col gap-6 md:mb-16 md:flex-row md:items-end md:justify-between">
@@ -858,6 +859,8 @@ Trust <span className="text-[#ff7a00]">Promaxify</span>
       </div>
     </section>
       {/* insight work  */}
+      {/* case studies  */}
+      <HomeCaseStudies />
       {/* --- CLIENT SUCCESS / TESTIMONIALS SECTION --- */}
        <section className="bg-[#151515] py-12 px-8 md:px-16 relative overflow-hidden">
       

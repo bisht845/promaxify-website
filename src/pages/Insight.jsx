@@ -20,7 +20,7 @@ export default function InsightsPage() {
     <div className="min-h-screen bg-[#1a1a1a] text-white font-sans antialiased">
       {/* Navigation Header */}
       <header
-        className="relative bg-[#111111] text-white py-28 md:py-36 px-6 md:px-16 flex justify-center items-center text-center bg-cover bg-center"
+        className="relative bg-[#111111] text-white py-28 md:py-32 px-6 md:px-16 flex justify-center items-center text-center bg-cover bg-center"
         style={{
           backgroundImage:
             'linear-gradient(rgba(17,17,17,0.80), rgba(17,17,17,0.95)), url("https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=2000&q=80")',
@@ -46,17 +46,16 @@ From customized apparel and promotional merchandise to employee engagement, MICE
 
 
           </p>
-   <div className="pointer-events-none absolute -bottom-10 left-8 text-[15vw] font-black uppercase leading-none text-white/[0.05]">
+      <div className="pointer-events-none absolute -bottom-6  right-50 text-[10vw] font-black uppercase leading-none text-white/[0.05]">
 
-          PROMAXIFY
-
-        </div>
+              PROMAXIFY
+            </div>
         </div>
       </header>
 
 
       {/* Orange Divider Section */}
-      <section className="bg-orange-500 py-16 px-8">
+      <section className="bg-orange-500 py-16 px-8 flex justify-center">
         <h2 className="text-center text-4xl md:text-5xl font-black uppercase text-white max-w-6xl">
           Delivered With Precision
         </h2>

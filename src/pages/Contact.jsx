@@ -1,200 +1,302 @@
-import React from "react";
+
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
+import { submitEnquiry } from "../services/api";
+
+const initialFormData = {
+  name: "",
+  company: "",
+  email: "",
+  phone: "",
+  service: "",
+  message: "",
+};
 
 const Contact = () => {
+  const [formData, setFormData] = useState(initialFormData);
+
+  const [status, setStatus] = useState({
+    loading: false,
+    msg: "",
+    error: false,
+  });
+
+  // Handle input changes
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
+  // Handle form submission
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    if (status.loading) return;
+
+    setStatus({
+      loading: true,
+      msg: "",
+      error: false,
+    });
+
+    try {
+      const res = await submitEnquiry({
+        ...formData,
+        source: "contact_form",
+      });
+
+      if (res?.success) {
+        setStatus({
+          loading: false,
+          msg: res.message || "Enquiry submitted successfully!",
+          error: false,
+        });
+
+        setFormData({ ...initialFormData });
+      } else {
+        setStatus({
+          loading: false,
+          msg: res?.message || "Unable to submit enquiry. Please try again.",
+          error: true,
+        });
+      }
+    } catch (error) {
+      console.error("Contact form error:", error);
+
+      setStatus({
+        loading: false,
+        msg: "Something went wrong. Please try again later.",
+        error: true,
+      });
+    }
+  };
+
   return (
     <>
-    {/* SEO  */}
-    <Helmet>
-  <title>Contact Promaxify | Get in Touch</title>
+      {/* SEO */}
+      <Helmet>
+        <title>Contact Promaxify | Get in Touch</title>
 
-  <meta
-    name="description"
-    content="Get in touch with Promaxify Marketing Solutions for customized corporate branding, promotional products, apparel, events and business solutions."
-  />
-</Helmet>
+        <meta
+          name="description"
+          content="Get in touch with Promaxify Marketing Solutions for customized corporate branding, promotional products, apparel, events and business solutions."
+        />
+      </Helmet>
 
-{/* HERO SECTION ====================================================== */} 
- <section className="bg-[#151515] py-24 md:py-32 px-4 sm:px-6 lg:px-8 font-sans"> <div className="max-w-5xl mx-auto text-center"> {/* <p className="text-orange-500 text-sm md:text-base font-bold tracking-[0.2em] uppercase mb-6"> Big or small, every requirement matters. </p> <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-[2.5rem] font-extrabold text-white mb-7 leading-[1.1] tracking-tight"> Customized. Branded. Delivered.{" "} <span className="text-orange-500"> Let's Connect. </span> </h1> */} <p className="text-xl md:text-2xl text-[#ff7a00] italic font-light mb-8"> "Let's Create Something That Represents Your Brand Better." </p> <div className="w-24 h-1 bg-orange-500 mx-auto mb-8 rounded-full"></div> <p className="text-base md:text-lg text-gray-400 leading-relaxed max-w-4xl mx-auto"> At Promaxify Marketing Solutions, we are dedicated to helping your business grow and succeed. Partner with us and experience the difference of working with a team that truly cares about your brand’s success. Let us help you elevate, maximize, and magnify your brand’s presence in the market. </p> </div> </section>
-{/* =====================================================
-    CONTACT FORM + MAP SECTION
-====================================================== */}
-    <section className="bg-[#1B1B1B] py-20 md:py-12 px-4 sm:px-6 lg:px-8 font-sans">
-      <div className="max-w-7xl mx-auto">
+      {/* HERO SECTION */}
+      <section className="bg-[#151515] py-24 md:py-32 px-4 sm:px-6 lg:px-8 font-sans">
+        <div className="max-w-5xl mx-auto text-center">
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+          <p className="text-xl md:text-2xl text-[#ff7a00] italic font-light mb-8">
+            "Let's Create Something That Represents Your Brand Better."
+          </p>
 
-          {/* =================================================
-              LEFT - QUICK ENQUIRY
-          ================================================== */}
-          <div className="bg-[#1B1B1B] rounded-3xl p-7 md:p-10 shadow-xl border border-white/10">
+          <div className="w-24 h-1 bg-orange-500 mx-auto mb-8 rounded-full"></div>
 
-            <div className="mb-8">
+          <p className="text-base md:text-lg text-gray-400 leading-relaxed max-w-4xl mx-auto">
+            At Promaxify Marketing Solutions, we are dedicated to helping your
+            business grow and succeed. Partner with us and experience the
+            difference of working with a team that truly cares about your
+            brand’s success. Let us help you elevate, maximize, and magnify
+            your brand’s presence in the market.
+          </p>
 
-              <span className="inline-flex items-center px-4 py-1.5 rounded-full bg-orange-50 text-orange-600 text-sm font-semibold mb-4">
-                Quick Enquiry
-              </span>
+        </div>
+      </section>
 
-              <h2 className="text-3xl font-bold text-white mb-3">
-                Let's Start a Conversation
-              </h2>
+      {/* CONTACT FORM + MAP SECTION */}
+      <section className="bg-[#1B1B1B] py-20 md:py-12 px-4 sm:px-6 lg:px-8 font-sans">
+        <div className="max-w-7xl mx-auto">
 
-              <p className="text-gray-500 text-sm md:text-base">
-                Tell us briefly about your requirement and our team
-                will connect with you.
-              </p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
 
-            </div>
+            {/* LEFT - QUICK ENQUIRY */}
+            <div className="bg-[#1B1B1B] rounded-3xl p-7 md:p-10 shadow-xl border border-white/10">
 
-            <form
-              action="https://api.web3forms.com/submit"
-              method="POST"
-              className="space-y-5"
-            >
+              <div className="mb-8">
 
-              {/* Web3Forms */}
-              <input
-                type="hidden"
-                name="access_key"
-                value="YOUR_WEB3FORMS_ACCESS_KEY"
-              />
+                <span className="inline-flex items-center px-4 py-1.5 rounded-full bg-orange-50 text-orange-600 text-sm font-semibold mb-4">
+                  Quick Enquiry
+                </span>
 
-              <input
-                type="hidden"
-                name="subject"
-                value="New Contact Enquiry - Promaxify"
-              />
+                <h2 className="text-3xl font-bold text-white mb-3">
+                  Let's Start a Conversation
+                </h2>
 
-              {/* Name + Company */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="Full Name"
-                  required
-                  className="w-full px-4 py-3.5 bg-white border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition"
-                />
-
-                <input
-                  type="text"
-                  name="company"
-                  placeholder="Company Name"
-                  className="w-full px-4 py-3.5 bg-white border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition"
-                />
-
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Email Address"
-                  required
-                  className="w-full px-4 py-3.5 bg-white border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition"
-                />
-
-                <input
-                  type="tel"
-                  name="phone"
-                  placeholder="Phone Number"
-                  required
-                  className="w-full px-4 py-3.5 bg-white border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition"
-                />
+                <p className="text-gray-400 text-sm md:text-base">
+                  Tell us briefly about your requirement and our team will
+                  connect with you.
+                </p>
 
               </div>
 
-              {/* Service */}
-              <select
-                name="service"
-                required
-                className="w-full px-4 py-3.5 bg-white border border-gray-200 rounded-xl text-gray-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition"
-              >
-                <option value="">
-                  Service Interested In
-                </option>
+              {/* CONTACT FORM */}
+              <form onSubmit={handleSubmit} className="space-y-5">
 
-                <option value="Corporate Gifting">
-                  Corporate Gifting
-                </option>
+                {/* SUCCESS / ERROR MESSAGE */}
+                {status.msg && (
+                  <div
+                    role="status"
+                    aria-live="polite"
+                    className={`p-4 rounded-xl text-sm border ${
+                      status.error
+                        ? "bg-red-500/10 text-red-400 border-red-500/30"
+                        : "bg-emerald-500/10 text-emerald-400 border-emerald-500/30"
+                    }`}
+                  >
+                    {status.msg}
+                  </div>
+                )}
 
-                <option value="Corporate Apparel">
-                  Corporate Apparel & Uniforms
-                </option>
+                {/* NAME, COMPANY, EMAIL, PHONE */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
 
-                <option value="Promotional Merchandise">
-                  Promotional Merchandise
-                </option>
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Full Name"
+                    autoComplete="name"
+                    required
+                    value={formData.name}
+                    onChange={handleChange}
+                    className="w-full px-4 py-3.5 bg-white border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500"
+                  />
 
-                <option value="Branding Solutions">
-                  Branding Solutions
-                </option>
+                  <input
+                    type="text"
+                    name="company"
+                    placeholder="Company Name"
+                    autoComplete="organization"
+                    value={formData.company}
+                    onChange={handleChange}
+                    className="w-full px-4 py-3.5 bg-white border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500"
+                  />
 
-                <option value="Other">
-                  Other
-                </option>
-              </select>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email Address"
+                    autoComplete="email"
+                    required
+                    value={formData.email}
+                    onChange={handleChange}
+                    className="w-full px-4 py-3.5 bg-white border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500"
+                  />
 
-              {/* Message */}
-              <textarea
-                name="message"
-                rows="5"
-                placeholder="Tell us about your requirement..."
-                required
-                className="w-full px-4 py-3.5 bg-white border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition resize-none"
-              ></textarea>
+                  <input
+                    type="tel"
+                    name="phone"
+                    placeholder="Phone Number"
+                    autoComplete="tel"
+                    required
+                    value={formData.phone}
+                    onChange={handleChange}
+                    className="w-full px-4 py-3.5 bg-white border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500"
+                  />
 
-              {/* Button */}
-              <button
-                type="submit"
-                className="w-full py-4 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl transition-all shadow-lg hover:shadow-orange-500/30"
-              >
-                Submit Enquiry
-              </button>
+                </div>
 
-            </form>
+                {/* SERVICE */}
+                <select
+                  name="service"
+                  required
+                  value={formData.service}
+                  onChange={handleChange}
+                  className="w-full px-4 py-3.5 bg-white border border-gray-200 rounded-xl text-gray-700 focus:outline-none focus:ring-2 focus:ring-orange-500"
+                >
+                  <option value="">Service Interested In</option>
 
-            <div className="mt-8 pt-7 border-t border-white/10">
+                  <option value="Corporate Gifting">
+                    Corporate Gifting
+                  </option>
 
-              <p className="text-gray-500 text-sm">
-                Have a specific requirement?
-              </p>
+                  <option value="Customized Apparel">
+                    Corporate Apparel & Uniforms
+                  </option>
 
-              <Link
-                to="/contact"
-                className="inline-flex items-center gap-2 mt-3 text-orange-500 font-semibold hover:text-orange-400 transition"
-              >
-                Request a Proposal
-                <span>→</span>
-              </Link>
+                  <option value="Event & Exhibition Kits">
+                    Event & Exhibition Kits
+                  </option>
+
+                  <option value="Employee Welcome Kits">
+                    Employee Welcome Kits
+                  </option>
+
+                  <option value="Dealer Incentive Programs">
+                    Dealer Incentive Programs
+                  </option>
+
+                  <option value="Other">
+                    Other
+                  </option>
+                </select>
+
+                {/* MESSAGE */}
+                <textarea
+                  name="message"
+                  rows={5}
+                  required
+                  placeholder="Tell us about your requirement..."
+                  value={formData.message}
+                  onChange={handleChange}
+                  className="w-full px-4 py-3.5 bg-white border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 resize-none"
+                />
+
+                {/* SUBMIT BUTTON */}
+                <button
+                  type="submit"
+                  disabled={status.loading}
+                  className="w-full py-4 bg-orange-500 hover:bg-orange-600 disabled:opacity-50 disabled:cursor-not-allowed text-white font-bold rounded-xl transition-all shadow-lg hover:shadow-orange-500/30"
+                >
+                  {status.loading ? "Submitting..." : "Submit Enquiry"}
+                </button>
+
+              </form>
+
+              {/* REQUEST PROPOSAL */}
+              <div className="mt-8 pt-7 border-t border-white/10">
+
+                <p className="text-gray-400 text-sm">
+                  Have a specific requirement?
+                </p>
+
+                <Link
+                  to="/contact"
+                  className="inline-flex items-center gap-2 mt-3 text-orange-500 font-semibold hover:text-orange-400 transition"
+                >
+                  Request a Proposal
+                  <span>→</span>
+                </Link>
+
+              </div>
 
             </div>
 
-          </div>
+            {/* RIGHT - GOOGLE MAP */}
+            <div className="rounded-3xl overflow-hidden shadow-xl border border-white/10 h-[450px] min-h-[450px]">
 
+              <iframe
+                title="Promaxify Marketing Solutions Location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.672833906762!2d77.11055694706425!3d28.699431812979505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03e49f874e7f%3A0xcd566da7527ab9b!2sMangalam%20Place%2C%20Sector%203%2C%20Rohini%2C%20Delhi%2C%20110085!5e0!3m2!1sen!2sin!4v1789472784463!5m2!1sen!2sin"
+                className="w-full h-full border-0"
+                loading="lazy"
+                allowFullScreen
+                referrerPolicy="no-referrer-when-downgrade"
+              />
 
-          {/* =================================================
-              RIGHT - MAP
-          ================================================== */}
-          <div className="rounded-3xl overflow-hidden shadow-xl border border-white/10 h-[450px]  min-h-[450px] mt-47">
-
-            <iframe
-              title="Promaxify Marketing Solutions Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.672833906762!2d77.11055694706425!3d28.699431812979505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03e49f874e7f%3A0xcd566da7527ab9b!2sMangalam%20Place%2C%20Sector%203%2C%20Rohini%2C%20Delhi%2C%20110085!5e0!3m2!1sen!2sin!4v1789472784463!5m2!1sen!2sin"
-              className="w-full h-full border-0"
-              loading="lazy"
-              allowFullScreen
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+            </div>
 
           </div>
 
         </div>
+      </section>
 
-      </div>
-    </section>
-
-      {/* =====================================================
-          CTA SECTION
-      ====================================================== */}
+      {/* CTA SECTION */}
       <section className="bg-[#ff7a00] py-16 md:py-20 px-6 md:px-16">
 
         <div className="max-w-[1440px] mx-auto text-center">
@@ -208,10 +310,9 @@ const Contact = () => {
           </h2>
 
           <p className="text-white/90 text-lg max-w-2xl mx-auto mb-8 leading-relaxed">
-            Partner with Promaxify to create innovative branding
-            and engagement solutions that make a lasting impact.
+            Partner with Promaxify to create innovative branding and
+            engagement solutions that make a lasting impact.
           </p>
-
 
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
 

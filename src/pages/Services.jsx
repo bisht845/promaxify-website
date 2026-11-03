@@ -20,7 +20,7 @@ const Services = () => {
 
       {/* HERO SECTION */}
       <header
-        className="relative bg-[#111111] text-white py-28 md:py-36 px-6 md:px-16 flex justify-center items-center text-center bg-cover bg-center"
+        className="relative bg-[#111111] text-white py-28 md:py-43 px-6 md:px-20 flex justify-center items-center text-center bg-cover bg-center"
         style={{
           backgroundImage:
             'linear-gradient(rgba(17,17,17,0.80), rgba(17,17,17,0.95)), url("https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=2000&q=80")',
@@ -39,11 +39,10 @@ const Services = () => {
           <p className="text-gray-300 text-base md:text-xl font-light leading-relaxed max-w-3xl mx-auto">
             Promaxify provides integrated corporate branding and engagement solutions designed to enhance brand visibility and strengthen business relationships.
           </p>
-   <div className="pointer-events-none absolute -bottom-10 left-8 text-[15vw] font-black uppercase leading-none text-white/[0.05]">
+    <div className="pointer-events-none absolute -bottom-6  right-50 text-[10vw] font-black uppercase leading-none text-white/[0.05]">
 
-          PROMAXIFY
-
-        </div>
+              PROMAXIFY
+            </div>
         </div>
       </header>
 
@@ -381,7 +380,7 @@ const Services = () => {
       </div>
 
     </div>
-  </section>
+            </section>
       {/* SCROLL TO TOP */}
 
       <button
