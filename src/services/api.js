@@ -1,6 +1,6 @@
 // src/services/api.js - Frontend API Service
-const API_BASE = import.meta.env.VITE_API_URL || "/api";
-
+// const API_BASE = import.meta.env.VITE_API_URL || "/api";
+const API_BASE = "https://api.promaxifymarketing.com";
 export async function request(endpoint, options = {}) {
   const token = localStorage.getItem("promaxify_admin_token");
   const headers = {
