@@ -59,7 +59,7 @@ export default function CaseStudies() {
               Discover how we partner with enterprises and scale-ups to solve branding hurdles, accelerate customer acquisition, and orchestrate memorable corporate experiences.
             </p>
           </div>
-              <div className="pointer-events-none absolute -bottom-6  right-50 text-[10vw] font-black uppercase leading-none text-white/[0.05]">
+              <div className="pointer-events-none absolute -bottom-2  right-55 text-[10vw] font-black uppercase leading-none text-white/[0.05]">
 
               PROMAXIFY
             </div>

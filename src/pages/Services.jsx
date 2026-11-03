@@ -39,7 +39,7 @@ const Services = () => {
           <p className="text-gray-300 text-base md:text-xl font-light leading-relaxed max-w-3xl mx-auto">
             Promaxify provides integrated corporate branding and engagement solutions designed to enhance brand visibility and strengthen business relationships.
           </p>
-    <div className="pointer-events-none absolute -bottom-6  right-50 text-[10vw] font-black uppercase leading-none text-white/[0.05]">
+    <div className="pointer-events-none absolute -bottom-6  right-55 text-[10vw] font-black uppercase leading-none text-white/[0.05]">
 
               PROMAXIFY
             </div>

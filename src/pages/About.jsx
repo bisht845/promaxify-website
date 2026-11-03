@@ -84,7 +84,7 @@ const About = () => {
 
 
         {/* BIG BACKGROUND TEXT */}
-            <div className="pointer-events-none absolute -bottom-6  right-50 text-[10vw] font-black uppercase leading-none text-white/[0.05]">
+            <div className="pointer-events-none absolute -bottom-6  right-55 text-[10vw] font-black uppercase leading-none text-white/[0.05]">
 
               PROMAXIFY
             </div>
