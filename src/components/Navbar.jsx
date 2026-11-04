@@ -735,6 +735,14 @@ const Navbar = () => {
               About
             </Link>
 
+      {/* Case Stadies */}
+                <Link
+                  to="/case-studies"
+                  className="text-gray-300 hover:text-[#ff7a00] transition-colors duration-300 py-2"
+                >
+                  Case Studies
+                </Link>
+                
             {/* CONTACT */}
             <Link
               to="/contact"
