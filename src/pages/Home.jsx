@@ -8,7 +8,7 @@ import {
   insightsData,
 } from "../data/main";
 import HomeCaseStudies from '../components/HomeCaseStudies';
-import Testimonials from './admin/Testimonials';
+import TestimonialsCarousel from '../components/TestimonialsCarousel';
 const clientLogos = [
   "Adsparkx.png",
   "Ascelepius wellness.png",
@@ -864,7 +864,7 @@ Trust <span className="text-[#ff7a00]">Promaxify</span>
       <HomeCaseStudies />
       {/* --- CLIENT SUCCESS / TESTIMONIALS SECTION --- */}
        <section className="bg-[#151515] py-12 px-8 md:px-16 relative overflow-hidden">
-      <Testimonials/>
+         <TestimonialsCarousel />
 
     </section>
       {/* --- END CLIENT SUCCESS SECTION --- */}
