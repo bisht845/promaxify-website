@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { fetchPublicTestimonials, mediaUrl } from "../services/api";
 import { Quote } from "lucide-react";
 
