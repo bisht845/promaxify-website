@@ -48,7 +48,7 @@ export default function TestimonialsCarousel() {
   const duration = half.length * 7; // seconds per full loop
 
   return (
-    <section className="relative bg-[#111111] py-20 overflow-hidden">
+    <section className="relative  py-20 overflow-hidden">
       <style>{`
         @keyframes testimonials-right {
           from { transform: translateX(-50%); }
@@ -62,11 +62,11 @@ export default function TestimonialsCarousel() {
         &rdquo;
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 sm:px-10 mb-14 relative z-10">
+      <div className="max-w-7xl mx-auto  mb-4 relative z-10">
         <p className="text-[#ff7a00] text-xs font-bold tracking-[0.25em] uppercase mb-3">
           Trusted by our clients
         </p>
-        <h2 className="text-4xl sm:text-5xl font-black text-white">
+        <h2 className="text-4xl sm:text-4xl font-black text-white">
           Client <span className="text-[#ff7a00]">Success</span>
         </h2>
       </div>
@@ -76,7 +76,7 @@ export default function TestimonialsCarousel() {
           {track.map((t, i) => (
             <div
               key={`${t.id}-${i}`}
-              className="w-[340px] sm:w-[375px] shrink-0 bg-[#1e1e1e] border border-transparent hover:border-[#ff7a00] transition-colors p-10 flex flex-col justify-between min-h-[500px]"
+              className="w-[340px] sm:w-[375px] shrink-0 bg-[#1e1e1e] border border-transparent hover:border-[#ff7a00] transition-colors p-10 flex flex-col justify-between "
             >
               <div>
                 <Quote size={46} className="text-[#ff7a00] mb-6" fill="currentColor" />

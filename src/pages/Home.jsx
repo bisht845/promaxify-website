@@ -863,7 +863,7 @@ Trust <span className="text-[#ff7a00]">Promaxify</span>
       {/* case studies  */}
       <HomeCaseStudies />
       {/* --- CLIENT SUCCESS / TESTIMONIALS SECTION --- */}
-       <section className="bg-[#151515] py-12 px-8 md:px-16 relative overflow-hidden">
+       <section className="bg-[#151515] py-12  relative overflow-hidden">
          <TestimonialsCarousel />
 
     </section>
