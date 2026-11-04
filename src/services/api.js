@@ -116,5 +116,5 @@ export const toggleTestimonialPublish = (id) =>
   });
 export const deleteTestimonial = (id) =>
   request(`/testimonials.php?id=${id}`, { method: "DELETE" });
-export const mediaUrl = (p) =>
-  !p ? "" : /^https?:\/\//i.test(p) ? p : `${API_BASE}/${String(p).replace(/^\/+/, "")}`;
+   export const mediaUrl = (p) =>
+     !p ? "" : /^https?:\/\//i.test(p) ? p : `${API_BASE}/${String(p).replace(/^\/+/, "")}`;
