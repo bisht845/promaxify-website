@@ -48,7 +48,7 @@ export default function TestimonialsCarousel() {
   const duration = half.length * 7; // seconds per full loop
 
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative overflow-hidden px-8 lg:px-10">
       <style>{`
         @keyframes testimonials-right {
           from { transform: translateX(-50%); }
@@ -62,7 +62,7 @@ export default function TestimonialsCarousel() {
         &rdquo;
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 lg:px-10 mb-4 relative z-10">
+      <div className="max-w-7xl mx-auto px-6 lg:px-10 mb-8 relative z-10">
         <p className="text-[#ff7a00] text-xs font-bold tracking-[0.25em] uppercase mb-3">
           Trusted by our clients
         </p>
