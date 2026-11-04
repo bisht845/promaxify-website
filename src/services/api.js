@@ -101,3 +101,18 @@ export async function uploadImage(file) {
   });
   return res.json();
 }
+// Testimonials
+export const fetchPublicTestimonials = () => request("/testimonials.php");
+export const fetchAdminTestimonials = () => request("/testimonials.php?admin=1");
+export const saveTestimonial = (t) =>
+  request("/testimonials.php", {
+    method: t.id ? "PUT" : "POST",
+    body: JSON.stringify(t),
+  });
+export const toggleTestimonialPublish = (id) =>
+  request("/testimonials.php", {
+    method: "PUT",
+    body: JSON.stringify({ id, toggle_publish: true }),
+  });
+export const deleteTestimonial = (id) =>
+  request(`/testimonials.php?id=${id}`, { method: "DELETE" });

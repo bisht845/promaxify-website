@@ -99,10 +99,10 @@ export default function AdminLogin() {
           </button>
         </form>
 
-        <div className="mt-8 pt-6 border-t border-gray-800 text-center text-xs text-gray-500">
+        {/* <div className="mt-8 pt-6 border-t border-gray-800 text-center text-xs text-gray-500">
           Default seed credentials: <span className="text-gray-300">admin</span> /{" "}
           <span className="text-gray-300">Admin@12345</span>
-        </div>
+        </div> */}
       </div>
     </div>
   );

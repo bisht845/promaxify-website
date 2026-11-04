@@ -8,9 +8,9 @@ import {
   Sparkles,
   LogOut,
   ExternalLink,
-  Menu,
   X,
   MessageSquare,
+  Menu,
   Quote,
 } from "lucide-react";
 
@@ -130,15 +130,19 @@ const navItems = [
           >
             {mobileMenuOpen ? <X size={22} /> : <Menu size={22} />}
           </button>
-
+  {/* <button
+                onClick={handleLogout}
+                className="w-full flex items-center gap-3 px-4 py-3 text-sm font-semibold text-red-400 hover:bg-red-500/10 rounded-xl"
+              >
+                <LogOut size={18} /> Logout
+              </button> */}
           <div className="flex items-center gap-4">
-            <Link
-              to="/"
-              target="_blank"
-              className="text-xs font-semibold bg-white/5 hover:bg-white/10 text-gray-300 px-3 py-1.5 rounded-lg border border-white/10 flex items-center gap-1.5 transition"
+             <button
+              onClick={handleLogout}
+              className="w-full flex items-center gap-3 px-4 py-3 text-sm font-semibold text-red-400 hover:bg-red-500/10 rounded-xl"
             >
-              Live Website <ExternalLink size={13} />
-            </Link>
+              <LogOut size={18} /> Logout
+            </button>
           </div>
         </header>
 

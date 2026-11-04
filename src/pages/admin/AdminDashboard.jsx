@@ -309,7 +309,7 @@ export default function AdminDashboard() {
       </div>
 
       {/* Upcoming Follow-ups Section */}
-      <div className="bg-[#161616] border border-gray-800 rounded-2xl p-6">
+      {/* <div className="bg-[#161616] border border-gray-800 rounded-2xl p-6">
         <div className="flex items-center gap-3 mb-4">
           <Calendar className="text-orange-500" size={20} />
           <h2 className="text-lg font-bold text-white">Upcoming Follow-Ups</h2>
@@ -369,7 +369,7 @@ export default function AdminDashboard() {
         ) : (
           <p className="text-sm text-gray-500 py-4 text-center">No upcoming follow-ups scheduled.</p>
         )}
-      </div>
+      </div> */}
 
       {/* Edit Notes Modal */}
       {notesModal && (
