@@ -717,6 +717,26 @@ const Navbar = () => {
 
             {/* ABOUT */}
             <Link
+              to="/case-studies"
+              onClick={closeMobileMenu}
+              className="
+                py-4
+                text-sm
+                font-bold
+                uppercase
+                tracking-widest
+                text-gray-300
+                hover:text-[#ff7a00]
+                border-b
+                border-gray-800
+                transition-colors
+              "
+            >
+              Case Studies
+            </Link>
+
+            {/* ABOUT */}
+            <Link
               to="/about"
               onClick={closeMobileMenu}
               className="
@@ -735,13 +755,6 @@ const Navbar = () => {
               About
             </Link>
 
-      {/* Case Stadies */}
-                <Link
-                  to="/case-studies"
-                  className="text-gray-300 hover:text-[#ff7a00] transition-colors duration-300 py-2"
-                >
-                  Case Studies
-                </Link>
                 
             {/* CONTACT */}
             <Link
