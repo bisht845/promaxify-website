@@ -8,6 +8,7 @@ import {
   insightsData,
 } from "../data/main";
 import HomeCaseStudies from '../components/HomeCaseStudies';
+import Testimonials from './admin/Testimonials';
 const clientLogos = [
   "Adsparkx.png",
   "Ascelepius wellness.png",
@@ -863,84 +864,8 @@ Trust <span className="text-[#ff7a00]">Promaxify</span>
       <HomeCaseStudies />
       {/* --- CLIENT SUCCESS / TESTIMONIALS SECTION --- */}
        <section className="bg-[#151515] py-12 px-8 md:px-16 relative overflow-hidden">
-      
-      {/* Large Background Watermark Quotes */}
-      <div className="absolute top-0 right-10 text-[30rem] font-black text-white/[0.02] leading-none select-none pointer-events-none hidden lg:block font-serif">
-        ”
-      </div>
+      <Testimonials/>
 
-      <div className="max-w-[1440px] mx-auto w-full relative z-10">
-        
-        {/* Section Header */}
-        <div className="mb-16">
-          <h4 className="text-[#ff7a00] text-[13px] font-bold tracking-[0.15em] uppercase mb-4">
-            Trusted By Our Clients
-          </h4>
-
-          <h2 className="text-white text-5xl md:text-4xl font-bold  tracking-tight">
-            Client <span className='text-[#ff7a00]'>Success</span>
-          </h2>
-        </div>
-
-        {/* Testimonial Slider */}
-        <div className="overflow-hidden testimonials-wrapper">
-          <div className="flex gap-6 w-max animate-scrollTestimonials">
-            
-            {infiniteTestimonials.map((testimonial, index) => (
-              <div
-                key={`${testimonial.id}-${index}`}
-                className={`bg-[#1e1e1e] p-10 flex flex-col justify-between shrink-0
-                  w-[320px] sm:w-[300px] min-h-[400px]
-                  transition-colors duration-300
-                  ${
-                    testimonial.featured
-                      ? "border border-[#ff7a00] shadow-lg"
-                      : "border border-transparent hover:border-gray-700"
-                  }`}
-              >
-                
-                {/* Review Content */}
-                <div>
-                  {/* Quote Icon */}
-                  <svg
-                    className="w-10 h-10 text-[#ff7a00] mb-2"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
-                  </svg>
-
-                  <p className="text-gray-300 text-[17px] leading-relaxed">
-                    "{testimonial.review}"
-                  </p>
-                </div>
-
-                {/* Client Details */}
-                <div className="flex items-center gap-4">
-                  <img
-                    src={testimonial.image}
-                    alt={testimonial.name}
-                    className="w-12 h-12 rounded-full object-cover grayscale opacity-80"
-                  />
-
-                  <div>
-                    <h4 className="text-[#ff7a00] font-bold text-sm uppercase tracking-wider">
-                      {testimonial.name}
-                    </h4>
-
-                    <p className="text-gray-500 text-sm">
-                      {testimonial.position}
-                    </p>
-                  </div>
-                </div>
-
-              </div>
-            ))}
-
-          </div>
-        </div>
-
-      </div>
     </section>
       {/* --- END CLIENT SUCCESS SECTION --- */}
 
